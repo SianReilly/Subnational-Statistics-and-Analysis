@@ -1,145 +1,63 @@
-local_file_path: ""     # Add filepath to coding folder
-inputs_file_path: ""    #Add filepath to data and lookup inputs
-outputs_file_path: ""   #Add filepath to where you want your outputs stored 
+####################
+##### Locations
 
-###Shapefile
-# path to the shapefile (no .shp required just file name)
-shapefile: "" 
-#Area column name from shapefile so it can be dropped 
-shapefile_area_col: "" 
+#Filepath to coding folder
+local_file_path: ""
 
-### Data  
-# path to the table containing the input data         
+#Filepath to inputs (data and geography files)
+inputs_file_path: ""
+
+#Filepath to where you want your outputs to go
+outputs_file_path: ""
+
+###################
+##### Geography files
+
+### Lower to upper tier local authority lookup
+#Name of the upper tier LA lookup used for imputation
+lower_tier_to_upper_tier_lookup: "LTLA25_to_UTLA25_lookup" 
+#Name of the upper tier code column from lower tier to upper tier lookup
+upper_tier_code_column_name: "UTLA25CD"  
+#Name of the lower tier code column from lower tier to upper tier lookup
+lower_tier_code_column_name: "LTLA25CD"
+
+
+### Geog repo
+#Name of geography repository used as a repo for wanted geographies
+#Include all the geographies you want to output, the original version to run needs ITL1, LTLA and UTLA
+#This file is not used as a lookup and rows do not match across geography
+#Each geography needs a code column and a names column
+Geog_repo: "names_and_codes_repo_25"
+# column with ITL1 data required for ITL1 summary table
+ITL1_col: "ITL1"
+#Set the geography you want to work with
+#This geography must already be in your data
+#This will be the code and name column in your geog repo
+#Data is filtered to just this geography in the early stages
+desired_geog: "LTLA25CD"
+desired_geog_nm: "LTLA25NM"
+
+
+### Shapefile (Used in clustering only)
+#Name of the shapefile (no .___ extension, just file name)
+#Currently this is lower tier local authority
+#This is only used for clustering and will need to match the geography you cluster on
+shapefile: "LAD_MAY_2025_UK_BFC_V2" 
+#Area column code from shapefile so it can be dropped 
+shapefile_area_col: "LAD25CD" 
+
+###################
+##### Data 
+
+##Name of the table containing the input data         
 subnational_indicators_table_name: "" 
 
-###Geography lookups
-#path to the upper tier LA lookup for imputation
-upper_tier_to_lower_tier_lookup: "" 
-# Name of the upper tier code column from uppertier to lowertier lookup
-upper_tier_code_column_name: ""  
-# Name of the lower tier code column from uppertier to lowertier lookup
-lower_tier_code_column_name: ""  
-#Name of geography mapper from LTLA to UTLA to ITL1
-Geog_mapper: ""
-# column with ITL1 data required for ITL1 summary table
-ITL1_col: "" 
-# column with LTLA code in mapper
-Area_col: "" 
-# column with LTLA name in mapper
-Area_name_col: "" 
+##################
+### Metrics
 
-###Imputation lookups
-#Name of census 21 age data table for the boundary changes code
-census_21_table: ""
-#Area table path for boundary changes code
-LAD_area_table: ""
-# Name of the area code column for old LAs
-Area_LAD_col: "" 
-
-#here you specify the indicator colomn name for each of your desired variables
-#the variables currently included are the global model produced in our 2025 publication
+#Here you specify the metric column name for each of your desired variables
+#Can be adapted for other metrics provided they are included in the data
 custom_metrics_to_run:
-  - "Employment rate"
-  - "Gross value added per hour worked"
-  - "Business births"
-  - "High growth businesses"
-  - "Median house price"
-  - "Level 3 or above qualifications"
-  - "Cigarette smokers"
-  - "Healthy life expectancy"
-  - "Anxiety"
-  - "Happiness"
-  - "Life satisfaction"
-  - "Gigabit capable broadband"
-  - "4g coverage"
-  - "5g coverage"
-  - "Supermarkets"
-  - "Museums"
-  - "CO2 emissions per capita"
-  - "Not religious"
-  - "White ethnicity population"
-  - "No qualifications" 
-  - "Population density"
-  - "Dependency ratio"
-  - "Mean domestic electricity consumption"
-  - "Population change" 
-  - "Private renters"
-  - "Children in relative poverty"
-  - "Employment in construction"
-  - "Employment in manufacturing" 
-  - "Housing completions"
-  - "Guest nights"
-  - "Gross median weekly pay"
-
-  
- #This code specifies the method of updating old boundaries to new
- #For each variable you can choose the denominator and specify a specific
- #age range if your variables only apply to a specifc age group 
-metric_to_update_boundaries:
-  gva:
-    indicator: "Gross value added per hour worked"
-    start_col: 1
-    denominator: "population"
-  male_HLE:
-    indicator: "Male healthy life expectancy"
-    start_col: 1
-    denominator: "population"
-  female_HLE:
-    indicator: "Female healthy life expectancy"
-    start_col: 1
-    denominator: "population"  
-  employ_rate:
-    indicator: "Employment rate"
-    start_col: 18
-    end_col: 66
-    denominator: "population"
-  gdhi:
-    indicator: "Gross disposable household income"
-    start_col: 1
-    denominator: "population"
-  happiness:
-    indicator: "Happiness"
-    start_col: 18
-    end_col: 102
-    denominator: "population"
-  life_satisfaction:
-    indicator: "Life satisfaction"
-    start_col: 18
-    end_col: 102
-    denominator: "population"
-  anxiety:
-    indicator: "Anxiety"
-    start_col: 18
-    end_col: 102
-    denominator: "population"
-  worthwhile:
-    indicator: "Feeling life is worthwhile"
-    start_col: 18
-    end_col: 102
-    denominator: "population"
-  smoking:
-    indicator: "Cigarette smokers"
-    start_col: 20
-    end_col: 102
-    denominator: "population"
-  level_3_qualifications:
-    indicator: "Level 3 or above qualifications"
-    start_col: 18
-    end_col: 66
-    denominator: "population"
-  inactive_rate:
-    indicator: "Economic inactivity rate"
-    start_col: 18
-    end_col: 66
-    denominator: "population"
-  job_density:
-    indicator: "Job density"
-    start_col: 18
-    end_col: 66
-    denominator: "population"
-  weekly_pay:
-    indicator: "Gross median weekly pay"
-    start_col: 18
-    end_col: 66
-    denominator: "population"
-    
+  - "Metric a"
+  - "Metric b"
+  - "Metric c"

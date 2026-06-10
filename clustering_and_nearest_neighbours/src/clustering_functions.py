@@ -4,29 +4,30 @@ import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import silhouette_score
-from src.utils.utils import get_table_from_path
-
+from src.data_functions import get_table_from_path
 
 def relabel_clusters(
         clusters: pd.DataFrame, 
         model, 
         output: str='clusters'
 ) -> pd.DataFrame:
-    """Re-labels clusters based on performance.
+    """
+    Relabels the clusters based on average metric value.
 
     Parameters
     ----------
-    clusters
-        DataFrame containing clusters.
-    model
+    clusters : pd.DataFrame
+        DataFrame containing cluster allocation of each area.
+    model: 
         Instance of the clustering model.
-    output
-        Specifies what to output. Options are 'clusters' and 'ranks'.
+    output : str, optional
+        Specifies what to output. Options are 'clusters' and 'ranks'. The default is 'clusters'.
 
     Returns
     -------
-    clusters: pd.Dataframe
+    clusters: pd.DataFrame
     DataFrame containing re-labelled clusters, or ranks if specified.
+
     """
     centres = model.cluster_centers_
     performance = list(pd.DataFrame(centres)[0])
@@ -46,30 +47,28 @@ def cluster_table(
         loaded_config: Dict, 
         clusters_table: pd.DataFrame
 ) -> pd.DataFrame:
-    """Gets local authority area codes and area names.
+    """
+    Creates readable cluster table from the clustering model results.
 
     Parameters
     ----------
-    loaded_config
+    loaded_config : Dict
         Contains the loaded config.
-    cols_to_select
-        Columns that should be selected from the table.
-    table_name
-        Name of the table containing the data.
-    rename_mapper
-        Mapping of old_column: new_column for any columns that must be renamed.
+    clusters_table : pd.DataFrame
+        DataFrame containing cluster allocation of each area.
 
     Returns
     -------
-    cluster_table: pd.Dataframe
-    DataFrame with selected columns.
+    cluster_table : pd.DataFrame
+        Readable table containing cluster allocation for each area.
+
     """
-    Area_names = get_table_from_path(table_name=(loaded_config["Geog_mapper"]),
+    Area_names = get_table_from_path(table_name=(loaded_config["Geog_repo"]),
       path=(loaded_config["inputs_file_path"]),
       create_geodataframe=False,
-      cols_to_select=[loaded_config["Area_col"], loaded_config["Area_name_col"]])
-    cluster_table = clusters_table.merge(Area_names, right_on=(loaded_config["Area_col"]), left_on="AREACD", how="left")
-    cluster_table = cluster_table[["AREACD", loaded_config["Area_name_col"], "Cluster"]]
+      cols_to_select=[loaded_config["desired_geog"], loaded_config["desired_geog_nm"]])
+    cluster_table = clusters_table.merge(Area_names, right_on=(loaded_config["desired_geog"]), left_on="AREACD", how="left")
+    cluster_table = cluster_table[["AREACD", loaded_config["desired_geog_nm"], "Cluster"]]
     return cluster_table
 
 
@@ -83,18 +82,18 @@ def make_clustering_model(
     max_k: int=15,
 ):
     """
-    
+    Takes the input metrics and creates clustering model to group similar areas.
 
     Parameters
     ----------
     metrics : pd.DataFrame
-        Winsorized and processed data.
+        Winsorized and processed DataFrame containing clustering input metrics.
     loaded_config : Dict
-        loaded config name.
+        Contains the loaded config.
     seed : int, optional
-        Seed. The default is 19042022.
+        Seed for clustering initialisation. The default is 19042022.
     n_init : int, optional
-        number of random seed initialisations. The default is 10.
+        number of clustering model initialisations. The default is 10.
     min_k : int, optional
         Minimum number of clusters. The default is 4.
     max_k : int, optional
@@ -102,12 +101,12 @@ def make_clustering_model(
 
     Returns
     -------
-    best_clusters: pd.dataframe
+    best_clusters: pd.DataFrame
         geodataframe including cluster allocation and mapping infromation    
     cluster_centers: np.array
         array of cluster centres used for the radar plot
-    sil_data_df: pd.dataframe.
-        dataframe including the silhouette score, supplementary model information.
+    sil_data_df: pd.DataFrame.
+        dataframe including the silhouette score.
     """
     np.random.seed(seed=seed)
     best_k = 0
@@ -148,6 +147,7 @@ def make_clustering_model(
             path=(loaded_config["inputs_file_path"]),
             cols_to_select=[loaded_config["shapefile_area_col"], "geometry", "BNG_E", "BNG_N"],
             create_geodataframe=True)
+
     best_clusters = la_geo.merge(best_clusters, right_on="AREACD", left_on=(loaded_config["shapefile_area_col"]), how="right")
     best_clusters = best_clusters.drop((loaded_config["shapefile_area_col"]), axis=1)
     
