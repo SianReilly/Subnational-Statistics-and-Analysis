@@ -2,13 +2,13 @@
 ##### Locations
 
 #Filepath to coding folder
-local_file_path: ""
+local_file_path: "/content/Subnational-Statistics-and-Analysis/clustering_and_nearest_neighbours"
 
 #Filepath to inputs (data and geography files)
-inputs_file_path: ""
+inputs_file_path: "/content/Subnational-Statistics-and-Analysis/clustering_and_nearest_neighbours/inputs"
 
 #Filepath to where you want your outputs to go
-outputs_file_path: ""
+outputs_file_path: "/content/Subnational-Statistics-and-Analysis/clustering_and_nearest_neighbours/outputs"
 
 ###################
 ##### Geography files
@@ -41,7 +41,7 @@ desired_geog_nm: "LTLA25NM"
 #Name of the shapefile (no .___ extension, just file name)
 #Currently this is lower tier local authority
 #This is only used for clustering and will need to match the geography you cluster on
-shapefile: "LAD_MAY_2025_UK_BFC_V2" 
+shapefile: "LAD_MAY_2025_UK_BGC_V2" 
 #Area column code from shapefile so it can be dropped 
 shapefile_area_col: "LAD25CD" 
 
@@ -49,7 +49,7 @@ shapefile_area_col: "LAD25CD"
 ##### Data 
 
 ##Name of the table containing the input data         
-subnational_indicators_table_name: "" 
+subnational_indicators_table_name: "subnational_indicators"
 
 ##################
 ### Metrics
@@ -57,6 +57,4 @@ subnational_indicators_table_name: ""
 #Here you specify the metric column name for each of your desired variables
 #Can be adapted for other metrics provided they are included in the data
 custom_metrics_to_run:
-  - "Metric a"
-  - "Metric b"
-  - "Metric c"
+  - "Child poverty (AHC relative)"
