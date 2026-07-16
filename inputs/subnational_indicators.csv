@@ -1,0 +1,362 @@
+AREACD,AREANM,Indicator,Period,Measure,Unit,Value
+E06000001,Hartlepool,Child poverty (AHC relative),FYE 2025,Percentage,%,31.95
+E06000002,Middlesbrough,Child poverty (AHC relative),FYE 2025,Percentage,%,38.74
+E06000003,Redcar and Cleveland,Child poverty (AHC relative),FYE 2025,Percentage,%,31.33
+E06000004,Stockton-on-Tees,Child poverty (AHC relative),FYE 2025,Percentage,%,26.24
+E06000005,Darlington,Child poverty (AHC relative),FYE 2025,Percentage,%,28.72
+E06000006,Halton,Child poverty (AHC relative),FYE 2025,Percentage,%,28.26
+E06000007,Warrington,Child poverty (AHC relative),FYE 2025,Percentage,%,19.3
+E06000008,Blackburn with Darwen,Child poverty (AHC relative),FYE 2025,Percentage,%,38.51
+E06000009,Blackpool,Child poverty (AHC relative),FYE 2025,Percentage,%,39.17
+E06000010,"Kingston upon Hull, City of",Child poverty (AHC relative),FYE 2025,Percentage,%,37.19
+E06000011,East Riding of Yorkshire,Child poverty (AHC relative),FYE 2025,Percentage,%,21.61
+E06000012,North East Lincolnshire,Child poverty (AHC relative),FYE 2025,Percentage,%,35.53
+E06000013,North Lincolnshire,Child poverty (AHC relative),FYE 2025,Percentage,%,30.15
+E06000014,York,Child poverty (AHC relative),FYE 2025,Percentage,%,18.2
+E06000015,Derby,Child poverty (AHC relative),FYE 2025,Percentage,%,32.54
+E06000016,Leicester,Child poverty (AHC relative),FYE 2025,Percentage,%,40.14
+E06000017,Rutland,Child poverty (AHC relative),FYE 2025,Percentage,%,15.21
+E06000018,Nottingham,Child poverty (AHC relative),FYE 2025,Percentage,%,40.22
+E06000019,"Herefordshire, County of",Child poverty (AHC relative),FYE 2025,Percentage,%,25.56
+E06000020,Telford and Wrekin,Child poverty (AHC relative),FYE 2025,Percentage,%,33.03
+E06000021,Stoke-on-Trent,Child poverty (AHC relative),FYE 2025,Percentage,%,37.63
+E06000022,Bath and North East Somerset,Child poverty (AHC relative),FYE 2025,Percentage,%,16.29
+E06000023,"Bristol, City of",Child poverty (AHC relative),FYE 2025,Percentage,%,25.61
+E06000024,North Somerset,Child poverty (AHC relative),FYE 2025,Percentage,%,18.91
+E06000025,South Gloucestershire,Child poverty (AHC relative),FYE 2025,Percentage,%,17.54
+E06000026,Plymouth,Child poverty (AHC relative),FYE 2025,Percentage,%,27.29
+E06000027,Torbay,Child poverty (AHC relative),FYE 2025,Percentage,%,31.63
+E06000030,Swindon,Child poverty (AHC relative),FYE 2025,Percentage,%,22.63
+E06000031,Peterborough,Child poverty (AHC relative),FYE 2025,Percentage,%,34.92
+E06000032,Luton,Child poverty (AHC relative),FYE 2025,Percentage,%,40.45
+E06000033,Southend-on-Sea,Child poverty (AHC relative),FYE 2025,Percentage,%,29.04
+E06000034,Thurrock,Child poverty (AHC relative),FYE 2025,Percentage,%,26.92
+E06000035,Medway,Child poverty (AHC relative),FYE 2025,Percentage,%,27.0
+E06000036,Bracknell Forest,Child poverty (AHC relative),FYE 2025,Percentage,%,15.3
+E06000037,West Berkshire,Child poverty (AHC relative),FYE 2025,Percentage,%,16.65
+E06000038,Reading,Child poverty (AHC relative),FYE 2025,Percentage,%,24.94
+E06000039,Slough,Child poverty (AHC relative),FYE 2025,Percentage,%,31.26
+E06000040,Windsor and Maidenhead,Child poverty (AHC relative),FYE 2025,Percentage,%,13.04
+E06000041,Wokingham,Child poverty (AHC relative),FYE 2025,Percentage,%,10.66
+E06000042,Milton Keynes,Child poverty (AHC relative),FYE 2025,Percentage,%,23.72
+E06000043,Brighton and Hove,Child poverty (AHC relative),FYE 2025,Percentage,%,21.62
+E06000044,Portsmouth,Child poverty (AHC relative),FYE 2025,Percentage,%,31.05
+E06000045,Southampton,Child poverty (AHC relative),FYE 2025,Percentage,%,31.0
+E06000046,Isle of Wight,Child poverty (AHC relative),FYE 2025,Percentage,%,31.29
+E06000047,County Durham,Child poverty (AHC relative),FYE 2025,Percentage,%,29.18
+E06000049,Cheshire East,Child poverty (AHC relative),FYE 2025,Percentage,%,17.47
+E06000050,Cheshire West and Chester,Child poverty (AHC relative),FYE 2025,Percentage,%,20.17
+E06000051,Shropshire,Child poverty (AHC relative),FYE 2025,Percentage,%,23.41
+E06000052,Cornwall,Child poverty (AHC relative),FYE 2025,Percentage,%,28.47
+E06000053,Isles of Scilly,Child poverty (AHC relative),FYE 2025,Percentage,%,11.48
+E06000054,Wiltshire,Child poverty (AHC relative),FYE 2025,Percentage,%,18.98
+E06000055,Bedford,Child poverty (AHC relative),FYE 2025,Percentage,%,24.9
+E06000056,Central Bedfordshire,Child poverty (AHC relative),FYE 2025,Percentage,%,17.84
+E06000057,Northumberland,Child poverty (AHC relative),FYE 2025,Percentage,%,24.15
+E06000058,"Bournemouth, Christchurch and Poole",Child poverty (AHC relative),FYE 2025,Percentage,%,24.39
+E06000059,Dorset,Child poverty (AHC relative),FYE 2025,Percentage,%,23.31
+E06000060,Buckinghamshire,Child poverty (AHC relative),FYE 2025,Percentage,%,17.48
+E06000061,North Northamptonshire,Child poverty (AHC relative),FYE 2025,Percentage,%,25.15
+E06000062,West Northamptonshire,Child poverty (AHC relative),FYE 2025,Percentage,%,22.68
+E06000063,Cumberland,Child poverty (AHC relative),FYE 2025,Percentage,%,22.9
+E06000064,Westmorland and Furness,Child poverty (AHC relative),FYE 2025,Percentage,%,19.59
+E06000065,North Yorkshire,Child poverty (AHC relative),FYE 2025,Percentage,%,19.58
+E06000066,Somerset,Child poverty (AHC relative),FYE 2025,Percentage,%,23.86
+E07000008,Cambridge,Child poverty (AHC relative),FYE 2025,Percentage,%,17.61
+E07000009,East Cambridgeshire,Child poverty (AHC relative),FYE 2025,Percentage,%,16.89
+E07000010,Fenland,Child poverty (AHC relative),FYE 2025,Percentage,%,30.79
+E07000011,Huntingdonshire,Child poverty (AHC relative),FYE 2025,Percentage,%,17.84
+E07000012,South Cambridgeshire,Child poverty (AHC relative),FYE 2025,Percentage,%,14.03
+E07000032,Amber Valley,Child poverty (AHC relative),FYE 2025,Percentage,%,23.38
+E07000033,Bolsover,Child poverty (AHC relative),FYE 2025,Percentage,%,29.25
+E07000034,Chesterfield,Child poverty (AHC relative),FYE 2025,Percentage,%,26.43
+E07000035,Derbyshire Dales,Child poverty (AHC relative),FYE 2025,Percentage,%,17.59
+E07000036,Erewash,Child poverty (AHC relative),FYE 2025,Percentage,%,24.51
+E07000037,High Peak,Child poverty (AHC relative),FYE 2025,Percentage,%,19.61
+E07000038,North East Derbyshire,Child poverty (AHC relative),FYE 2025,Percentage,%,21.84
+E07000039,South Derbyshire,Child poverty (AHC relative),FYE 2025,Percentage,%,18.97
+E07000040,East Devon,Child poverty (AHC relative),FYE 2025,Percentage,%,21.05
+E07000041,Exeter,Child poverty (AHC relative),FYE 2025,Percentage,%,21.51
+E07000042,Mid Devon,Child poverty (AHC relative),FYE 2025,Percentage,%,22.63
+E07000043,North Devon,Child poverty (AHC relative),FYE 2025,Percentage,%,26.55
+E07000044,South Hams,Child poverty (AHC relative),FYE 2025,Percentage,%,19.94
+E07000045,Teignbridge,Child poverty (AHC relative),FYE 2025,Percentage,%,23.95
+E07000046,Torridge,Child poverty (AHC relative),FYE 2025,Percentage,%,29.7
+E07000047,West Devon,Child poverty (AHC relative),FYE 2025,Percentage,%,24.57
+E07000061,Eastbourne,Child poverty (AHC relative),FYE 2025,Percentage,%,31.24
+E07000062,Hastings,Child poverty (AHC relative),FYE 2025,Percentage,%,35.37
+E07000063,Lewes,Child poverty (AHC relative),FYE 2025,Percentage,%,22.77
+E07000064,Rother,Child poverty (AHC relative),FYE 2025,Percentage,%,26.44
+E07000065,Wealden,Child poverty (AHC relative),FYE 2025,Percentage,%,20.02
+E07000066,Basildon,Child poverty (AHC relative),FYE 2025,Percentage,%,26.53
+E07000067,Braintree,Child poverty (AHC relative),FYE 2025,Percentage,%,22.96
+E07000068,Brentwood,Child poverty (AHC relative),FYE 2025,Percentage,%,14.19
+E07000069,Castle Point,Child poverty (AHC relative),FYE 2025,Percentage,%,24.36
+E07000070,Chelmsford,Child poverty (AHC relative),FYE 2025,Percentage,%,16.66
+E07000071,Colchester,Child poverty (AHC relative),FYE 2025,Percentage,%,22.28
+E07000072,Epping Forest,Child poverty (AHC relative),FYE 2025,Percentage,%,18.77
+E07000073,Harlow,Child poverty (AHC relative),FYE 2025,Percentage,%,27.81
+E07000074,Maldon,Child poverty (AHC relative),FYE 2025,Percentage,%,20.62
+E07000075,Rochford,Child poverty (AHC relative),FYE 2025,Percentage,%,17.45
+E07000076,Tendring,Child poverty (AHC relative),FYE 2025,Percentage,%,33.58
+E07000077,Uttlesford,Child poverty (AHC relative),FYE 2025,Percentage,%,13.87
+E07000078,Cheltenham,Child poverty (AHC relative),FYE 2025,Percentage,%,19.69
+E07000079,Cotswold,Child poverty (AHC relative),FYE 2025,Percentage,%,17.54
+E07000080,Forest of Dean,Child poverty (AHC relative),FYE 2025,Percentage,%,25.28
+E07000081,Gloucester,Child poverty (AHC relative),FYE 2025,Percentage,%,26.34
+E07000082,Stroud,Child poverty (AHC relative),FYE 2025,Percentage,%,17.8
+E07000083,Tewkesbury,Child poverty (AHC relative),FYE 2025,Percentage,%,19.81
+E07000084,Basingstoke and Deane,Child poverty (AHC relative),FYE 2025,Percentage,%,17.24
+E07000085,East Hampshire,Child poverty (AHC relative),FYE 2025,Percentage,%,16.51
+E07000086,Eastleigh,Child poverty (AHC relative),FYE 2025,Percentage,%,18.48
+E07000087,Fareham,Child poverty (AHC relative),FYE 2025,Percentage,%,15.58
+E07000088,Gosport,Child poverty (AHC relative),FYE 2025,Percentage,%,29.11
+E07000089,Hart,Child poverty (AHC relative),FYE 2025,Percentage,%,12.33
+E07000090,Havant,Child poverty (AHC relative),FYE 2025,Percentage,%,28.26
+E07000091,New Forest,Child poverty (AHC relative),FYE 2025,Percentage,%,20.42
+E07000092,Rushmoor,Child poverty (AHC relative),FYE 2025,Percentage,%,19.98
+E07000093,Test Valley,Child poverty (AHC relative),FYE 2025,Percentage,%,17.29
+E07000094,Winchester,Child poverty (AHC relative),FYE 2025,Percentage,%,15.31
+E07000095,Broxbourne,Child poverty (AHC relative),FYE 2025,Percentage,%,24.61
+E07000096,Dacorum,Child poverty (AHC relative),FYE 2025,Percentage,%,19.04
+E07000098,Hertsmere,Child poverty (AHC relative),FYE 2025,Percentage,%,20.2
+E07000099,North Hertfordshire,Child poverty (AHC relative),FYE 2025,Percentage,%,16.97
+E07000102,Three Rivers,Child poverty (AHC relative),FYE 2025,Percentage,%,14.67
+E07000103,Watford,Child poverty (AHC relative),FYE 2025,Percentage,%,24.15
+E07000105,Ashford,Child poverty (AHC relative),FYE 2025,Percentage,%,22.87
+E07000106,Canterbury,Child poverty (AHC relative),FYE 2025,Percentage,%,24.15
+E07000107,Dartford,Child poverty (AHC relative),FYE 2025,Percentage,%,20.17
+E07000108,Dover,Child poverty (AHC relative),FYE 2025,Percentage,%,28.3
+E07000109,Gravesham,Child poverty (AHC relative),FYE 2025,Percentage,%,27.01
+E07000110,Maidstone,Child poverty (AHC relative),FYE 2025,Percentage,%,22.5
+E07000111,Sevenoaks,Child poverty (AHC relative),FYE 2025,Percentage,%,15.56
+E07000112,Folkestone and Hythe,Child poverty (AHC relative),FYE 2025,Percentage,%,27.43
+E07000113,Swale,Child poverty (AHC relative),FYE 2025,Percentage,%,27.0
+E07000114,Thanet,Child poverty (AHC relative),FYE 2025,Percentage,%,34.85
+E07000115,Tonbridge and Malling,Child poverty (AHC relative),FYE 2025,Percentage,%,16.9
+E07000116,Tunbridge Wells,Child poverty (AHC relative),FYE 2025,Percentage,%,16.35
+E07000117,Burnley,Child poverty (AHC relative),FYE 2025,Percentage,%,39.92
+E07000118,Chorley,Child poverty (AHC relative),FYE 2025,Percentage,%,19.63
+E07000119,Fylde,Child poverty (AHC relative),FYE 2025,Percentage,%,22.06
+E07000120,Hyndburn,Child poverty (AHC relative),FYE 2025,Percentage,%,39.82
+E07000121,Lancaster,Child poverty (AHC relative),FYE 2025,Percentage,%,26.73
+E07000122,Pendle,Child poverty (AHC relative),FYE 2025,Percentage,%,42.5
+E07000123,Preston,Child poverty (AHC relative),FYE 2025,Percentage,%,30.64
+E07000124,Ribble Valley,Child poverty (AHC relative),FYE 2025,Percentage,%,14.91
+E07000125,Rossendale,Child poverty (AHC relative),FYE 2025,Percentage,%,26.93
+E07000126,South Ribble,Child poverty (AHC relative),FYE 2025,Percentage,%,20.44
+E07000127,West Lancashire,Child poverty (AHC relative),FYE 2025,Percentage,%,24.06
+E07000128,Wyre,Child poverty (AHC relative),FYE 2025,Percentage,%,23.48
+E07000129,Blaby,Child poverty (AHC relative),FYE 2025,Percentage,%,18.54
+E07000130,Charnwood,Child poverty (AHC relative),FYE 2025,Percentage,%,21.46
+E07000131,Harborough,Child poverty (AHC relative),FYE 2025,Percentage,%,14.49
+E07000132,Hinckley and Bosworth,Child poverty (AHC relative),FYE 2025,Percentage,%,20.33
+E07000133,Melton,Child poverty (AHC relative),FYE 2025,Percentage,%,22.48
+E07000134,North West Leicestershire,Child poverty (AHC relative),FYE 2025,Percentage,%,19.71
+E07000135,Oadby and Wigston,Child poverty (AHC relative),FYE 2025,Percentage,%,21.09
+E07000136,Boston,Child poverty (AHC relative),FYE 2025,Percentage,%,35.17
+E07000137,East Lindsey,Child poverty (AHC relative),FYE 2025,Percentage,%,33.62
+E07000138,Lincoln,Child poverty (AHC relative),FYE 2025,Percentage,%,32.64
+E07000139,North Kesteven,Child poverty (AHC relative),FYE 2025,Percentage,%,19.57
+E07000140,South Holland,Child poverty (AHC relative),FYE 2025,Percentage,%,27.82
+E07000141,South Kesteven,Child poverty (AHC relative),FYE 2025,Percentage,%,22.66
+E07000142,West Lindsey,Child poverty (AHC relative),FYE 2025,Percentage,%,24.2
+E07000143,Breckland,Child poverty (AHC relative),FYE 2025,Percentage,%,25.87
+E07000144,Broadland,Child poverty (AHC relative),FYE 2025,Percentage,%,17.45
+E07000145,Great Yarmouth,Child poverty (AHC relative),FYE 2025,Percentage,%,37.23
+E07000146,King's Lynn and West Norfolk,Child poverty (AHC relative),FYE 2025,Percentage,%,26.24
+E07000147,North Norfolk,Child poverty (AHC relative),FYE 2025,Percentage,%,29.61
+E07000148,Norwich,Child poverty (AHC relative),FYE 2025,Percentage,%,32.2
+E07000149,South Norfolk,Child poverty (AHC relative),FYE 2025,Percentage,%,17.7
+E07000170,Ashfield,Child poverty (AHC relative),FYE 2025,Percentage,%,29.8
+E07000171,Bassetlaw,Child poverty (AHC relative),FYE 2025,Percentage,%,28.18
+E07000172,Broxtowe,Child poverty (AHC relative),FYE 2025,Percentage,%,19.71
+E07000173,Gedling,Child poverty (AHC relative),FYE 2025,Percentage,%,21.16
+E07000174,Mansfield,Child poverty (AHC relative),FYE 2025,Percentage,%,28.65
+E07000175,Newark and Sherwood,Child poverty (AHC relative),FYE 2025,Percentage,%,24.87
+E07000176,Rushcliffe,Child poverty (AHC relative),FYE 2025,Percentage,%,11.35
+E07000177,Cherwell,Child poverty (AHC relative),FYE 2025,Percentage,%,19.41
+E07000178,Oxford,Child poverty (AHC relative),FYE 2025,Percentage,%,22.88
+E07000179,South Oxfordshire,Child poverty (AHC relative),FYE 2025,Percentage,%,13.67
+E07000180,Vale of White Horse,Child poverty (AHC relative),FYE 2025,Percentage,%,16.0
+E07000181,West Oxfordshire,Child poverty (AHC relative),FYE 2025,Percentage,%,16.24
+E07000192,Cannock Chase,Child poverty (AHC relative),FYE 2025,Percentage,%,28.99
+E07000193,East Staffordshire,Child poverty (AHC relative),FYE 2025,Percentage,%,28.57
+E07000194,Lichfield,Child poverty (AHC relative),FYE 2025,Percentage,%,18.85
+E07000195,Newcastle-under-Lyme,Child poverty (AHC relative),FYE 2025,Percentage,%,24.75
+E07000196,South Staffordshire,Child poverty (AHC relative),FYE 2025,Percentage,%,21.15
+E07000197,Stafford,Child poverty (AHC relative),FYE 2025,Percentage,%,20.62
+E07000198,Staffordshire Moorlands,Child poverty (AHC relative),FYE 2025,Percentage,%,20.05
+E07000199,Tamworth,Child poverty (AHC relative),FYE 2025,Percentage,%,26.88
+E07000200,Babergh,Child poverty (AHC relative),FYE 2025,Percentage,%,23.24
+E07000202,Ipswich,Child poverty (AHC relative),FYE 2025,Percentage,%,32.75
+E07000203,Mid Suffolk,Child poverty (AHC relative),FYE 2025,Percentage,%,18.75
+E07000207,Elmbridge,Child poverty (AHC relative),FYE 2025,Percentage,%,11.25
+E07000208,Epsom and Ewell,Child poverty (AHC relative),FYE 2025,Percentage,%,12.56
+E07000209,Guildford,Child poverty (AHC relative),FYE 2025,Percentage,%,14.16
+E07000210,Mole Valley,Child poverty (AHC relative),FYE 2025,Percentage,%,13.93
+E07000211,Reigate and Banstead,Child poverty (AHC relative),FYE 2025,Percentage,%,14.53
+E07000212,Runnymede,Child poverty (AHC relative),FYE 2025,Percentage,%,18.42
+E07000213,Spelthorne,Child poverty (AHC relative),FYE 2025,Percentage,%,20.4
+E07000214,Surrey Heath,Child poverty (AHC relative),FYE 2025,Percentage,%,13.81
+E07000215,Tandridge,Child poverty (AHC relative),FYE 2025,Percentage,%,16.02
+E07000216,Waverley,Child poverty (AHC relative),FYE 2025,Percentage,%,11.11
+E07000217,Woking,Child poverty (AHC relative),FYE 2025,Percentage,%,18.45
+E07000218,North Warwickshire,Child poverty (AHC relative),FYE 2025,Percentage,%,24.93
+E07000219,Nuneaton and Bedworth,Child poverty (AHC relative),FYE 2025,Percentage,%,25.39
+E07000220,Rugby,Child poverty (AHC relative),FYE 2025,Percentage,%,18.09
+E07000221,Stratford-on-Avon,Child poverty (AHC relative),FYE 2025,Percentage,%,17.72
+E07000222,Warwick,Child poverty (AHC relative),FYE 2025,Percentage,%,14.74
+E07000223,Adur,Child poverty (AHC relative),FYE 2025,Percentage,%,21.33
+E07000224,Arun,Child poverty (AHC relative),FYE 2025,Percentage,%,27.33
+E07000225,Chichester,Child poverty (AHC relative),FYE 2025,Percentage,%,23.03
+E07000226,Crawley,Child poverty (AHC relative),FYE 2025,Percentage,%,29.52
+E07000227,Horsham,Child poverty (AHC relative),FYE 2025,Percentage,%,15.45
+E07000228,Mid Sussex,Child poverty (AHC relative),FYE 2025,Percentage,%,14.16
+E07000229,Worthing,Child poverty (AHC relative),FYE 2025,Percentage,%,22.46
+E07000234,Bromsgrove,Child poverty (AHC relative),FYE 2025,Percentage,%,15.29
+E07000235,Malvern Hills,Child poverty (AHC relative),FYE 2025,Percentage,%,21.16
+E07000236,Redditch,Child poverty (AHC relative),FYE 2025,Percentage,%,27.12
+E07000237,Worcester,Child poverty (AHC relative),FYE 2025,Percentage,%,26.47
+E07000238,Wychavon,Child poverty (AHC relative),FYE 2025,Percentage,%,22.44
+E07000239,Wyre Forest,Child poverty (AHC relative),FYE 2025,Percentage,%,28.73
+E07000240,St Albans,Child poverty (AHC relative),FYE 2025,Percentage,%,11.76
+E07000241,Welwyn Hatfield,Child poverty (AHC relative),FYE 2025,Percentage,%,19.99
+E07000242,East Hertfordshire,Child poverty (AHC relative),FYE 2025,Percentage,%,14.13
+E07000243,Stevenage,Child poverty (AHC relative),FYE 2025,Percentage,%,25.13
+E07000244,East Suffolk,Child poverty (AHC relative),FYE 2025,Percentage,%,26.5
+E07000245,West Suffolk,Child poverty (AHC relative),FYE 2025,Percentage,%,19.89
+E08000001,Bolton,Child poverty (AHC relative),FYE 2025,Percentage,%,36.67
+E08000002,Bury,Child poverty (AHC relative),FYE 2025,Percentage,%,29.66
+E08000003,Manchester,Child poverty (AHC relative),FYE 2025,Percentage,%,42.27
+E08000004,Oldham,Child poverty (AHC relative),FYE 2025,Percentage,%,41.77
+E08000005,Rochdale,Child poverty (AHC relative),FYE 2025,Percentage,%,36.95
+E08000006,Salford,Child poverty (AHC relative),FYE 2025,Percentage,%,33.64
+E08000007,Stockport,Child poverty (AHC relative),FYE 2025,Percentage,%,19.6
+E08000008,Tameside,Child poverty (AHC relative),FYE 2025,Percentage,%,32.47
+E08000009,Trafford,Child poverty (AHC relative),FYE 2025,Percentage,%,15.81
+E08000010,Wigan,Child poverty (AHC relative),FYE 2025,Percentage,%,24.85
+E08000011,Knowsley,Child poverty (AHC relative),FYE 2025,Percentage,%,29.77
+E08000012,Liverpool,Child poverty (AHC relative),FYE 2025,Percentage,%,34.21
+E08000013,St. Helens,Child poverty (AHC relative),FYE 2025,Percentage,%,26.26
+E08000014,Sefton,Child poverty (AHC relative),FYE 2025,Percentage,%,24.82
+E08000015,Wirral,Child poverty (AHC relative),FYE 2025,Percentage,%,25.16
+E08000016,Barnsley,Child poverty (AHC relative),FYE 2025,Percentage,%,31.5
+E08000017,Doncaster,Child poverty (AHC relative),FYE 2025,Percentage,%,34.66
+E08000018,Rotherham,Child poverty (AHC relative),FYE 2025,Percentage,%,30.63
+E08000019,Sheffield,Child poverty (AHC relative),FYE 2025,Percentage,%,31.59
+E08000021,Newcastle upon Tyne,Child poverty (AHC relative),FYE 2025,Percentage,%,30.88
+E08000022,North Tyneside,Child poverty (AHC relative),FYE 2025,Percentage,%,22.9
+E08000023,South Tyneside,Child poverty (AHC relative),FYE 2025,Percentage,%,29.6
+E08000024,Sunderland,Child poverty (AHC relative),FYE 2025,Percentage,%,29.74
+E08000025,Birmingham,Child poverty (AHC relative),FYE 2025,Percentage,%,44.44
+E08000026,Coventry,Child poverty (AHC relative),FYE 2025,Percentage,%,32.25
+E08000027,Dudley,Child poverty (AHC relative),FYE 2025,Percentage,%,32.34
+E08000028,Sandwell,Child poverty (AHC relative),FYE 2025,Percentage,%,40.18
+E08000029,Solihull,Child poverty (AHC relative),FYE 2025,Percentage,%,20.06
+E08000030,Walsall,Child poverty (AHC relative),FYE 2025,Percentage,%,38.32
+E08000031,Wolverhampton,Child poverty (AHC relative),FYE 2025,Percentage,%,37.82
+E08000032,Bradford,Child poverty (AHC relative),FYE 2025,Percentage,%,41.77
+E08000033,Calderdale,Child poverty (AHC relative),FYE 2025,Percentage,%,31.06
+E08000034,Kirklees,Child poverty (AHC relative),FYE 2025,Percentage,%,32.86
+E08000035,Leeds,Child poverty (AHC relative),FYE 2025,Percentage,%,29.62
+E08000036,Wakefield,Child poverty (AHC relative),FYE 2025,Percentage,%,27.47
+E08000037,Gateshead,Child poverty (AHC relative),FYE 2025,Percentage,%,28.23
+E09000001,City of London,Child poverty (AHC relative),FYE 2025,Percentage,%,15.03
+E09000002,Barking and Dagenham,Child poverty (AHC relative),FYE 2025,Percentage,%,39.24
+E09000003,Barnet,Child poverty (AHC relative),FYE 2025,Percentage,%,27.25
+E09000004,Bexley,Child poverty (AHC relative),FYE 2025,Percentage,%,20.34
+E09000005,Brent,Child poverty (AHC relative),FYE 2025,Percentage,%,42.34
+E09000006,Bromley,Child poverty (AHC relative),FYE 2025,Percentage,%,15.3
+E09000007,Camden,Child poverty (AHC relative),FYE 2025,Percentage,%,27.26
+E09000008,Croydon,Child poverty (AHC relative),FYE 2025,Percentage,%,30.31
+E09000009,Ealing,Child poverty (AHC relative),FYE 2025,Percentage,%,33.92
+E09000010,Enfield,Child poverty (AHC relative),FYE 2025,Percentage,%,40.14
+E09000011,Greenwich,Child poverty (AHC relative),FYE 2025,Percentage,%,29.2
+E09000012,Hackney,Child poverty (AHC relative),FYE 2025,Percentage,%,50.12
+E09000013,Hammersmith and Fulham,Child poverty (AHC relative),FYE 2025,Percentage,%,24.24
+E09000014,Haringey,Child poverty (AHC relative),FYE 2025,Percentage,%,38.23
+E09000015,Harrow,Child poverty (AHC relative),FYE 2025,Percentage,%,29.33
+E09000016,Havering,Child poverty (AHC relative),FYE 2025,Percentage,%,23.52
+E09000017,Hillingdon,Child poverty (AHC relative),FYE 2025,Percentage,%,27.61
+E09000018,Hounslow,Child poverty (AHC relative),FYE 2025,Percentage,%,32.25
+E09000019,Islington,Child poverty (AHC relative),FYE 2025,Percentage,%,33.36
+E09000020,Kensington and Chelsea,Child poverty (AHC relative),FYE 2025,Percentage,%,16.14
+E09000021,Kingston upon Thames,Child poverty (AHC relative),FYE 2025,Percentage,%,17.67
+E09000022,Lambeth,Child poverty (AHC relative),FYE 2025,Percentage,%,30.95
+E09000023,Lewisham,Child poverty (AHC relative),FYE 2025,Percentage,%,29.59
+E09000024,Merton,Child poverty (AHC relative),FYE 2025,Percentage,%,22.31
+E09000025,Newham,Child poverty (AHC relative),FYE 2025,Percentage,%,44.86
+E09000026,Redbridge,Child poverty (AHC relative),FYE 2025,Percentage,%,30.52
+E09000027,Richmond upon Thames,Child poverty (AHC relative),FYE 2025,Percentage,%,10.62
+E09000028,Southwark,Child poverty (AHC relative),FYE 2025,Percentage,%,31.04
+E09000029,Sutton,Child poverty (AHC relative),FYE 2025,Percentage,%,19.7
+E09000030,Tower Hamlets,Child poverty (AHC relative),FYE 2025,Percentage,%,50.34
+E09000031,Waltham Forest,Child poverty (AHC relative),FYE 2025,Percentage,%,32.2
+E09000032,Wandsworth,Child poverty (AHC relative),FYE 2025,Percentage,%,23.82
+E09000033,Westminster,Child poverty (AHC relative),FYE 2025,Percentage,%,26.33
+N09000001,Antrim and Newtownabbey,Child poverty (AHC relative),FYE 2025,Percentage,%,17.48
+N09000002,"Armagh City, Banbridge and Craigavon",Child poverty (AHC relative),FYE 2025,Percentage,%,22.08
+N09000003,Belfast,Child poverty (AHC relative),FYE 2025,Percentage,%,22.15
+N09000004,Causeway Coast and Glens,Child poverty (AHC relative),FYE 2025,Percentage,%,22.49
+N09000005,Derry City and Strabane,Child poverty (AHC relative),FYE 2025,Percentage,%,22.98
+N09000006,Fermanagh and Omagh,Child poverty (AHC relative),FYE 2025,Percentage,%,21.55
+N09000007,Lisburn and Castlereagh,Child poverty (AHC relative),FYE 2025,Percentage,%,14.06
+N09000008,Mid and East Antrim,Child poverty (AHC relative),FYE 2025,Percentage,%,20.21
+N09000009,Mid Ulster,Child poverty (AHC relative),FYE 2025,Percentage,%,20.03
+N09000010,"Newry, Mourne and Down",Child poverty (AHC relative),FYE 2025,Percentage,%,22.16
+N09000011,Ards and North Down,Child poverty (AHC relative),FYE 2025,Percentage,%,16.94
+S12000005,Clackmannanshire,Child poverty (AHC relative),FYE 2025,Percentage,%,17.0
+S12000006,Dumfries and Galloway,Child poverty (AHC relative),FYE 2025,Percentage,%,17.35
+S12000008,East Ayrshire,Child poverty (AHC relative),FYE 2025,Percentage,%,16.7
+S12000010,East Lothian,Child poverty (AHC relative),FYE 2025,Percentage,%,12.21
+S12000011,East Renfrewshire,Child poverty (AHC relative),FYE 2025,Percentage,%,8.49
+S12000013,Na h-Eileanan Siar,Child poverty (AHC relative),FYE 2025,Percentage,%,12.9
+S12000014,Falkirk,Child poverty (AHC relative),FYE 2025,Percentage,%,13.91
+S12000017,Highland,Child poverty (AHC relative),FYE 2025,Percentage,%,14.18
+S12000018,Inverclyde,Child poverty (AHC relative),FYE 2025,Percentage,%,15.43
+S12000019,Midlothian,Child poverty (AHC relative),FYE 2025,Percentage,%,12.7
+S12000020,Moray,Child poverty (AHC relative),FYE 2025,Percentage,%,15.14
+S12000021,North Ayrshire,Child poverty (AHC relative),FYE 2025,Percentage,%,18.0
+S12000023,Orkney Islands,Child poverty (AHC relative),FYE 2025,Percentage,%,12.2
+S12000026,Scottish Borders,Child poverty (AHC relative),FYE 2025,Percentage,%,15.01
+S12000027,Shetland Islands,Child poverty (AHC relative),FYE 2025,Percentage,%,9.27
+S12000028,South Ayrshire,Child poverty (AHC relative),FYE 2025,Percentage,%,14.95
+S12000029,South Lanarkshire,Child poverty (AHC relative),FYE 2025,Percentage,%,12.81
+S12000030,Stirling,Child poverty (AHC relative),FYE 2025,Percentage,%,10.9
+S12000033,Aberdeen City,Child poverty (AHC relative),FYE 2025,Percentage,%,11.86
+S12000034,Aberdeenshire,Child poverty (AHC relative),FYE 2025,Percentage,%,10.03
+S12000035,Argyll and Bute,Child poverty (AHC relative),FYE 2025,Percentage,%,13.74
+S12000036,City of Edinburgh,Child poverty (AHC relative),FYE 2025,Percentage,%,13.06
+S12000038,Renfrewshire,Child poverty (AHC relative),FYE 2025,Percentage,%,12.7
+S12000039,West Dunbartonshire,Child poverty (AHC relative),FYE 2025,Percentage,%,15.21
+S12000040,West Lothian,Child poverty (AHC relative),FYE 2025,Percentage,%,13.78
+S12000041,Angus,Child poverty (AHC relative),FYE 2025,Percentage,%,16.09
+S12000042,Dundee City,Child poverty (AHC relative),FYE 2025,Percentage,%,16.97
+S12000045,East Dunbartonshire,Child poverty (AHC relative),FYE 2025,Percentage,%,7.79
+S12000047,Fife,Child poverty (AHC relative),FYE 2025,Percentage,%,16.24
+S12000048,Perth and Kinross,Child poverty (AHC relative),FYE 2025,Percentage,%,13.3
+S12000049,Glasgow City,Child poverty (AHC relative),FYE 2025,Percentage,%,23.28
+S12000050,North Lanarkshire,Child poverty (AHC relative),FYE 2025,Percentage,%,14.76
+W06000001,Isle of Anglesey / Ynys Môn,Child poverty (AHC relative),FYE 2025,Percentage,%,29.21
+W06000002,Gwynedd / Gwynedd,Child poverty (AHC relative),FYE 2025,Percentage,%,26.67
+W06000003,Conwy / Conwy,Child poverty (AHC relative),FYE 2025,Percentage,%,28.44
+W06000004,Denbighshire / Sir Ddinbych,Child poverty (AHC relative),FYE 2025,Percentage,%,29.12
+W06000005,Flintshire / Sir y Fflint,Child poverty (AHC relative),FYE 2025,Percentage,%,24.25
+W06000006,Wrexham / Wrecsam,Child poverty (AHC relative),FYE 2025,Percentage,%,26.55
+W06000008,Ceredigion / Ceredigion,Child poverty (AHC relative),FYE 2025,Percentage,%,27.94
+W06000009,Pembrokeshire / Sir Benfro,Child poverty (AHC relative),FYE 2025,Percentage,%,27.74
+W06000010,Carmarthenshire / Sir Gaerfyrddin,Child poverty (AHC relative),FYE 2025,Percentage,%,25.0
+W06000011,Swansea / Abertawe,Child poverty (AHC relative),FYE 2025,Percentage,%,24.45
+W06000012,Neath Port Talbot / Castell-nedd Port Talbot,Child poverty (AHC relative),FYE 2025,Percentage,%,25.73
+W06000013,Bridgend / Pen-y-bont ar Ogwr,Child poverty (AHC relative),FYE 2025,Percentage,%,25.29
+W06000014,Vale of Glamorgan / Bro Morgannwg,Child poverty (AHC relative),FYE 2025,Percentage,%,20.45
+W06000015,Cardiff / Caerdydd,Child poverty (AHC relative),FYE 2025,Percentage,%,26.81
+W06000016,Rhondda Cynon Taf / Rhondda Cynon Taf,Child poverty (AHC relative),FYE 2025,Percentage,%,26.6
+W06000018,Caerphilly / Caerffili,Child poverty (AHC relative),FYE 2025,Percentage,%,26.79
+W06000019,Blaenau Gwent / Blaenau Gwent,Child poverty (AHC relative),FYE 2025,Percentage,%,31.99
+W06000020,Torfaen / Tor-faen,Child poverty (AHC relative),FYE 2025,Percentage,%,27.87
+W06000021,Monmouthshire / Sir Fynwy,Child poverty (AHC relative),FYE 2025,Percentage,%,17.8
+W06000022,Newport / Casnewydd,Child poverty (AHC relative),FYE 2025,Percentage,%,28.3
+W06000023,Powys / Powys,Child poverty (AHC relative),FYE 2025,Percentage,%,24.9
+W06000024,Merthyr Tydfil / Merthyr Tudful,Child poverty (AHC relative),FYE 2025,Percentage,%,28.43
