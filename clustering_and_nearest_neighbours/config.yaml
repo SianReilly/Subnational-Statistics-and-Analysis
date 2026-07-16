@@ -15,12 +15,11 @@ outputs_file_path: ""
 
 ### Lower to upper tier local authority lookup
 #Name of the upper tier LA lookup used for imputation
-lower_tier_to_upper_tier_lookup: "LTLA25_to_UTLA25_lookup" 
+lower_tier_to_upper_tier_lookup: "LAD25_CTYUA25_UK_LU_v2"
 #Name of the upper tier code column from lower tier to upper tier lookup
-upper_tier_code_column_name: "UTLA25CD"  
+upper_tier_code_column_name: "CTYUA25CD"  
 #Name of the lower tier code column from lower tier to upper tier lookup
-lower_tier_code_column_name: "LTLA25CD"
-
+lower_tier_code_column_name: "LAD25CD"
 
 ### Geog repo
 #Name of geography repository used as a repo for wanted geographies
