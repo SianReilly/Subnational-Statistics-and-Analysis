@@ -360,3 +360,1665 @@ W06000021,Monmouthshire / Sir Fynwy,Child poverty (AHC relative),FYE 2025,Percen
 W06000022,Newport / Casnewydd,Child poverty (AHC relative),FYE 2025,Percentage,%,28.3
 W06000023,Powys / Powys,Child poverty (AHC relative),FYE 2025,Percentage,%,24.9
 W06000024,Merthyr Tydfil / Merthyr Tudful,Child poverty (AHC relative),FYE 2025,Percentage,%,28.43
+E06000001,Hartlepool,Dependency ratio,2021/2022,Ratio,ratio,0.64
+E06000002,Middlesbrough,Dependency ratio,2021/2022,Ratio,ratio,0.6
+E06000003,Redcar and Cleveland,Dependency ratio,2021/2022,Ratio,ratio,0.69
+E06000004,Stockton-on-Tees,Dependency ratio,2021/2022,Ratio,ratio,0.63
+E06000005,Darlington,Dependency ratio,2021/2022,Ratio,ratio,0.63
+E06000006,Halton,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E06000007,Warrington,Dependency ratio,2021/2022,Ratio,ratio,0.59
+E06000008,Blackburn with Darwen,Dependency ratio,2021/2022,Ratio,ratio,0.59
+E06000009,Blackpool,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E06000010,"Kingston upon Hull, City of",Dependency ratio,2021/2022,Ratio,ratio,0.54
+E06000011,East Riding of Yorkshire,Dependency ratio,2021/2022,Ratio,ratio,0.73
+E06000012,North East Lincolnshire,Dependency ratio,2021/2022,Ratio,ratio,0.66
+E06000013,North Lincolnshire,Dependency ratio,2021/2022,Ratio,ratio,0.66
+E06000014,York,Dependency ratio,2021/2022,Ratio,ratio,0.52
+E06000015,Derby,Dependency ratio,2021/2022,Ratio,ratio,0.57
+E06000016,Leicester,Dependency ratio,2021/2022,Ratio,ratio,0.49
+E06000017,Rutland,Dependency ratio,2021/2022,Ratio,ratio,0.72
+E06000018,Nottingham,Dependency ratio,2021/2022,Ratio,ratio,0.43
+E06000019,"Herefordshire, County of",Dependency ratio,2021/2022,Ratio,ratio,0.72
+E06000020,Telford and Wrekin,Dependency ratio,2021/2022,Ratio,ratio,0.6
+E06000021,Stoke-on-Trent,Dependency ratio,2021/2022,Ratio,ratio,0.6
+E06000022,Bath and North East Somerset,Dependency ratio,2021/2022,Ratio,ratio,0.56
+E06000023,"Bristol, City of",Dependency ratio,2021/2022,Ratio,ratio,0.44
+E06000024,North Somerset,Dependency ratio,2021/2022,Ratio,ratio,0.71
+E06000025,South Gloucestershire,Dependency ratio,2021/2022,Ratio,ratio,0.59
+E06000026,Plymouth,Dependency ratio,2021/2022,Ratio,ratio,0.56
+E06000027,Torbay,Dependency ratio,2021/2022,Ratio,ratio,0.74
+E06000030,Swindon,Dependency ratio,2021/2022,Ratio,ratio,0.56
+E06000031,Peterborough,Dependency ratio,2021/2022,Ratio,ratio,0.57
+E06000032,Luton,Dependency ratio,2021/2022,Ratio,ratio,0.54
+E06000033,Southend-on-Sea,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E06000034,Thurrock,Dependency ratio,2021/2022,Ratio,ratio,0.56
+E06000035,Medway,Dependency ratio,2021/2022,Ratio,ratio,0.58
+E06000036,Bracknell Forest,Dependency ratio,2021/2022,Ratio,ratio,0.54
+E06000037,West Berkshire,Dependency ratio,2021/2022,Ratio,ratio,0.63
+E06000038,Reading,Dependency ratio,2021/2022,Ratio,ratio,0.45
+E06000039,Slough,Dependency ratio,2021/2022,Ratio,ratio,0.53
+E06000040,Windsor and Maidenhead,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E06000041,Wokingham,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E06000042,Milton Keynes,Dependency ratio,2021/2022,Ratio,ratio,0.55
+E06000043,Brighton and Hove,Dependency ratio,2021/2022,Ratio,ratio,0.41
+E06000044,Portsmouth,Dependency ratio,2021/2022,Ratio,ratio,0.49
+E06000045,Southampton,Dependency ratio,2021/2022,Ratio,ratio,0.46
+E06000046,Isle of Wight,Dependency ratio,2021/2022,Ratio,ratio,0.79
+E06000047,County Durham,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E06000049,Cheshire East,Dependency ratio,2021/2022,Ratio,ratio,0.66
+E06000050,Cheshire West and Chester,Dependency ratio,2021/2022,Ratio,ratio,0.63
+E06000051,Shropshire,Dependency ratio,2021/2022,Ratio,ratio,0.7
+E06000052,Cornwall,Dependency ratio,2021/2022,Ratio,ratio,0.71
+E06000053,Isles of Scilly,Dependency ratio,2021/2022,Ratio,ratio,0.78
+E06000054,Wiltshire,Dependency ratio,2021/2022,Ratio,ratio,0.66
+E06000055,Bedford,Dependency ratio,2021/2022,Ratio,ratio,0.58
+E06000056,Central Bedfordshire,Dependency ratio,2021/2022,Ratio,ratio,0.6
+E06000057,Northumberland,Dependency ratio,2021/2022,Ratio,ratio,0.71
+E06000058,"Bournemouth, Christchurch and Poole",Dependency ratio,2021/2022,Ratio,ratio,0.61
+E06000059,Dorset,Dependency ratio,2021/2022,Ratio,ratio,0.81
+E06000060,Buckinghamshire,Dependency ratio,2021/2022,Ratio,ratio,0.63
+E06000061,North Northamptonshire,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E06000062,West Northamptonshire,Dependency ratio,2021/2022,Ratio,ratio,0.57
+E06000063,Cumberland,Dependency ratio,2021/2022,Ratio,ratio,0.66
+E06000064,Westmorland and Furness,Dependency ratio,2021/2022,Ratio,ratio,0.69
+E06000065,North Yorkshire,Dependency ratio,2021/2022,Ratio,ratio,0.7
+E06000066,Somerset,Dependency ratio,2021/2022,Ratio,ratio,0.72
+E07000008,Cambridge,Dependency ratio,2021/2022,Ratio,ratio,0.35
+E07000009,East Cambridgeshire,Dependency ratio,2021/2022,Ratio,ratio,0.65
+E07000010,Fenland,Dependency ratio,2021/2022,Ratio,ratio,0.67
+E07000011,Huntingdonshire,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E07000012,South Cambridgeshire,Dependency ratio,2021/2022,Ratio,ratio,0.64
+E07000032,Amber Valley,Dependency ratio,2021/2022,Ratio,ratio,0.65
+E07000033,Bolsover,Dependency ratio,2021/2022,Ratio,ratio,0.6
+E07000034,Chesterfield,Dependency ratio,2021/2022,Ratio,ratio,0.63
+E07000035,Derbyshire Dales,Dependency ratio,2021/2022,Ratio,ratio,0.74
+E07000036,Erewash,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E07000037,High Peak,Dependency ratio,2021/2022,Ratio,ratio,0.63
+E07000038,North East Derbyshire,Dependency ratio,2021/2022,Ratio,ratio,0.7
+E07000039,South Derbyshire,Dependency ratio,2021/2022,Ratio,ratio,0.6
+E07000040,East Devon,Dependency ratio,2021/2022,Ratio,ratio,0.84
+E07000041,Exeter,Dependency ratio,2021/2022,Ratio,ratio,0.46
+E07000042,Mid Devon,Dependency ratio,2021/2022,Ratio,ratio,0.71
+E07000043,North Devon,Dependency ratio,2021/2022,Ratio,ratio,0.74
+E07000044,South Hams,Dependency ratio,2021/2022,Ratio,ratio,0.78
+E07000045,Teignbridge,Dependency ratio,2021/2022,Ratio,ratio,0.75
+E07000046,Torridge,Dependency ratio,2021/2022,Ratio,ratio,0.78
+E07000047,West Devon,Dependency ratio,2021/2022,Ratio,ratio,0.78
+E07000061,Eastbourne,Dependency ratio,2021/2022,Ratio,ratio,0.7
+E07000062,Hastings,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E07000063,Lewes,Dependency ratio,2021/2022,Ratio,ratio,0.76
+E07000064,Rother,Dependency ratio,2021/2022,Ratio,ratio,0.89
+E07000065,Wealden,Dependency ratio,2021/2022,Ratio,ratio,0.76
+E07000066,Basildon,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E07000067,Braintree,Dependency ratio,2021/2022,Ratio,ratio,0.64
+E07000068,Brentwood,Dependency ratio,2021/2022,Ratio,ratio,0.63
+E07000069,Castle Point,Dependency ratio,2021/2022,Ratio,ratio,0.73
+E07000070,Chelmsford,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E07000071,Colchester,Dependency ratio,2021/2022,Ratio,ratio,0.58
+E07000072,Epping Forest,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E07000073,Harlow,Dependency ratio,2021/2022,Ratio,ratio,0.57
+E07000074,Maldon,Dependency ratio,2021/2022,Ratio,ratio,0.7
+E07000075,Rochford,Dependency ratio,2021/2022,Ratio,ratio,0.69
+E07000076,Tendring,Dependency ratio,2021/2022,Ratio,ratio,0.83
+E07000077,Uttlesford,Dependency ratio,2021/2022,Ratio,ratio,0.66
+E07000078,Cheltenham,Dependency ratio,2021/2022,Ratio,ratio,0.57
+E07000079,Cotswold,Dependency ratio,2021/2022,Ratio,ratio,0.73
+E07000080,Forest of Dean,Dependency ratio,2021/2022,Ratio,ratio,0.7
+E07000081,Gloucester,Dependency ratio,2021/2022,Ratio,ratio,0.56
+E07000082,Stroud,Dependency ratio,2021/2022,Ratio,ratio,0.68
+E07000083,Tewkesbury,Dependency ratio,2021/2022,Ratio,ratio,0.69
+E07000084,Basingstoke and Deane,Dependency ratio,2021/2022,Ratio,ratio,0.57
+E07000085,East Hampshire,Dependency ratio,2021/2022,Ratio,ratio,0.68
+E07000086,Eastleigh,Dependency ratio,2021/2022,Ratio,ratio,0.63
+E07000087,Fareham,Dependency ratio,2021/2022,Ratio,ratio,0.7
+E07000088,Gosport,Dependency ratio,2021/2022,Ratio,ratio,0.65
+E07000089,Hart,Dependency ratio,2021/2022,Ratio,ratio,0.64
+E07000090,Havant,Dependency ratio,2021/2022,Ratio,ratio,0.71
+E07000091,New Forest,Dependency ratio,2021/2022,Ratio,ratio,0.81
+E07000092,Rushmoor,Dependency ratio,2021/2022,Ratio,ratio,0.52
+E07000093,Test Valley,Dependency ratio,2021/2022,Ratio,ratio,0.65
+E07000094,Winchester,Dependency ratio,2021/2022,Ratio,ratio,0.63
+E07000095,Broxbourne,Dependency ratio,2021/2022,Ratio,ratio,0.59
+E07000096,Dacorum,Dependency ratio,2021/2022,Ratio,ratio,0.6
+E07000098,Hertsmere,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E07000099,North Hertfordshire,Dependency ratio,2021/2022,Ratio,ratio,0.63
+E07000102,Three Rivers,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E07000103,Watford,Dependency ratio,2021/2022,Ratio,ratio,0.5
+E07000105,Ashford,Dependency ratio,2021/2022,Ratio,ratio,0.64
+E07000106,Canterbury,Dependency ratio,2021/2022,Ratio,ratio,0.6
+E07000107,Dartford,Dependency ratio,2021/2022,Ratio,ratio,0.56
+E07000108,Dover,Dependency ratio,2021/2022,Ratio,ratio,0.71
+E07000109,Gravesham,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E07000110,Maidstone,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E07000111,Sevenoaks,Dependency ratio,2021/2022,Ratio,ratio,0.71
+E07000112,Folkestone and Hythe,Dependency ratio,2021/2022,Ratio,ratio,0.71
+E07000113,Swale,Dependency ratio,2021/2022,Ratio,ratio,0.63
+E07000114,Thanet,Dependency ratio,2021/2022,Ratio,ratio,0.71
+E07000115,Tonbridge and Malling,Dependency ratio,2021/2022,Ratio,ratio,0.65
+E07000116,Tunbridge Wells,Dependency ratio,2021/2022,Ratio,ratio,0.65
+E07000117,Burnley,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E07000118,Chorley,Dependency ratio,2021/2022,Ratio,ratio,0.63
+E07000119,Fylde,Dependency ratio,2021/2022,Ratio,ratio,0.75
+E07000120,Hyndburn,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E07000121,Lancaster,Dependency ratio,2021/2022,Ratio,ratio,0.58
+E07000122,Pendle,Dependency ratio,2021/2022,Ratio,ratio,0.65
+E07000123,Preston,Dependency ratio,2021/2022,Ratio,ratio,0.53
+E07000124,Ribble Valley,Dependency ratio,2021/2022,Ratio,ratio,0.68
+E07000125,Rossendale,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E07000126,South Ribble,Dependency ratio,2021/2022,Ratio,ratio,0.65
+E07000127,West Lancashire,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E07000128,Wyre,Dependency ratio,2021/2022,Ratio,ratio,0.77
+E07000129,Blaby,Dependency ratio,2021/2022,Ratio,ratio,0.64
+E07000130,Charnwood,Dependency ratio,2021/2022,Ratio,ratio,0.55
+E07000131,Harborough,Dependency ratio,2021/2022,Ratio,ratio,0.66
+E07000132,Hinckley and Bosworth,Dependency ratio,2021/2022,Ratio,ratio,0.66
+E07000133,Melton,Dependency ratio,2021/2022,Ratio,ratio,0.68
+E07000134,North West Leicestershire,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E07000135,Oadby and Wigston,Dependency ratio,2021/2022,Ratio,ratio,0.65
+E07000136,Boston,Dependency ratio,2021/2022,Ratio,ratio,0.63
+E07000137,East Lindsey,Dependency ratio,2021/2022,Ratio,ratio,0.82
+E07000138,Lincoln,Dependency ratio,2021/2022,Ratio,ratio,0.44
+E07000139,North Kesteven,Dependency ratio,2021/2022,Ratio,ratio,0.68
+E07000140,South Holland,Dependency ratio,2021/2022,Ratio,ratio,0.69
+E07000141,South Kesteven,Dependency ratio,2021/2022,Ratio,ratio,0.69
+E07000142,West Lindsey,Dependency ratio,2021/2022,Ratio,ratio,0.73
+E07000143,Breckland,Dependency ratio,2021/2022,Ratio,ratio,0.71
+E07000144,Broadland,Dependency ratio,2021/2022,Ratio,ratio,0.72
+E07000145,Great Yarmouth,Dependency ratio,2021/2022,Ratio,ratio,0.7
+E07000146,King's Lynn and West Norfolk,Dependency ratio,2021/2022,Ratio,ratio,0.73
+E07000147,North Norfolk,Dependency ratio,2021/2022,Ratio,ratio,0.88
+E07000148,Norwich,Dependency ratio,2021/2022,Ratio,ratio,0.45
+E07000149,South Norfolk,Dependency ratio,2021/2022,Ratio,ratio,0.72
+E07000170,Ashfield,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E07000171,Bassetlaw,Dependency ratio,2021/2022,Ratio,ratio,0.65
+E07000172,Broxtowe,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E07000173,Gedling,Dependency ratio,2021/2022,Ratio,ratio,0.65
+E07000174,Mansfield,Dependency ratio,2021/2022,Ratio,ratio,0.6
+E07000175,Newark and Sherwood,Dependency ratio,2021/2022,Ratio,ratio,0.65
+E07000176,Rushcliffe,Dependency ratio,2021/2022,Ratio,ratio,0.65
+E07000177,Cherwell,Dependency ratio,2021/2022,Ratio,ratio,0.57
+E07000178,Oxford,Dependency ratio,2021/2022,Ratio,ratio,0.38
+E07000179,South Oxfordshire,Dependency ratio,2021/2022,Ratio,ratio,0.64
+E07000180,Vale of White Horse,Dependency ratio,2021/2022,Ratio,ratio,0.64
+E07000181,West Oxfordshire,Dependency ratio,2021/2022,Ratio,ratio,0.65
+E07000192,Cannock Chase,Dependency ratio,2021/2022,Ratio,ratio,0.6
+E07000193,East Staffordshire,Dependency ratio,2021/2022,Ratio,ratio,0.6
+E07000194,Lichfield,Dependency ratio,2021/2022,Ratio,ratio,0.69
+E07000195,Newcastle-under-Lyme,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E07000196,South Staffordshire,Dependency ratio,2021/2022,Ratio,ratio,0.68
+E07000197,Stafford,Dependency ratio,2021/2022,Ratio,ratio,0.67
+E07000198,Staffordshire Moorlands,Dependency ratio,2021/2022,Ratio,ratio,0.72
+E07000199,Tamworth,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E07000200,Babergh,Dependency ratio,2021/2022,Ratio,ratio,0.75
+E07000202,Ipswich,Dependency ratio,2021/2022,Ratio,ratio,0.57
+E07000203,Mid Suffolk,Dependency ratio,2021/2022,Ratio,ratio,0.7
+E07000207,Elmbridge,Dependency ratio,2021/2022,Ratio,ratio,0.65
+E07000208,Epsom and Ewell,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E07000209,Guildford,Dependency ratio,2021/2022,Ratio,ratio,0.52
+E07000210,Mole Valley,Dependency ratio,2021/2022,Ratio,ratio,0.69
+E07000211,Reigate and Banstead,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E07000212,Runnymede,Dependency ratio,2021/2022,Ratio,ratio,0.53
+E07000213,Spelthorne,Dependency ratio,2021/2022,Ratio,ratio,0.59
+E07000214,Surrey Heath,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E07000215,Tandridge,Dependency ratio,2021/2022,Ratio,ratio,0.67
+E07000216,Waverley,Dependency ratio,2021/2022,Ratio,ratio,0.7
+E07000217,Woking,Dependency ratio,2021/2022,Ratio,ratio,0.58
+E07000218,North Warwickshire,Dependency ratio,2021/2022,Ratio,ratio,0.64
+E07000219,Nuneaton and Bedworth,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E07000220,Rugby,Dependency ratio,2021/2022,Ratio,ratio,0.6
+E07000221,Stratford-on-Avon,Dependency ratio,2021/2022,Ratio,ratio,0.71
+E07000222,Warwick,Dependency ratio,2021/2022,Ratio,ratio,0.56
+E07000223,Adur,Dependency ratio,2021/2022,Ratio,ratio,0.71
+E07000224,Arun,Dependency ratio,2021/2022,Ratio,ratio,0.78
+E07000225,Chichester,Dependency ratio,2021/2022,Ratio,ratio,0.75
+E07000226,Crawley,Dependency ratio,2021/2022,Ratio,ratio,0.52
+E07000227,Horsham,Dependency ratio,2021/2022,Ratio,ratio,0.68
+E07000228,Mid Sussex,Dependency ratio,2021/2022,Ratio,ratio,0.66
+E07000229,Worthing,Dependency ratio,2021/2022,Ratio,ratio,0.65
+E07000234,Bromsgrove,Dependency ratio,2021/2022,Ratio,ratio,0.7
+E07000235,Malvern Hills,Dependency ratio,2021/2022,Ratio,ratio,0.77
+E07000236,Redditch,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E07000237,Worcester,Dependency ratio,2021/2022,Ratio,ratio,0.54
+E07000238,Wychavon,Dependency ratio,2021/2022,Ratio,ratio,0.7
+E07000239,Wyre Forest,Dependency ratio,2021/2022,Ratio,ratio,0.73
+E07000240,St Albans,Dependency ratio,2021/2022,Ratio,ratio,0.64
+E07000241,Welwyn Hatfield,Dependency ratio,2021/2022,Ratio,ratio,0.52
+E07000242,East Hertfordshire,Dependency ratio,2021/2022,Ratio,ratio,0.6
+E07000243,Stevenage,Dependency ratio,2021/2022,Ratio,ratio,0.55
+E07000244,East Suffolk,Dependency ratio,2021/2022,Ratio,ratio,0.78
+E07000245,West Suffolk,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E08000001,Bolton,Dependency ratio,2021/2022,Ratio,ratio,0.63
+E08000002,Bury,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E08000003,Manchester,Dependency ratio,2021/2022,Ratio,ratio,0.43
+E08000004,Oldham,Dependency ratio,2021/2022,Ratio,ratio,0.63
+E08000005,Rochdale,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E08000006,Salford,Dependency ratio,2021/2022,Ratio,ratio,0.49
+E08000007,Stockport,Dependency ratio,2021/2022,Ratio,ratio,0.64
+E08000008,Tameside,Dependency ratio,2021/2022,Ratio,ratio,0.6
+E08000009,Trafford,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E08000010,Wigan,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E08000011,Knowsley,Dependency ratio,2021/2022,Ratio,ratio,0.58
+E08000012,Liverpool,Dependency ratio,2021/2022,Ratio,ratio,0.48
+E08000013,St. Helens,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E08000014,Sefton,Dependency ratio,2021/2022,Ratio,ratio,0.67
+E08000015,Wirral,Dependency ratio,2021/2022,Ratio,ratio,0.67
+E08000016,Barnsley,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E08000017,Doncaster,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E08000018,Rotherham,Dependency ratio,2021/2022,Ratio,ratio,0.63
+E08000019,Sheffield,Dependency ratio,2021/2022,Ratio,ratio,0.54
+E08000021,Newcastle upon Tyne,Dependency ratio,2021/2022,Ratio,ratio,0.47
+E08000022,North Tyneside,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E08000023,South Tyneside,Dependency ratio,2021/2022,Ratio,ratio,0.63
+E08000024,Sunderland,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E08000025,Birmingham,Dependency ratio,2021/2022,Ratio,ratio,0.55
+E08000026,Coventry,Dependency ratio,2021/2022,Ratio,ratio,0.52
+E08000027,Dudley,Dependency ratio,2021/2022,Ratio,ratio,0.65
+E08000028,Sandwell,Dependency ratio,2021/2022,Ratio,ratio,0.58
+E08000029,Solihull,Dependency ratio,2021/2022,Ratio,ratio,0.68
+E08000030,Walsall,Dependency ratio,2021/2022,Ratio,ratio,0.64
+E08000031,Wolverhampton,Dependency ratio,2021/2022,Ratio,ratio,0.6
+E08000032,Bradford,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E08000033,Calderdale,Dependency ratio,2021/2022,Ratio,ratio,0.62
+E08000034,Kirklees,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E08000035,Leeds,Dependency ratio,2021/2022,Ratio,ratio,0.53
+E08000036,Wakefield,Dependency ratio,2021/2022,Ratio,ratio,0.6
+E08000037,Gateshead,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E09000001,City of London,Dependency ratio,2021/2022,Ratio,ratio,0.26
+E09000002,Barking and Dagenham,Dependency ratio,2021/2022,Ratio,ratio,0.53
+E09000003,Barnet,Dependency ratio,2021/2022,Ratio,ratio,0.54
+E09000004,Bexley,Dependency ratio,2021/2022,Ratio,ratio,0.59
+E09000005,Brent,Dependency ratio,2021/2022,Ratio,ratio,0.44
+E09000006,Bromley,Dependency ratio,2021/2022,Ratio,ratio,0.6
+E09000007,Camden,Dependency ratio,2021/2022,Ratio,ratio,0.37
+E09000008,Croydon,Dependency ratio,2021/2022,Ratio,ratio,0.52
+E09000009,Ealing,Dependency ratio,2021/2022,Ratio,ratio,0.46
+E09000010,Enfield,Dependency ratio,2021/2022,Ratio,ratio,0.56
+E09000011,Greenwich,Dependency ratio,2021/2022,Ratio,ratio,0.45
+E09000012,Hackney,Dependency ratio,2021/2022,Ratio,ratio,0.37
+E09000013,Hammersmith and Fulham,Dependency ratio,2021/2022,Ratio,ratio,0.35
+E09000014,Haringey,Dependency ratio,2021/2022,Ratio,ratio,0.4
+E09000015,Harrow,Dependency ratio,2021/2022,Ratio,ratio,0.54
+E09000016,Havering,Dependency ratio,2021/2022,Ratio,ratio,0.6
+E09000017,Hillingdon,Dependency ratio,2021/2022,Ratio,ratio,0.52
+E09000018,Hounslow,Dependency ratio,2021/2022,Ratio,ratio,0.48
+E09000019,Islington,Dependency ratio,2021/2022,Ratio,ratio,0.33
+E09000020,Kensington and Chelsea,Dependency ratio,2021/2022,Ratio,ratio,0.4
+E09000021,Kingston upon Thames,Dependency ratio,2021/2022,Ratio,ratio,0.51
+E09000022,Lambeth,Dependency ratio,2021/2022,Ratio,ratio,0.31
+E09000023,Lewisham,Dependency ratio,2021/2022,Ratio,ratio,0.41
+E09000024,Merton,Dependency ratio,2021/2022,Ratio,ratio,0.48
+E09000025,Newham,Dependency ratio,2021/2022,Ratio,ratio,0.4
+E09000026,Redbridge,Dependency ratio,2021/2022,Ratio,ratio,0.52
+E09000027,Richmond upon Thames,Dependency ratio,2021/2022,Ratio,ratio,0.57
+E09000028,Southwark,Dependency ratio,2021/2022,Ratio,ratio,0.33
+E09000029,Sutton,Dependency ratio,2021/2022,Ratio,ratio,0.57
+E09000030,Tower Hamlets,Dependency ratio,2021/2022,Ratio,ratio,0.32
+E09000031,Waltham Forest,Dependency ratio,2021/2022,Ratio,ratio,0.44
+E09000032,Wandsworth,Dependency ratio,2021/2022,Ratio,ratio,0.35
+E09000033,Westminster,Dependency ratio,2021/2022,Ratio,ratio,0.34
+N09000001,Antrim and Newtownabbey,Dependency ratio,2021/2022,Ratio,ratio,0.6
+N09000002,"Armagh City, Banbridge and Craigavon",Dependency ratio,2021/2022,Ratio,ratio,0.61
+N09000003,Belfast,Dependency ratio,2021/2022,Ratio,ratio,0.51
+N09000004,Causeway Coast and Glens,Dependency ratio,2021/2022,Ratio,ratio,0.63
+N09000005,Derry City and Strabane,Dependency ratio,2021/2022,Ratio,ratio,0.59
+N09000006,Fermanagh and Omagh,Dependency ratio,2021/2022,Ratio,ratio,0.66
+N09000007,Lisburn and Castlereagh,Dependency ratio,2021/2022,Ratio,ratio,0.61
+N09000008,Mid and East Antrim,Dependency ratio,2021/2022,Ratio,ratio,0.62
+N09000009,Mid Ulster,Dependency ratio,2021/2022,Ratio,ratio,0.61
+N09000010,"Newry, Mourne and Down",Dependency ratio,2021/2022,Ratio,ratio,0.63
+N09000011,Ards and North Down,Dependency ratio,2021/2022,Ratio,ratio,0.67
+S12000005,Clackmannanshire,Dependency ratio,2021/2022,Ratio,ratio,0.6
+S12000006,Dumfries and Galloway,Dependency ratio,2021/2022,Ratio,ratio,0.73
+S12000008,East Ayrshire,Dependency ratio,2021/2022,Ratio,ratio,0.62
+S12000010,East Lothian,Dependency ratio,2021/2022,Ratio,ratio,0.64
+S12000011,East Renfrewshire,Dependency ratio,2021/2022,Ratio,ratio,0.71
+S12000013,Na h-Eileanan Siar,Dependency ratio,2021/2022,Ratio,ratio,0.72
+S12000014,Falkirk,Dependency ratio,2021/2022,Ratio,ratio,0.58
+S12000017,Highland,Dependency ratio,2021/2022,Ratio,ratio,0.65
+S12000018,Inverclyde,Dependency ratio,2021/2022,Ratio,ratio,0.61
+S12000019,Midlothian,Dependency ratio,2021/2022,Ratio,ratio,0.61
+S12000020,Moray,Dependency ratio,2021/2022,Ratio,ratio,0.66
+S12000021,North Ayrshire,Dependency ratio,2021/2022,Ratio,ratio,0.66
+S12000023,Orkney Islands,Dependency ratio,2021/2022,Ratio,ratio,0.69
+S12000026,Scottish Borders,Dependency ratio,2021/2022,Ratio,ratio,0.72
+S12000027,Shetland Islands,Dependency ratio,2021/2022,Ratio,ratio,0.67
+S12000028,South Ayrshire,Dependency ratio,2021/2022,Ratio,ratio,0.72
+S12000029,South Lanarkshire,Dependency ratio,2021/2022,Ratio,ratio,0.59
+S12000030,Stirling,Dependency ratio,2021/2022,Ratio,ratio,0.57
+S12000033,Aberdeen City,Dependency ratio,2021/2022,Ratio,ratio,0.49
+S12000034,Aberdeenshire,Dependency ratio,2021/2022,Ratio,ratio,0.65
+S12000035,Argyll and Bute,Dependency ratio,2021/2022,Ratio,ratio,0.72
+S12000036,City of Edinburgh,Dependency ratio,2021/2022,Ratio,ratio,0.44
+S12000038,Renfrewshire,Dependency ratio,2021/2022,Ratio,ratio,0.55
+S12000039,West Dunbartonshire,Dependency ratio,2021/2022,Ratio,ratio,0.59
+S12000040,West Lothian,Dependency ratio,2021/2022,Ratio,ratio,0.56
+S12000041,Angus,Dependency ratio,2021/2022,Ratio,ratio,0.7
+S12000042,Dundee City,Dependency ratio,2021/2022,Ratio,ratio,0.51
+S12000045,East Dunbartonshire,Dependency ratio,2021/2022,Ratio,ratio,0.72
+S12000047,Fife,Dependency ratio,2021/2022,Ratio,ratio,0.62
+S12000048,Perth and Kinross,Dependency ratio,2021/2022,Ratio,ratio,0.68
+S12000049,Glasgow City,Dependency ratio,2021/2022,Ratio,ratio,0.42
+S12000050,North Lanarkshire,Dependency ratio,2021/2022,Ratio,ratio,0.55
+W06000001,Isle of Anglesey,Dependency ratio,2021/2022,Ratio,ratio,0.77
+W06000002,Gwynedd,Dependency ratio,2021/2022,Ratio,ratio,0.66
+W06000003,Conwy,Dependency ratio,2021/2022,Ratio,ratio,0.77
+W06000004,Denbighshire,Dependency ratio,2021/2022,Ratio,ratio,0.74
+W06000005,Flintshire,Dependency ratio,2021/2022,Ratio,ratio,0.64
+W06000006,Wrexham,Dependency ratio,2021/2022,Ratio,ratio,0.63
+W06000008,Ceredigion,Dependency ratio,2021/2022,Ratio,ratio,0.66
+W06000009,Pembrokeshire,Dependency ratio,2021/2022,Ratio,ratio,0.76
+W06000010,Carmarthenshire,Dependency ratio,2021/2022,Ratio,ratio,0.71
+W06000011,Swansea,Dependency ratio,2021/2022,Ratio,ratio,0.6
+W06000012,Neath Port Talbot,Dependency ratio,2021/2022,Ratio,ratio,0.63
+W06000013,Bridgend,Dependency ratio,2021/2022,Ratio,ratio,0.63
+W06000014,Vale of Glamorgan,Dependency ratio,2021/2022,Ratio,ratio,0.68
+W06000015,Cardiff,Dependency ratio,2021/2022,Ratio,ratio,0.49
+W06000016,Rhondda Cynon Taf,Dependency ratio,2021/2022,Ratio,ratio,0.61
+W06000018,Caerphilly,Dependency ratio,2021/2022,Ratio,ratio,0.63
+W06000019,Blaenau Gwent,Dependency ratio,2021/2022,Ratio,ratio,0.61
+W06000020,Torfaen,Dependency ratio,2021/2022,Ratio,ratio,0.65
+W06000021,Monmouthshire,Dependency ratio,2021/2022,Ratio,ratio,0.72
+W06000022,Newport,Dependency ratio,2021/2022,Ratio,ratio,0.59
+W06000023,Powys,Dependency ratio,2021/2022,Ratio,ratio,0.77
+W06000024,Merthyr Tydfil,Dependency ratio,2021/2022,Ratio,ratio,0.61
+E06000001,Hartlepool,Population density,2021/2022,Density,residents per sq km,985.31
+E06000002,Middlesbrough,Population density,2021/2022,Density,residents per sq km,2671.16
+E06000003,Redcar and Cleveland,Population density,2021/2022,Density,residents per sq km,557.09
+E06000004,Stockton-on-Tees,Population density,2021/2022,Density,residents per sq km,959.27
+E06000005,Darlington,Population density,2021/2022,Density,residents per sq km,545.85
+E06000006,Halton,Population density,2021/2022,Density,residents per sq km,1624.62
+E06000007,Warrington,Population density,2021/2022,Density,residents per sq km,1168.0
+E06000008,Blackburn with Darwen,Population density,2021/2022,Density,residents per sq km,1129.33
+E06000009,Blackpool,Population density,2021/2022,Density,residents per sq km,4044.51
+E06000010,"Kingston upon Hull, City of",Population density,2021/2022,Density,residents per sq km,3730.35
+E06000011,East Riding of Yorkshire,Population density,2021/2022,Density,residents per sq km,142.38
+E06000012,North East Lincolnshire,Population density,2021/2022,Density,residents per sq km,814.89
+E06000013,North Lincolnshire,Population density,2021/2022,Density,residents per sq km,200.44
+E06000014,York,Population density,2021/2022,Density,residents per sq km,745.83
+E06000015,Derby,Population density,2021/2022,Density,residents per sq km,3349.96
+E06000016,Leicester,Population density,2021/2022,Density,residents per sq km,5025.52
+E06000017,Rutland,Population density,2021/2022,Density,residents per sq km,107.51
+E06000018,Nottingham,Population density,2021/2022,Density,residents per sq km,4336.77
+E06000019,"Herefordshire, County of",Population density,2021/2022,Density,residents per sq km,85.81
+E06000020,Telford and Wrekin,Population density,2021/2022,Density,residents per sq km,639.19
+E06000021,Stoke-on-Trent,Population density,2021/2022,Density,residents per sq km,2765.16
+E06000022,Bath and North East Somerset,Population density,2021/2022,Density,residents per sq km,559.13
+E06000023,"Bristol, City of",Population density,2021/2022,Density,residents per sq km,4308.39
+E06000024,North Somerset,Population density,2021/2022,Density,residents per sq km,579.81
+E06000025,South Gloucestershire,Population density,2021/2022,Density,residents per sq km,584.33
+E06000026,Plymouth,Population density,2021/2022,Density,residents per sq km,3315.09
+E06000027,Torbay,Population density,2021/2022,Density,residents per sq km,2215.54
+E06000030,Swindon,Population density,2021/2022,Density,residents per sq km,1014.53
+E06000031,Peterborough,Population density,2021/2022,Density,residents per sq km,628.04
+E06000032,Luton,Population density,2021/2022,Density,residents per sq km,5196.04
+E06000033,Southend-on-Sea,Population density,2021/2022,Density,residents per sq km,4335.73
+E06000034,Thurrock,Population density,2021/2022,Density,residents per sq km,1074.25
+E06000035,Medway,Population density,2021/2022,Density,residents per sq km,1444.2
+E06000036,Bracknell Forest,Population density,2021/2022,Density,residents per sq km,1139.27
+E06000037,West Berkshire,Population density,2021/2022,Density,residents per sq km,229.27
+E06000038,Reading,Population density,2021/2022,Density,residents per sq km,4313.17
+E06000039,Slough,Population density,2021/2022,Density,residents per sq km,4870.61
+E06000040,Windsor and Maidenhead,Population density,2021/2022,Density,residents per sq km,781.2
+E06000041,Wokingham,Population density,2021/2022,Density,residents per sq km,991.78
+E06000042,Milton Keynes,Population density,2021/2022,Density,residents per sq km,930.07
+E06000043,Brighton and Hove,Population density,2021/2022,Density,residents per sq km,3345.78
+E06000044,Portsmouth,Population density,2021/2022,Density,residents per sq km,5150.28
+E06000045,Southampton,Population density,2021/2022,Density,residents per sq km,4990.35
+E06000046,Isle of Wight,Population density,2021/2022,Density,residents per sq km,370.0
+E06000047,County Durham,Population density,2021/2022,Density,residents per sq km,234.55
+E06000049,Cheshire East,Population density,2021/2022,Density,residents per sq km,341.91
+E06000050,Cheshire West and Chester,Population density,2021/2022,Density,residents per sq km,388.2
+E06000051,Shropshire,Population density,2021/2022,Density,residents per sq km,101.21
+E06000052,Cornwall,Population density,2021/2022,Density,residents per sq km,160.86
+E06000053,Isles of Scilly,Population density,2021/2022,Density,residents per sq km,125.81
+E06000054,Wiltshire,Population density,2021/2022,Density,residents per sq km,156.77
+E06000055,Bedford,Population density,2021/2022,Density,residents per sq km,388.79
+E06000056,Central Bedfordshire,Population density,2021/2022,Density,residents per sq km,411.16
+E06000057,Northumberland,Population density,2021/2022,Density,residents per sq km,63.86
+E06000058,"Bournemouth, Christchurch and Poole",Population density,2021/2022,Density,residents per sq km,2469.11
+E06000059,Dorset,Population density,2021/2022,Density,residents per sq km,152.38
+E06000060,Buckinghamshire,Population density,2021/2022,Density,residents per sq km,353.42
+E06000061,North Northamptonshire,Population density,2021/2022,Density,residents per sq km,364.41
+E06000062,West Northamptonshire,Population density,2021/2022,Density,residents per sq km,309.08
+E06000063,Cumberland,Population density,2021/2022,Density,residents per sq km,90.72
+E06000064,Westmorland and Furness,Population density,2021/2022,Density,residents per sq km,60.33
+E06000065,North Yorkshire,Population density,2021/2022,Density,residents per sq km,76.58
+E06000066,Somerset,Population density,2021/2022,Density,residents per sq km,165.66
+E07000008,Cambridge,Population density,2021/2022,Density,residents per sq km,3579.63
+E07000009,East Cambridgeshire,Population density,2021/2022,Density,residents per sq km,134.76
+E07000010,Fenland,Population density,2021/2022,Density,residents per sq km,187.51
+E07000011,Huntingdonshire,Population density,2021/2022,Density,residents per sq km,199.55
+E07000012,South Cambridgeshire,Population density,2021/2022,Density,residents per sq km,179.8
+E07000032,Amber Valley,Population density,2021/2022,Density,residents per sq km,475.46
+E07000033,Bolsover,Population density,2021/2022,Density,residents per sq km,500.66
+E07000034,Chesterfield,Population density,2021/2022,Density,residents per sq km,1568.25
+E07000035,Derbyshire Dales,Population density,2021/2022,Density,residents per sq km,90.28
+E07000036,Erewash,Population density,2021/2022,Density,residents per sq km,1029.79
+E07000037,High Peak,Population density,2021/2022,Density,residents per sq km,168.66
+E07000038,North East Derbyshire,Population density,2021/2022,Density,residents per sq km,370.09
+E07000039,South Derbyshire,Population density,2021/2022,Density,residents per sq km,317.06
+E07000040,East Devon,Population density,2021/2022,Density,residents per sq km,185.24
+E07000041,Exeter,Population density,2021/2022,Density,residents per sq km,2778.93
+E07000042,Mid Devon,Population density,2021/2022,Density,residents per sq km,90.75
+E07000043,North Devon,Population density,2021/2022,Density,residents per sq km,90.81
+E07000044,South Hams,Population density,2021/2022,Density,residents per sq km,99.97
+E07000045,Teignbridge,Population density,2021/2022,Density,residents per sq km,200.08
+E07000046,Torridge,Population density,2021/2022,Density,residents per sq km,69.24
+E07000047,West Devon,Population density,2021/2022,Density,residents per sq km,49.23
+E07000061,Eastbourne,Population density,2021/2022,Density,residents per sq km,2302.6
+E07000062,Hastings,Population density,2021/2022,Density,residents per sq km,3053.2
+E07000063,Lewes,Population density,2021/2022,Density,residents per sq km,342.01
+E07000064,Rother,Population density,2021/2022,Density,residents per sq km,182.77
+E07000065,Wealden,Population density,2021/2022,Density,residents per sq km,192.22
+E07000066,Basildon,Population density,2021/2022,Density,residents per sq km,1704.93
+E07000067,Braintree,Population density,2021/2022,Density,residents per sq km,253.83
+E07000068,Brentwood,Population density,2021/2022,Density,residents per sq km,503.19
+E07000069,Castle Point,Population density,2021/2022,Density,residents per sq km,2005.65
+E07000070,Chelmsford,Population density,2021/2022,Density,residents per sq km,535.83
+E07000071,Colchester,Population density,2021/2022,Density,residents per sq km,587.15
+E07000072,Epping Forest,Population density,2021/2022,Density,residents per sq km,398.2
+E07000073,Harlow,Population density,2021/2022,Density,residents per sq km,3055.6
+E07000074,Maldon,Population density,2021/2022,Density,residents per sq km,185.03
+E07000075,Rochford,Population density,2021/2022,Density,residents per sq km,512.66
+E07000076,Tendring,Population density,2021/2022,Density,residents per sq km,440.92
+E07000077,Uttlesford,Population density,2021/2022,Density,residents per sq km,142.46
+E07000078,Cheltenham,Population density,2021/2022,Density,residents per sq km,2550.36
+E07000079,Cotswold,Population density,2021/2022,Density,residents per sq km,78.0
+E07000080,Forest of Dean,Population density,2021/2022,Density,residents per sq km,165.44
+E07000081,Gloucester,Population density,2021/2022,Density,residents per sq km,3265.26
+E07000082,Stroud,Population density,2021/2022,Density,residents per sq km,262.95
+E07000083,Tewkesbury,Population density,2021/2022,Density,residents per sq km,228.98
+E07000084,Basingstoke and Deane,Population density,2021/2022,Density,residents per sq km,292.13
+E07000085,East Hampshire,Population density,2021/2022,Density,residents per sq km,244.44
+E07000086,Eastleigh,Population density,2021/2022,Density,residents per sq km,1712.14
+E07000087,Fareham,Population density,2021/2022,Density,residents per sq km,1542.86
+E07000088,Gosport,Population density,2021/2022,Density,residents per sq km,3229.8
+E07000089,Hart,Population density,2021/2022,Density,residents per sq km,461.82
+E07000090,Havant,Population density,2021/2022,Density,residents per sq km,2227.88
+E07000091,New Forest,Population density,2021/2022,Density,residents per sq km,233.7
+E07000092,Rushmoor,Population density,2021/2022,Density,residents per sq km,2554.61
+E07000093,Test Valley,Population density,2021/2022,Density,residents per sq km,207.9
+E07000094,Winchester,Population density,2021/2022,Density,residents per sq km,192.81
+E07000095,Broxbourne,Population density,2021/2022,Density,residents per sq km,1924.12
+E07000096,Dacorum,Population density,2021/2022,Density,residents per sq km,729.86
+E07000098,Hertsmere,Population density,2021/2022,Density,residents per sq km,1066.25
+E07000099,North Hertfordshire,Population density,2021/2022,Density,residents per sq km,354.86
+E07000102,Three Rivers,Population density,2021/2022,Density,residents per sq km,1055.7
+E07000103,Watford,Population density,2021/2022,Density,residents per sq km,4771.03
+E07000105,Ashford,Population density,2021/2022,Density,residents per sq km,228.62
+E07000106,Canterbury,Population density,2021/2022,Density,residents per sq km,509.92
+E07000107,Dartford,Population density,2021/2022,Density,residents per sq km,1605.23
+E07000108,Dover,Population density,2021/2022,Density,residents per sq km,369.15
+E07000109,Gravesham,Population density,2021/2022,Density,residents per sq km,1079.93
+E07000110,Maidstone,Population density,2021/2022,Density,residents per sq km,446.89
+E07000111,Sevenoaks,Population density,2021/2022,Density,residents per sq km,326.4
+E07000112,Folkestone and Hythe,Population density,2021/2022,Density,residents per sq km,307.52
+E07000113,Swale,Population density,2021/2022,Density,residents per sq km,406.16
+E07000114,Thanet,Population density,2021/2022,Density,residents per sq km,1356.9
+E07000115,Tonbridge and Malling,Population density,2021/2022,Density,residents per sq km,550.56
+E07000116,Tunbridge Wells,Population density,2021/2022,Density,residents per sq km,348.07
+E07000117,Burnley,Population density,2021/2022,Density,residents per sq km,855.12
+E07000118,Chorley,Population density,2021/2022,Density,residents per sq km,580.66
+E07000119,Fylde,Population density,2021/2022,Density,residents per sq km,491.12
+E07000120,Hyndburn,Population density,2021/2022,Density,residents per sq km,1126.85
+E07000121,Lancaster,Population density,2021/2022,Density,residents per sq km,252.12
+E07000122,Pendle,Population density,2021/2022,Density,residents per sq km,565.26
+E07000123,Preston,Population density,2021/2022,Density,residents per sq km,1038.98
+E07000124,Ribble Valley,Population density,2021/2022,Density,residents per sq km,105.56
+E07000125,Rossendale,Population density,2021/2022,Density,residents per sq km,513.41
+E07000126,South Ribble,Population density,2021/2022,Density,residents per sq km,981.0
+E07000127,West Lancashire,Population density,2021/2022,Density,residents per sq km,338.77
+E07000128,Wyre,Population density,2021/2022,Density,residents per sq km,396.75
+E07000129,Blaby,Population density,2021/2022,Density,residents per sq km,788.73
+E07000130,Charnwood,Population density,2021/2022,Density,residents per sq km,659.34
+E07000131,Harborough,Population density,2021/2022,Density,residents per sq km,164.97
+E07000132,Hinckley and Bosworth,Population density,2021/2022,Density,residents per sq km,382.19
+E07000133,Melton,Population density,2021/2022,Density,residents per sq km,107.51
+E07000134,North West Leicestershire,Population density,2021/2022,Density,residents per sq km,374.84
+E07000135,Oadby and Wigston,Population density,2021/2022,Density,residents per sq km,2454.59
+E07000136,Boston,Population density,2021/2022,Density,residents per sq km,193.69
+E07000137,East Lindsey,Population density,2021/2022,Density,residents per sq km,80.54
+E07000138,Lincoln,Population density,2021/2022,Density,residents per sq km,2908.73
+E07000139,North Kesteven,Population density,2021/2022,Density,residents per sq km,128.0
+E07000140,South Holland,Population density,2021/2022,Density,residents per sq km,126.82
+E07000141,South Kesteven,Population density,2021/2022,Density,residents per sq km,152.14
+E07000142,West Lindsey,Population density,2021/2022,Density,residents per sq km,82.33
+E07000143,Breckland,Population density,2021/2022,Density,residents per sq km,108.4
+E07000144,Broadland,Population density,2021/2022,Density,residents per sq km,238.58
+E07000145,Great Yarmouth,Population density,2021/2022,Density,residents per sq km,572.23
+E07000146,King's Lynn and West Norfolk,Population density,2021/2022,Density,residents per sq km,107.21
+E07000147,North Norfolk,Population density,2021/2022,Density,residents per sq km,106.61
+E07000148,Norwich,Population density,2021/2022,Density,residents per sq km,3690.52
+E07000149,South Norfolk,Population density,2021/2022,Density,residents per sq km,156.39
+E07000170,Ashfield,Population density,2021/2022,Density,residents per sq km,1152.94
+E07000171,Bassetlaw,Population density,2021/2022,Density,residents per sq km,184.71
+E07000172,Broxtowe,Population density,2021/2022,Density,residents per sq km,1384.99
+E07000173,Gedling,Population density,2021/2022,Density,residents per sq km,977.32
+E07000174,Mansfield,Population density,2021/2022,Density,residents per sq km,1440.34
+E07000175,Newark and Sherwood,Population density,2021/2022,Density,residents per sq km,188.77
+E07000176,Rushcliffe,Population density,2021/2022,Density,residents per sq km,290.97
+E07000177,Cherwell,Population density,2021/2022,Density,residents per sq km,273.5
+E07000178,Oxford,Population density,2021/2022,Density,residents per sq km,3553.28
+E07000179,South Oxfordshire,Population density,2021/2022,Density,residents per sq km,219.73
+E07000180,Vale of White Horse,Population density,2021/2022,Density,residents per sq km,240.47
+E07000181,West Oxfordshire,Population density,2021/2022,Density,residents per sq km,159.9
+E07000192,Cannock Chase,Population density,2021/2022,Density,residents per sq km,1274.37
+E07000193,East Staffordshire,Population density,2021/2022,Density,residents per sq km,320.54
+E07000194,Lichfield,Population density,2021/2022,Density,residents per sq km,321.3
+E07000195,Newcastle-under-Lyme,Population density,2021/2022,Density,residents per sq km,584.49
+E07000196,South Staffordshire,Population density,2021/2022,Density,residents per sq km,271.24
+E07000197,Stafford,Population density,2021/2022,Density,residents per sq km,228.8
+E07000198,Staffordshire Moorlands,Population density,2021/2022,Density,residents per sq km,166.43
+E07000199,Tamworth,Population density,2021/2022,Density,residents per sq km,2550.03
+E07000200,Babergh,Population density,2021/2022,Density,residents per sq km,155.53
+E07000202,Ipswich,Population density,2021/2022,Density,residents per sq km,3535.03
+E07000203,Mid Suffolk,Population density,2021/2022,Density,residents per sq km,117.9
+E07000207,Elmbridge,Population density,2021/2022,Density,residents per sq km,1459.64
+E07000208,Epsom and Ewell,Population density,2021/2022,Density,residents per sq km,2374.4
+E07000209,Guildford,Population density,2021/2022,Density,residents per sq km,530.18
+E07000210,Mole Valley,Population density,2021/2022,Density,residents per sq km,338.3
+E07000211,Reigate and Banstead,Population density,2021/2022,Density,residents per sq km,1167.88
+E07000212,Runnymede,Population density,2021/2022,Density,residents per sq km,1128.85
+E07000213,Spelthorne,Population density,2021/2022,Density,residents per sq km,2293.11
+E07000214,Surrey Heath,Population density,2021/2022,Density,residents per sq km,951.21
+E07000215,Tandridge,Population density,2021/2022,Density,residents per sq km,354.01
+E07000216,Waverley,Population density,2021/2022,Density,residents per sq km,371.47
+E07000217,Woking,Population density,2021/2022,Density,residents per sq km,1634.08
+E07000218,North Warwickshire,Population density,2021/2022,Density,residents per sq km,228.75
+E07000219,Nuneaton and Bedworth,Population density,2021/2022,Density,residents per sq km,1700.69
+E07000220,Rugby,Population density,2021/2022,Density,residents per sq km,325.69
+E07000221,Stratford-on-Avon,Population density,2021/2022,Density,residents per sq km,137.77
+E07000222,Warwick,Population density,2021/2022,Density,residents per sq km,524.81
+E07000223,Adur,Population density,2021/2022,Density,residents per sq km,1534.25
+E07000224,Arun,Population density,2021/2022,Density,residents per sq km,746.12
+E07000225,Chichester,Population density,2021/2022,Density,residents per sq km,157.81
+E07000226,Crawley,Population density,2021/2022,Density,residents per sq km,2636.39
+E07000227,Horsham,Population density,2021/2022,Density,residents per sq km,276.81
+E07000228,Mid Sussex,Population density,2021/2022,Density,residents per sq km,456.75
+E07000229,Worthing,Population density,2021/2022,Density,residents per sq km,3423.66
+E07000234,Bromsgrove,Population density,2021/2022,Density,residents per sq km,457.13
+E07000235,Malvern Hills,Population density,2021/2022,Density,residents per sq km,137.74
+E07000236,Redditch,Population density,2021/2022,Density,residents per sq km,1604.16
+E07000237,Worcester,Population density,2021/2022,Density,residents per sq km,3114.57
+E07000238,Wychavon,Population density,2021/2022,Density,residents per sq km,199.69
+E07000239,Wyre Forest,Population density,2021/2022,Density,residents per sq km,519.9
+E07000240,St Albans,Population density,2021/2022,Density,residents per sq km,919.11
+E07000241,Welwyn Hatfield,Population density,2021/2022,Density,residents per sq km,925.07
+E07000242,East Hertfordshire,Population density,2021/2022,Density,residents per sq km,315.68
+E07000243,Stevenage,Population density,2021/2022,Density,residents per sq km,3446.2
+E07000244,East Suffolk,Population density,2021/2022,Density,residents per sq km,195.13
+E07000245,West Suffolk,Population density,2021/2022,Density,residents per sq km,173.91
+E08000001,Bolton,Population density,2021/2022,Density,residents per sq km,2117.3
+E08000002,Bury,Population density,2021/2022,Density,residents per sq km,1949.06
+E08000003,Manchester,Population density,2021/2022,Density,residents per sq km,4772.35
+E08000004,Oldham,Population density,2021/2022,Density,residents per sq km,1700.71
+E08000005,Rochdale,Population density,2021/2022,Density,residents per sq km,1415.18
+E08000006,Salford,Population density,2021/2022,Density,residents per sq km,2777.06
+E08000007,Stockport,Population density,2021/2022,Density,residents per sq km,2338.5
+E08000008,Tameside,Population density,2021/2022,Density,residents per sq km,2240.1
+E08000009,Trafford,Population density,2021/2022,Density,residents per sq km,2216.59
+E08000010,Wigan,Population density,2021/2022,Density,residents per sq km,1750.28
+E08000011,Knowsley,Population density,2021/2022,Density,residents per sq km,1786.34
+E08000012,Liverpool,Population density,2021/2022,Density,residents per sq km,4346.2
+E08000013,St. Helens,Population density,2021/2022,Density,residents per sq km,1343.88
+E08000014,Sefton,Population density,2021/2022,Density,residents per sq km,1783.2
+E08000015,Wirral,Population density,2021/2022,Density,residents per sq km,1989.76
+E08000016,Barnsley,Population density,2021/2022,Density,residents per sq km,743.18
+E08000017,Doncaster,Population density,2021/2022,Density,residents per sq km,542.45
+E08000018,Rotherham,Population density,2021/2022,Density,residents per sq km,927.66
+E08000019,Sheffield,Population density,2021/2022,Density,residents per sq km,1512.62
+E08000021,Newcastle upon Tyne,Population density,2021/2022,Density,residents per sq km,2645.43
+E08000022,North Tyneside,Population density,2021/2022,Density,residents per sq km,2539.04
+E08000023,South Tyneside,Population density,2021/2022,Density,residents per sq km,2293.93
+E08000024,Sunderland,Population density,2021/2022,Density,residents per sq km,1995.07
+E08000025,Birmingham,Population density,2021/2022,Density,residents per sq km,4275.62
+E08000026,Coventry,Population density,2021/2022,Density,residents per sq km,3500.58
+E08000027,Dudley,Population density,2021/2022,Density,residents per sq km,3301.78
+E08000028,Sandwell,Population density,2021/2022,Density,residents per sq km,3994.89
+E08000029,Solihull,Population density,2021/2022,Density,residents per sq km,1212.82
+E08000030,Walsall,Population density,2021/2022,Density,residents per sq km,2732.02
+E08000031,Wolverhampton,Population density,2021/2022,Density,residents per sq km,3797.95
+E08000032,Bradford,Population density,2021/2022,Density,residents per sq km,1491.35
+E08000033,Calderdale,Population density,2021/2022,Density,residents per sq km,567.73
+E08000034,Kirklees,Population density,2021/2022,Density,residents per sq km,1060.37
+E08000035,Leeds,Population density,2021/2022,Density,residents per sq km,1471.74
+E08000036,Wakefield,Population density,2021/2022,Density,residents per sq km,1043.59
+E08000037,Gateshead,Population density,2021/2022,Density,residents per sq km,1378.0
+E09000001,City of London,Population density,2021/2022,Density,residents per sq km,2970.0
+E09000002,Barking and Dagenham,Population density,2021/2022,Density,residents per sq km,6062.65
+E09000003,Barnet,Population density,2021/2022,Density,residents per sq km,4487.26
+E09000004,Bexley,Population density,2021/2022,Density,residents per sq km,4069.05
+E09000005,Brent,Population density,2021/2022,Density,residents per sq km,7859.54
+E09000006,Bromley,Population density,2021/2022,Density,residents per sq km,2198.06
+E09000007,Camden,Population density,2021/2022,Density,residents per sq km,9648.78
+E09000008,Croydon,Population density,2021/2022,Density,residents per sq km,4518.76
+E09000009,Ealing,Population density,2021/2022,Density,residents per sq km,6609.66
+E09000010,Enfield,Population density,2021/2022,Density,residents per sq km,4083.95
+E09000011,Greenwich,Population density,2021/2022,Density,residents per sq km,6109.9
+E09000012,Hackney,Population density,2021/2022,Density,residents per sq km,13607.75
+E09000013,Hammersmith and Fulham,Population density,2021/2022,Density,residents per sq km,11167.22
+E09000014,Haringey,Population density,2021/2022,Density,residents per sq km,8925.06
+E09000015,Harrow,Population density,2021/2022,Density,residents per sq km,5176.0
+E09000016,Havering,Population density,2021/2022,Density,residents per sq km,2332.75
+E09000017,Hillingdon,Population density,2021/2022,Density,residents per sq km,2643.82
+E09000018,Hounslow,Population density,2021/2022,Density,residents per sq km,5149.56
+E09000019,Islington,Population density,2021/2022,Density,residents per sq km,14577.36
+E09000020,Kensington and Chelsea,Population density,2021/2022,Density,residents per sq km,11824.16
+E09000021,Kingston upon Thames,Population density,2021/2022,Density,residents per sq km,4511.08
+E09000022,Lambeth,Population density,2021/2022,Density,residents per sq km,11849.62
+E09000023,Lewisham,Population density,2021/2022,Density,residents per sq km,8551.56
+E09000024,Merton,Population density,2021/2022,Density,residents per sq km,5719.38
+E09000025,Newham,Population density,2021/2022,Density,residents per sq km,9698.25
+E09000026,Redbridge,Population density,2021/2022,Density,residents per sq km,5501.63
+E09000027,Richmond upon Thames,Population density,2021/2022,Density,residents per sq km,3402.79
+E09000028,Southwark,Population density,2021/2022,Density,residents per sq km,10653.14
+E09000029,Sutton,Population density,2021/2022,Density,residents per sq km,4781.21
+E09000030,Tower Hamlets,Population density,2021/2022,Density,residents per sq km,15695.01
+E09000031,Waltham Forest,Population density,2021/2022,Density,residents per sq km,7174.04
+E09000032,Wandsworth,Population density,2021/2022,Density,residents per sq km,9558.9
+E09000033,Westminster,Population density,2021/2022,Density,residents per sq km,9507.04
+N09000001,Antrim and Newtownabbey,Population density,2021/2022,Density,residents per sq km,255.03
+N09000002,"Armagh City, Banbridge and Craigavon",Population density,2021/2022,Density,residents per sq km,163.41
+N09000003,Belfast,Population density,2021/2022,Density,residents per sq km,2508.17
+N09000004,Causeway Coast and Glens,Population density,2021/2022,Density,residents per sq km,71.39
+N09000005,Derry City and Strabane,Population density,2021/2022,Density,residents per sq km,120.49
+N09000006,Fermanagh and Omagh,Population density,2021/2022,Density,residents per sq km,40.79
+N09000007,Lisburn and Castlereagh,Population density,2021/2022,Density,residents per sq km,294.8
+N09000008,Mid and East Antrim,Population density,2021/2022,Density,residents per sq km,131.22
+N09000009,Mid Ulster,Population density,2021/2022,Density,residents per sq km,82.07
+N09000010,"Newry, Mourne and Down",Population density,2021/2022,Density,residents per sq km,108.23
+N09000011,Ards and North Down,Population density,2021/2022,Density,residents per sq km,288.91
+S12000005,Clackmannanshire,Population density,2021/2022,Density,residents per sq km,325.27
+S12000006,Dumfries and Galloway,Population density,2021/2022,Density,residents per sq km,22.7
+S12000008,East Ayrshire,Population density,2021/2022,Density,residents per sq km,95.33
+S12000010,East Lothian,Population density,2021/2022,Density,residents per sq km,165.31
+S12000011,East Renfrewshire,Population density,2021/2022,Density,residents per sq km,555.63
+S12000013,Na h-Eileanan Siar,Population density,2021/2022,Density,residents per sq km,8.55
+S12000014,Falkirk,Population density,2021/2022,Density,residents per sq km,533.1
+S12000017,Highland,Population density,2021/2022,Density,residents per sq km,9.17
+S12000018,Inverclyde,Population density,2021/2022,Density,residents per sq km,488.83
+S12000019,Midlothian,Population density,2021/2022,Density,residents per sq km,272.92
+S12000020,Moray,Population density,2021/2022,Density,residents per sq km,41.69
+S12000021,North Ayrshire,Population density,2021/2022,Density,residents per sq km,150.7
+S12000023,Orkney Islands,Population density,2021/2022,Density,residents per sq km,22.17
+S12000026,Scottish Borders,Population density,2021/2022,Density,residents per sq km,24.69
+S12000027,Shetland Islands,Population density,2021/2022,Density,residents per sq km,15.66
+S12000028,South Ayrshire,Population density,2021/2022,Density,residents per sq km,91.24
+S12000029,South Lanarkshire,Population density,2021/2022,Density,residents per sq km,184.58
+S12000030,Stirling,Population density,2021/2022,Density,residents per sq km,42.36
+S12000033,Aberdeen City,Population density,2021/2022,Density,residents per sq km,1207.2
+S12000034,Aberdeenshire,Population density,2021/2022,Density,residents per sq km,41.78
+S12000035,Argyll and Bute,Population density,2021/2022,Density,residents per sq km,12.45
+S12000036,City of Edinburgh,Population density,2021/2022,Density,residents per sq km,1953.51
+S12000038,Renfrewshire,Population density,2021/2022,Density,residents per sq km,703.18
+S12000039,West Dunbartonshire,Population density,2021/2022,Density,residents per sq km,556.8
+S12000040,West Lothian,Population density,2021/2022,Density,residents per sq km,423.81
+S12000041,Angus,Population density,2021/2022,Density,residents per sq km,52.42
+S12000042,Dundee City,Population density,2021/2022,Density,residents per sq km,2486.55
+S12000045,East Dunbartonshire,Population density,2021/2022,Density,residents per sq km,624.32
+S12000047,Fife,Population density,2021/2022,Density,residents per sq km,280.55
+S12000048,Perth and Kinross,Population density,2021/2022,Density,residents per sq km,28.56
+S12000049,Glasgow City,Population density,2021/2022,Density,residents per sq km,3554.84
+S12000050,North Lanarkshire,Population density,2021/2022,Density,residents per sq km,725.49
+W06000001,Isle of Anglesey,Population density,2021/2022,Density,residents per sq km,96.73
+W06000002,Gwynedd,Population density,2021/2022,Density,residents per sq km,46.31
+W06000003,Conwy,Population density,2021/2022,Density,residents per sq km,101.92
+W06000004,Denbighshire,Population density,2021/2022,Density,residents per sq km,114.49
+W06000005,Flintshire,Population density,2021/2022,Density,residents per sq km,352.32
+W06000006,Wrexham,Population density,2021/2022,Density,residents per sq km,268.21
+W06000008,Ceredigion,Population density,2021/2022,Density,residents per sq km,40.04
+W06000009,Pembrokeshire,Population density,2021/2022,Density,residents per sq km,76.23
+W06000010,Carmarthenshire,Population density,2021/2022,Density,residents per sq km,79.27
+W06000011,Swansea,Population density,2021/2022,Density,residents per sq km,631.57
+W06000012,Neath Port Talbot,Population density,2021/2022,Density,residents per sq km,322.47
+W06000013,Bridgend,Population density,2021/2022,Density,residents per sq km,580.13
+W06000014,Vale of Glamorgan,Population density,2021/2022,Density,residents per sq km,398.43
+W06000015,Cardiff,Population density,2021/2022,Density,residents per sq km,2571.11
+W06000016,Rhondda Cynon Taf,Population density,2021/2022,Density,residents per sq km,560.3
+W06000018,Caerphilly,Population density,2021/2022,Density,residents per sq km,634.32
+W06000019,Blaenau Gwent,Population density,2021/2022,Density,residents per sq km,615.33
+W06000020,Torfaen,Population density,2021/2022,Density,residents per sq km,734.1
+W06000021,Monmouthshire,Population density,2021/2022,Density,residents per sq km,109.47
+W06000022,Newport,Population density,2021/2022,Density,residents per sq km,838.03
+W06000023,Powys,Population density,2021/2022,Density,residents per sq km,25.7
+W06000024,Merthyr Tydfil,Population density,2021/2022,Density,residents per sq km,527.92
+E06000001,Hartlepool,Residents with no qualifications,2021/2022,Percentage,%,23.1
+E06000002,Middlesbrough,Residents with no qualifications,2021/2022,Percentage,%,23.9
+E06000003,Redcar and Cleveland,Residents with no qualifications,2021/2022,Percentage,%,22.0
+E06000004,Stockton-on-Tees,Residents with no qualifications,2021/2022,Percentage,%,18.6
+E06000005,Darlington,Residents with no qualifications,2021/2022,Percentage,%,19.3
+E06000006,Halton,Residents with no qualifications,2021/2022,Percentage,%,21.0
+E06000007,Warrington,Residents with no qualifications,2021/2022,Percentage,%,16.5
+E06000008,Blackburn with Darwen,Residents with no qualifications,2021/2022,Percentage,%,24.2
+E06000009,Blackpool,Residents with no qualifications,2021/2022,Percentage,%,24.6
+E06000010,"Kingston upon Hull, City of",Residents with no qualifications,2021/2022,Percentage,%,25.3
+E06000011,East Riding of Yorkshire,Residents with no qualifications,2021/2022,Percentage,%,18.2
+E06000012,North East Lincolnshire,Residents with no qualifications,2021/2022,Percentage,%,24.2
+E06000013,North Lincolnshire,Residents with no qualifications,2021/2022,Percentage,%,21.8
+E06000014,York,Residents with no qualifications,2021/2022,Percentage,%,13.3
+E06000015,Derby,Residents with no qualifications,2021/2022,Percentage,%,20.1
+E06000016,Leicester,Residents with no qualifications,2021/2022,Percentage,%,26.7
+E06000017,Rutland,Residents with no qualifications,2021/2022,Percentage,%,13.1
+E06000018,Nottingham,Residents with no qualifications,2021/2022,Percentage,%,19.5
+E06000019,"Herefordshire, County of",Residents with no qualifications,2021/2022,Percentage,%,18.0
+E06000020,Telford and Wrekin,Residents with no qualifications,2021/2022,Percentage,%,20.0
+E06000021,Stoke-on-Trent,Residents with no qualifications,2021/2022,Percentage,%,25.9
+E06000022,Bath and North East Somerset,Residents with no qualifications,2021/2022,Percentage,%,12.3
+E06000023,"Bristol, City of",Residents with no qualifications,2021/2022,Percentage,%,14.5
+E06000024,North Somerset,Residents with no qualifications,2021/2022,Percentage,%,14.9
+E06000025,South Gloucestershire,Residents with no qualifications,2021/2022,Percentage,%,14.2
+E06000026,Plymouth,Residents with no qualifications,2021/2022,Percentage,%,17.3
+E06000027,Torbay,Residents with no qualifications,2021/2022,Percentage,%,19.8
+E06000030,Swindon,Residents with no qualifications,2021/2022,Percentage,%,17.3
+E06000031,Peterborough,Residents with no qualifications,2021/2022,Percentage,%,22.4
+E06000032,Luton,Residents with no qualifications,2021/2022,Percentage,%,22.9
+E06000033,Southend-on-Sea,Residents with no qualifications,2021/2022,Percentage,%,19.7
+E06000034,Thurrock,Residents with no qualifications,2021/2022,Percentage,%,21.6
+E06000035,Medway,Residents with no qualifications,2021/2022,Percentage,%,19.4
+E06000036,Bracknell Forest,Residents with no qualifications,2021/2022,Percentage,%,13.2
+E06000037,West Berkshire,Residents with no qualifications,2021/2022,Percentage,%,14.1
+E06000038,Reading,Residents with no qualifications,2021/2022,Percentage,%,15.8
+E06000039,Slough,Residents with no qualifications,2021/2022,Percentage,%,20.2
+E06000040,Windsor and Maidenhead,Residents with no qualifications,2021/2022,Percentage,%,12.6
+E06000041,Wokingham,Residents with no qualifications,2021/2022,Percentage,%,10.4
+E06000042,Milton Keynes,Residents with no qualifications,2021/2022,Percentage,%,15.8
+E06000043,Brighton and Hove,Residents with no qualifications,2021/2022,Percentage,%,12.4
+E06000044,Portsmouth,Residents with no qualifications,2021/2022,Percentage,%,17.4
+E06000045,Southampton,Residents with no qualifications,2021/2022,Percentage,%,17.3
+E06000046,Isle of Wight,Residents with no qualifications,2021/2022,Percentage,%,18.5
+E06000047,County Durham,Residents with no qualifications,2021/2022,Percentage,%,20.9
+E06000049,Cheshire East,Residents with no qualifications,2021/2022,Percentage,%,15.0
+E06000050,Cheshire West and Chester,Residents with no qualifications,2021/2022,Percentage,%,15.8
+E06000051,Shropshire,Residents with no qualifications,2021/2022,Percentage,%,16.7
+E06000052,Cornwall,Residents with no qualifications,2021/2022,Percentage,%,16.3
+E06000053,Isles of Scilly,Residents with no qualifications,2021/2022,Percentage,%,12.3
+E06000054,Wiltshire,Residents with no qualifications,2021/2022,Percentage,%,14.4
+E06000055,Bedford,Residents with no qualifications,2021/2022,Percentage,%,16.8
+E06000056,Central Bedfordshire,Residents with no qualifications,2021/2022,Percentage,%,15.0
+E06000057,Northumberland,Residents with no qualifications,2021/2022,Percentage,%,17.9
+E06000058,"Bournemouth, Christchurch and Poole",Residents with no qualifications,2021/2022,Percentage,%,15.9
+E06000059,Dorset,Residents with no qualifications,2021/2022,Percentage,%,15.8
+E06000060,Buckinghamshire,Residents with no qualifications,2021/2022,Percentage,%,13.8
+E06000061,North Northamptonshire,Residents with no qualifications,2021/2022,Percentage,%,19.9
+E06000062,West Northamptonshire,Residents with no qualifications,2021/2022,Percentage,%,17.4
+E06000063,Cumberland,Residents with no qualifications,2021/2022,Percentage,%,20.5
+E06000064,Westmorland and Furness,Residents with no qualifications,2021/2022,Percentage,%,16.0
+E06000065,North Yorkshire,Residents with no qualifications,2021/2022,Percentage,%,16.1
+E06000066,Somerset,Residents with no qualifications,2021/2022,Percentage,%,17.1
+E07000008,Cambridge,Residents with no qualifications,2021/2022,Percentage,%,9.6
+E07000009,East Cambridgeshire,Residents with no qualifications,2021/2022,Percentage,%,16.6
+E07000010,Fenland,Residents with no qualifications,2021/2022,Percentage,%,25.8
+E07000011,Huntingdonshire,Residents with no qualifications,2021/2022,Percentage,%,15.6
+E07000012,South Cambridgeshire,Residents with no qualifications,2021/2022,Percentage,%,11.8
+E07000032,Amber Valley,Residents with no qualifications,2021/2022,Percentage,%,19.7
+E07000033,Bolsover,Residents with no qualifications,2021/2022,Percentage,%,24.2
+E07000034,Chesterfield,Residents with no qualifications,2021/2022,Percentage,%,20.2
+E07000035,Derbyshire Dales,Residents with no qualifications,2021/2022,Percentage,%,15.7
+E07000036,Erewash,Residents with no qualifications,2021/2022,Percentage,%,19.8
+E07000037,High Peak,Residents with no qualifications,2021/2022,Percentage,%,14.9
+E07000038,North East Derbyshire,Residents with no qualifications,2021/2022,Percentage,%,20.0
+E07000039,South Derbyshire,Residents with no qualifications,2021/2022,Percentage,%,16.0
+E07000040,East Devon,Residents with no qualifications,2021/2022,Percentage,%,15.1
+E07000041,Exeter,Residents with no qualifications,2021/2022,Percentage,%,13.5
+E07000042,Mid Devon,Residents with no qualifications,2021/2022,Percentage,%,17.0
+E07000043,North Devon,Residents with no qualifications,2021/2022,Percentage,%,17.8
+E07000044,South Hams,Residents with no qualifications,2021/2022,Percentage,%,13.0
+E07000045,Teignbridge,Residents with no qualifications,2021/2022,Percentage,%,15.7
+E07000046,Torridge,Residents with no qualifications,2021/2022,Percentage,%,18.8
+E07000047,West Devon,Residents with no qualifications,2021/2022,Percentage,%,15.6
+E07000061,Eastbourne,Residents with no qualifications,2021/2022,Percentage,%,18.4
+E07000062,Hastings,Residents with no qualifications,2021/2022,Percentage,%,20.1
+E07000063,Lewes,Residents with no qualifications,2021/2022,Percentage,%,16.1
+E07000064,Rother,Residents with no qualifications,2021/2022,Percentage,%,18.9
+E07000065,Wealden,Residents with no qualifications,2021/2022,Percentage,%,14.9
+E07000066,Basildon,Residents with no qualifications,2021/2022,Percentage,%,20.7
+E07000067,Braintree,Residents with no qualifications,2021/2022,Percentage,%,18.4
+E07000068,Brentwood,Residents with no qualifications,2021/2022,Percentage,%,15.1
+E07000069,Castle Point,Residents with no qualifications,2021/2022,Percentage,%,23.9
+E07000070,Chelmsford,Residents with no qualifications,2021/2022,Percentage,%,15.2
+E07000071,Colchester,Residents with no qualifications,2021/2022,Percentage,%,15.4
+E07000072,Epping Forest,Residents with no qualifications,2021/2022,Percentage,%,18.9
+E07000073,Harlow,Residents with no qualifications,2021/2022,Percentage,%,21.0
+E07000074,Maldon,Residents with no qualifications,2021/2022,Percentage,%,19.3
+E07000075,Rochford,Residents with no qualifications,2021/2022,Percentage,%,19.2
+E07000076,Tendring,Residents with no qualifications,2021/2022,Percentage,%,26.2
+E07000077,Uttlesford,Residents with no qualifications,2021/2022,Percentage,%,13.8
+E07000078,Cheltenham,Residents with no qualifications,2021/2022,Percentage,%,13.4
+E07000079,Cotswold,Residents with no qualifications,2021/2022,Percentage,%,13.7
+E07000080,Forest of Dean,Residents with no qualifications,2021/2022,Percentage,%,18.4
+E07000081,Gloucester,Residents with no qualifications,2021/2022,Percentage,%,18.2
+E07000082,Stroud,Residents with no qualifications,2021/2022,Percentage,%,13.5
+E07000083,Tewkesbury,Residents with no qualifications,2021/2022,Percentage,%,13.9
+E07000084,Basingstoke and Deane,Residents with no qualifications,2021/2022,Percentage,%,14.2
+E07000085,East Hampshire,Residents with no qualifications,2021/2022,Percentage,%,13.1
+E07000086,Eastleigh,Residents with no qualifications,2021/2022,Percentage,%,13.7
+E07000087,Fareham,Residents with no qualifications,2021/2022,Percentage,%,13.9
+E07000088,Gosport,Residents with no qualifications,2021/2022,Percentage,%,17.4
+E07000089,Hart,Residents with no qualifications,2021/2022,Percentage,%,10.9
+E07000090,Havant,Residents with no qualifications,2021/2022,Percentage,%,19.9
+E07000091,New Forest,Residents with no qualifications,2021/2022,Percentage,%,16.1
+E07000092,Rushmoor,Residents with no qualifications,2021/2022,Percentage,%,18.3
+E07000093,Test Valley,Residents with no qualifications,2021/2022,Percentage,%,14.1
+E07000094,Winchester,Residents with no qualifications,2021/2022,Percentage,%,11.1
+E07000095,Broxbourne,Residents with no qualifications,2021/2022,Percentage,%,20.8
+E07000096,Dacorum,Residents with no qualifications,2021/2022,Percentage,%,14.7
+E07000098,Hertsmere,Residents with no qualifications,2021/2022,Percentage,%,16.0
+E07000099,North Hertfordshire,Residents with no qualifications,2021/2022,Percentage,%,13.6
+E07000102,Three Rivers,Residents with no qualifications,2021/2022,Percentage,%,13.4
+E07000103,Watford,Residents with no qualifications,2021/2022,Percentage,%,15.9
+E07000105,Ashford,Residents with no qualifications,2021/2022,Percentage,%,17.6
+E07000106,Canterbury,Residents with no qualifications,2021/2022,Percentage,%,16.2
+E07000107,Dartford,Residents with no qualifications,2021/2022,Percentage,%,16.2
+E07000108,Dover,Residents with no qualifications,2021/2022,Percentage,%,19.5
+E07000109,Gravesham,Residents with no qualifications,2021/2022,Percentage,%,20.3
+E07000110,Maidstone,Residents with no qualifications,2021/2022,Percentage,%,17.4
+E07000111,Sevenoaks,Residents with no qualifications,2021/2022,Percentage,%,15.6
+E07000112,Folkestone and Hythe,Residents with no qualifications,2021/2022,Percentage,%,19.4
+E07000113,Swale,Residents with no qualifications,2021/2022,Percentage,%,22.0
+E07000114,Thanet,Residents with no qualifications,2021/2022,Percentage,%,21.7
+E07000115,Tonbridge and Malling,Residents with no qualifications,2021/2022,Percentage,%,15.5
+E07000116,Tunbridge Wells,Residents with no qualifications,2021/2022,Percentage,%,13.5
+E07000117,Burnley,Residents with no qualifications,2021/2022,Percentage,%,24.4
+E07000118,Chorley,Residents with no qualifications,2021/2022,Percentage,%,16.0
+E07000119,Fylde,Residents with no qualifications,2021/2022,Percentage,%,16.1
+E07000120,Hyndburn,Residents with no qualifications,2021/2022,Percentage,%,22.8
+E07000121,Lancaster,Residents with no qualifications,2021/2022,Percentage,%,15.8
+E07000122,Pendle,Residents with no qualifications,2021/2022,Percentage,%,24.8
+E07000123,Preston,Residents with no qualifications,2021/2022,Percentage,%,19.4
+E07000124,Ribble Valley,Residents with no qualifications,2021/2022,Percentage,%,13.2
+E07000125,Rossendale,Residents with no qualifications,2021/2022,Percentage,%,18.6
+E07000126,South Ribble,Residents with no qualifications,2021/2022,Percentage,%,15.7
+E07000127,West Lancashire,Residents with no qualifications,2021/2022,Percentage,%,17.8
+E07000128,Wyre,Residents with no qualifications,2021/2022,Percentage,%,19.8
+E07000129,Blaby,Residents with no qualifications,2021/2022,Percentage,%,17.3
+E07000130,Charnwood,Residents with no qualifications,2021/2022,Percentage,%,15.8
+E07000131,Harborough,Residents with no qualifications,2021/2022,Percentage,%,13.6
+E07000132,Hinckley and Bosworth,Residents with no qualifications,2021/2022,Percentage,%,18.3
+E07000133,Melton,Residents with no qualifications,2021/2022,Percentage,%,16.4
+E07000134,North West Leicestershire,Residents with no qualifications,2021/2022,Percentage,%,18.4
+E07000135,Oadby and Wigston,Residents with no qualifications,2021/2022,Percentage,%,18.6
+E07000136,Boston,Residents with no qualifications,2021/2022,Percentage,%,27.6
+E07000137,East Lindsey,Residents with no qualifications,2021/2022,Percentage,%,25.2
+E07000138,Lincoln,Residents with no qualifications,2021/2022,Percentage,%,17.4
+E07000139,North Kesteven,Residents with no qualifications,2021/2022,Percentage,%,16.2
+E07000140,South Holland,Residents with no qualifications,2021/2022,Percentage,%,24.6
+E07000141,South Kesteven,Residents with no qualifications,2021/2022,Percentage,%,16.9
+E07000142,West Lindsey,Residents with no qualifications,2021/2022,Percentage,%,18.1
+E07000143,Breckland,Residents with no qualifications,2021/2022,Percentage,%,22.3
+E07000144,Broadland,Residents with no qualifications,2021/2022,Percentage,%,17.6
+E07000145,Great Yarmouth,Residents with no qualifications,2021/2022,Percentage,%,26.5
+E07000146,King's Lynn and West Norfolk,Residents with no qualifications,2021/2022,Percentage,%,23.4
+E07000147,North Norfolk,Residents with no qualifications,2021/2022,Percentage,%,20.6
+E07000148,Norwich,Residents with no qualifications,2021/2022,Percentage,%,17.1
+E07000149,South Norfolk,Residents with no qualifications,2021/2022,Percentage,%,17.1
+E07000170,Ashfield,Residents with no qualifications,2021/2022,Percentage,%,23.6
+E07000171,Bassetlaw,Residents with no qualifications,2021/2022,Percentage,%,21.6
+E07000172,Broxtowe,Residents with no qualifications,2021/2022,Percentage,%,17.4
+E07000173,Gedling,Residents with no qualifications,2021/2022,Percentage,%,17.6
+E07000174,Mansfield,Residents with no qualifications,2021/2022,Percentage,%,24.3
+E07000175,Newark and Sherwood,Residents with no qualifications,2021/2022,Percentage,%,19.1
+E07000176,Rushcliffe,Residents with no qualifications,2021/2022,Percentage,%,12.0
+E07000177,Cherwell,Residents with no qualifications,2021/2022,Percentage,%,16.0
+E07000178,Oxford,Residents with no qualifications,2021/2022,Percentage,%,12.6
+E07000179,South Oxfordshire,Residents with no qualifications,2021/2022,Percentage,%,12.4
+E07000180,Vale of White Horse,Residents with no qualifications,2021/2022,Percentage,%,12.5
+E07000181,West Oxfordshire,Residents with no qualifications,2021/2022,Percentage,%,13.9
+E07000192,Cannock Chase,Residents with no qualifications,2021/2022,Percentage,%,22.0
+E07000193,East Staffordshire,Residents with no qualifications,2021/2022,Percentage,%,20.1
+E07000194,Lichfield,Residents with no qualifications,2021/2022,Percentage,%,17.1
+E07000195,Newcastle-under-Lyme,Residents with no qualifications,2021/2022,Percentage,%,20.1
+E07000196,South Staffordshire,Residents with no qualifications,2021/2022,Percentage,%,19.3
+E07000197,Stafford,Residents with no qualifications,2021/2022,Percentage,%,15.8
+E07000198,Staffordshire Moorlands,Residents with no qualifications,2021/2022,Percentage,%,20.1
+E07000199,Tamworth,Residents with no qualifications,2021/2022,Percentage,%,21.8
+E07000200,Babergh,Residents with no qualifications,2021/2022,Percentage,%,17.4
+E07000202,Ipswich,Residents with no qualifications,2021/2022,Percentage,%,21.7
+E07000203,Mid Suffolk,Residents with no qualifications,2021/2022,Percentage,%,17.6
+E07000207,Elmbridge,Residents with no qualifications,2021/2022,Percentage,%,10.8
+E07000208,Epsom and Ewell,Residents with no qualifications,2021/2022,Percentage,%,12.8
+E07000209,Guildford,Residents with no qualifications,2021/2022,Percentage,%,11.3
+E07000210,Mole Valley,Residents with no qualifications,2021/2022,Percentage,%,12.3
+E07000211,Reigate and Banstead,Residents with no qualifications,2021/2022,Percentage,%,13.1
+E07000212,Runnymede,Residents with no qualifications,2021/2022,Percentage,%,14.5
+E07000213,Spelthorne,Residents with no qualifications,2021/2022,Percentage,%,16.8
+E07000214,Surrey Heath,Residents with no qualifications,2021/2022,Percentage,%,13.1
+E07000215,Tandridge,Residents with no qualifications,2021/2022,Percentage,%,13.8
+E07000216,Waverley,Residents with no qualifications,2021/2022,Percentage,%,11.4
+E07000217,Woking,Residents with no qualifications,2021/2022,Percentage,%,13.2
+E07000218,North Warwickshire,Residents with no qualifications,2021/2022,Percentage,%,22.2
+E07000219,Nuneaton and Bedworth,Residents with no qualifications,2021/2022,Percentage,%,22.6
+E07000220,Rugby,Residents with no qualifications,2021/2022,Percentage,%,15.7
+E07000221,Stratford-on-Avon,Residents with no qualifications,2021/2022,Percentage,%,14.4
+E07000222,Warwick,Residents with no qualifications,2021/2022,Percentage,%,12.6
+E07000223,Adur,Residents with no qualifications,2021/2022,Percentage,%,19.5
+E07000224,Arun,Residents with no qualifications,2021/2022,Percentage,%,19.7
+E07000225,Chichester,Residents with no qualifications,2021/2022,Percentage,%,14.8
+E07000226,Crawley,Residents with no qualifications,2021/2022,Percentage,%,17.8
+E07000227,Horsham,Residents with no qualifications,2021/2022,Percentage,%,12.5
+E07000228,Mid Sussex,Residents with no qualifications,2021/2022,Percentage,%,11.7
+E07000229,Worthing,Residents with no qualifications,2021/2022,Percentage,%,16.2
+E07000234,Bromsgrove,Residents with no qualifications,2021/2022,Percentage,%,15.7
+E07000235,Malvern Hills,Residents with no qualifications,2021/2022,Percentage,%,14.6
+E07000236,Redditch,Residents with no qualifications,2021/2022,Percentage,%,20.8
+E07000237,Worcester,Residents with no qualifications,2021/2022,Percentage,%,17.4
+E07000238,Wychavon,Residents with no qualifications,2021/2022,Percentage,%,17.6
+E07000239,Wyre Forest,Residents with no qualifications,2021/2022,Percentage,%,21.8
+E07000240,St Albans,Residents with no qualifications,2021/2022,Percentage,%,10.1
+E07000241,Welwyn Hatfield,Residents with no qualifications,2021/2022,Percentage,%,14.3
+E07000242,East Hertfordshire,Residents with no qualifications,2021/2022,Percentage,%,13.8
+E07000243,Stevenage,Residents with no qualifications,2021/2022,Percentage,%,17.0
+E07000244,East Suffolk,Residents with no qualifications,2021/2022,Percentage,%,19.4
+E07000245,West Suffolk,Residents with no qualifications,2021/2022,Percentage,%,20.9
+E08000001,Bolton,Residents with no qualifications,2021/2022,Percentage,%,22.6
+E08000002,Bury,Residents with no qualifications,2021/2022,Percentage,%,18.5
+E08000003,Manchester,Residents with no qualifications,2021/2022,Percentage,%,19.7
+E08000004,Oldham,Residents with no qualifications,2021/2022,Percentage,%,24.7
+E08000005,Rochdale,Residents with no qualifications,2021/2022,Percentage,%,23.2
+E08000006,Salford,Residents with no qualifications,2021/2022,Percentage,%,19.7
+E08000007,Stockport,Residents with no qualifications,2021/2022,Percentage,%,15.5
+E08000008,Tameside,Residents with no qualifications,2021/2022,Percentage,%,21.8
+E08000009,Trafford,Residents with no qualifications,2021/2022,Percentage,%,14.0
+E08000010,Wigan,Residents with no qualifications,2021/2022,Percentage,%,21.1
+E08000011,Knowsley,Residents with no qualifications,2021/2022,Percentage,%,26.2
+E08000012,Liverpool,Residents with no qualifications,2021/2022,Percentage,%,22.3
+E08000013,St. Helens,Residents with no qualifications,2021/2022,Percentage,%,21.4
+E08000014,Sefton,Residents with no qualifications,2021/2022,Percentage,%,19.7
+E08000015,Wirral,Residents with no qualifications,2021/2022,Percentage,%,17.9
+E08000016,Barnsley,Residents with no qualifications,2021/2022,Percentage,%,25.2
+E08000017,Doncaster,Residents with no qualifications,2021/2022,Percentage,%,24.6
+E08000018,Rotherham,Residents with no qualifications,2021/2022,Percentage,%,23.4
+E08000019,Sheffield,Residents with no qualifications,2021/2022,Percentage,%,19.4
+E08000021,Newcastle upon Tyne,Residents with no qualifications,2021/2022,Percentage,%,18.6
+E08000022,North Tyneside,Residents with no qualifications,2021/2022,Percentage,%,17.5
+E08000023,South Tyneside,Residents with no qualifications,2021/2022,Percentage,%,20.5
+E08000024,Sunderland,Residents with no qualifications,2021/2022,Percentage,%,22.9
+E08000025,Birmingham,Residents with no qualifications,2021/2022,Percentage,%,23.9
+E08000026,Coventry,Residents with no qualifications,2021/2022,Percentage,%,19.4
+E08000027,Dudley,Residents with no qualifications,2021/2022,Percentage,%,23.1
+E08000028,Sandwell,Residents with no qualifications,2021/2022,Percentage,%,28.9
+E08000029,Solihull,Residents with no qualifications,2021/2022,Percentage,%,17.6
+E08000030,Walsall,Residents with no qualifications,2021/2022,Percentage,%,26.3
+E08000031,Wolverhampton,Residents with no qualifications,2021/2022,Percentage,%,25.3
+E08000032,Bradford,Residents with no qualifications,2021/2022,Percentage,%,24.0
+E08000033,Calderdale,Residents with no qualifications,2021/2022,Percentage,%,19.2
+E08000034,Kirklees,Residents with no qualifications,2021/2022,Percentage,%,20.7
+E08000035,Leeds,Residents with no qualifications,2021/2022,Percentage,%,18.2
+E08000036,Wakefield,Residents with no qualifications,2021/2022,Percentage,%,24.4
+E08000037,Gateshead,Residents with no qualifications,2021/2022,Percentage,%,21.6
+E09000001,City of London,Residents with no qualifications,2021/2022,Percentage,%,6.6
+E09000002,Barking and Dagenham,Residents with no qualifications,2021/2022,Percentage,%,22.7
+E09000003,Barnet,Residents with no qualifications,2021/2022,Percentage,%,15.4
+E09000004,Bexley,Residents with no qualifications,2021/2022,Percentage,%,18.2
+E09000005,Brent,Residents with no qualifications,2021/2022,Percentage,%,21.7
+E09000006,Bromley,Residents with no qualifications,2021/2022,Percentage,%,13.8
+E09000007,Camden,Residents with no qualifications,2021/2022,Percentage,%,11.8
+E09000008,Croydon,Residents with no qualifications,2021/2022,Percentage,%,16.1
+E09000009,Ealing,Residents with no qualifications,2021/2022,Percentage,%,17.9
+E09000010,Enfield,Residents with no qualifications,2021/2022,Percentage,%,22.5
+E09000011,Greenwich,Residents with no qualifications,2021/2022,Percentage,%,16.7
+E09000012,Hackney,Residents with no qualifications,2021/2022,Percentage,%,16.7
+E09000013,Hammersmith and Fulham,Residents with no qualifications,2021/2022,Percentage,%,11.9
+E09000014,Haringey,Residents with no qualifications,2021/2022,Percentage,%,18.5
+E09000015,Harrow,Residents with no qualifications,2021/2022,Percentage,%,17.4
+E09000016,Havering,Residents with no qualifications,2021/2022,Percentage,%,20.0
+E09000017,Hillingdon,Residents with no qualifications,2021/2022,Percentage,%,18.2
+E09000018,Hounslow,Residents with no qualifications,2021/2022,Percentage,%,18.6
+E09000019,Islington,Residents with no qualifications,2021/2022,Percentage,%,13.8
+E09000020,Kensington and Chelsea,Residents with no qualifications,2021/2022,Percentage,%,11.4
+E09000021,Kingston upon Thames,Residents with no qualifications,2021/2022,Percentage,%,11.9
+E09000022,Lambeth,Residents with no qualifications,2021/2022,Percentage,%,13.1
+E09000023,Lewisham,Residents with no qualifications,2021/2022,Percentage,%,14.6
+E09000024,Merton,Residents with no qualifications,2021/2022,Percentage,%,14.2
+E09000025,Newham,Residents with no qualifications,2021/2022,Percentage,%,20.7
+E09000026,Redbridge,Residents with no qualifications,2021/2022,Percentage,%,17.3
+E09000027,Richmond upon Thames,Residents with no qualifications,2021/2022,Percentage,%,9.1
+E09000028,Southwark,Residents with no qualifications,2021/2022,Percentage,%,13.9
+E09000029,Sutton,Residents with no qualifications,2021/2022,Percentage,%,15.2
+E09000030,Tower Hamlets,Residents with no qualifications,2021/2022,Percentage,%,16.2
+E09000031,Waltham Forest,Residents with no qualifications,2021/2022,Percentage,%,18.2
+E09000032,Wandsworth,Residents with no qualifications,2021/2022,Percentage,%,9.9
+E09000033,Westminster,Residents with no qualifications,2021/2022,Percentage,%,12.9
+N09000001,Antrim and Newtownabbey,Residents with no qualifications,2021/2022,Percentage,%,21.5
+N09000002,"Armagh City, Banbridge and Craigavon",Residents with no qualifications,2021/2022,Percentage,%,25.2
+N09000003,Belfast,Residents with no qualifications,2021/2022,Percentage,%,23.9
+N09000004,Causeway Coast and Glens,Residents with no qualifications,2021/2022,Percentage,%,26.0
+N09000005,Derry City and Strabane,Residents with no qualifications,2021/2022,Percentage,%,28.4
+N09000006,Fermanagh and Omagh,Residents with no qualifications,2021/2022,Percentage,%,25.5
+N09000007,Lisburn and Castlereagh,Residents with no qualifications,2021/2022,Percentage,%,17.9
+N09000008,Mid and East Antrim,Residents with no qualifications,2021/2022,Percentage,%,24.3
+N09000009,Mid Ulster,Residents with no qualifications,2021/2022,Percentage,%,27.5
+N09000010,"Newry, Mourne and Down",Residents with no qualifications,2021/2022,Percentage,%,23.1
+N09000011,Ards and North Down,Residents with no qualifications,2021/2022,Percentage,%,19.2
+S12000005,Clackmannanshire,Residents with no qualifications,2021/2022,Percentage,%,19.1
+S12000006,Dumfries and Galloway,Residents with no qualifications,2021/2022,Percentage,%,21.4
+S12000008,East Ayrshire,Residents with no qualifications,2021/2022,Percentage,%,22.2
+S12000010,East Lothian,Residents with no qualifications,2021/2022,Percentage,%,14.5
+S12000011,East Renfrewshire,Residents with no qualifications,2021/2022,Percentage,%,11.6
+S12000013,Na h-Eileanan Siar,Residents with no qualifications,2021/2022,Percentage,%,17.8
+S12000014,Falkirk,Residents with no qualifications,2021/2022,Percentage,%,17.1
+S12000017,Highland,Residents with no qualifications,2021/2022,Percentage,%,16.4
+S12000018,Inverclyde,Residents with no qualifications,2021/2022,Percentage,%,20.8
+S12000019,Midlothian,Residents with no qualifications,2021/2022,Percentage,%,16.1
+S12000020,Moray,Residents with no qualifications,2021/2022,Percentage,%,16.7
+S12000021,North Ayrshire,Residents with no qualifications,2021/2022,Percentage,%,20.4
+S12000023,Orkney Islands,Residents with no qualifications,2021/2022,Percentage,%,17.7
+S12000026,Scottish Borders,Residents with no qualifications,2021/2022,Percentage,%,17.3
+S12000027,Shetland Islands,Residents with no qualifications,2021/2022,Percentage,%,14.6
+S12000028,South Ayrshire,Residents with no qualifications,2021/2022,Percentage,%,17.7
+S12000029,South Lanarkshire,Residents with no qualifications,2021/2022,Percentage,%,18.3
+S12000030,Stirling,Residents with no qualifications,2021/2022,Percentage,%,12.9
+S12000033,Aberdeen City,Residents with no qualifications,2021/2022,Percentage,%,12.5
+S12000034,Aberdeenshire,Residents with no qualifications,2021/2022,Percentage,%,14.6
+S12000035,Argyll and Bute,Residents with no qualifications,2021/2022,Percentage,%,15.5
+S12000036,City of Edinburgh,Residents with no qualifications,2021/2022,Percentage,%,9.7
+S12000038,Renfrewshire,Residents with no qualifications,2021/2022,Percentage,%,16.7
+S12000039,West Dunbartonshire,Residents with no qualifications,2021/2022,Percentage,%,21.1
+S12000040,West Lothian,Residents with no qualifications,2021/2022,Percentage,%,16.3
+S12000041,Angus,Residents with no qualifications,2021/2022,Percentage,%,17.0
+S12000042,Dundee City,Residents with no qualifications,2021/2022,Percentage,%,17.0
+S12000045,East Dunbartonshire,Residents with no qualifications,2021/2022,Percentage,%,12.5
+S12000047,Fife,Residents with no qualifications,2021/2022,Percentage,%,16.5
+S12000048,Perth and Kinross,Residents with no qualifications,2021/2022,Percentage,%,14.3
+S12000049,Glasgow City,Residents with no qualifications,2021/2022,Percentage,%,20.2
+S12000050,North Lanarkshire,Residents with no qualifications,2021/2022,Percentage,%,21.0
+W06000001,Isle of Anglesey,Residents with no qualifications,2021/2022,Percentage,%,18.0
+W06000002,Gwynedd,Residents with no qualifications,2021/2022,Percentage,%,16.3
+W06000003,Conwy,Residents with no qualifications,2021/2022,Percentage,%,18.7
+W06000004,Denbighshire,Residents with no qualifications,2021/2022,Percentage,%,19.9
+W06000005,Flintshire,Residents with no qualifications,2021/2022,Percentage,%,18.3
+W06000006,Wrexham,Residents with no qualifications,2021/2022,Percentage,%,20.9
+W06000008,Ceredigion,Residents with no qualifications,2021/2022,Percentage,%,14.7
+W06000009,Pembrokeshire,Residents with no qualifications,2021/2022,Percentage,%,18.8
+W06000010,Carmarthenshire,Residents with no qualifications,2021/2022,Percentage,%,20.0
+W06000011,Swansea,Residents with no qualifications,2021/2022,Percentage,%,18.9
+W06000012,Neath Port Talbot,Residents with no qualifications,2021/2022,Percentage,%,23.7
+W06000013,Bridgend,Residents with no qualifications,2021/2022,Percentage,%,21.8
+W06000014,Vale of Glamorgan,Residents with no qualifications,2021/2022,Percentage,%,15.6
+W06000015,Cardiff,Residents with no qualifications,2021/2022,Percentage,%,16.3
+W06000016,Rhondda Cynon Taf,Residents with no qualifications,2021/2022,Percentage,%,24.2
+W06000018,Caerphilly,Residents with no qualifications,2021/2022,Percentage,%,24.1
+W06000019,Blaenau Gwent,Residents with no qualifications,2021/2022,Percentage,%,27.9
+W06000020,Torfaen,Residents with no qualifications,2021/2022,Percentage,%,22.1
+W06000021,Monmouthshire,Residents with no qualifications,2021/2022,Percentage,%,15.7
+W06000022,Newport,Residents with no qualifications,2021/2022,Percentage,%,21.7
+W06000023,Powys,Residents with no qualifications,2021/2022,Percentage,%,18.9
+W06000024,Merthyr Tydfil,Residents with no qualifications,2021/2022,Percentage,%,26.9
+E06000001,Hartlepool,Gross median weekly pay,April 2025 (provisional),Currency,GBP,533.9
+E06000002,Middlesbrough,Gross median weekly pay,April 2025 (provisional),Currency,GBP,582.8
+E06000003,Redcar and Cleveland,Gross median weekly pay,April 2025 (provisional),Currency,GBP,557.4
+E06000004,Stockton-on-Tees,Gross median weekly pay,April 2025 (provisional),Currency,GBP,579.5
+E06000005,Darlington,Gross median weekly pay,April 2025 (provisional),Currency,GBP,630.4
+E06000006,Halton,Gross median weekly pay,April 2025 (provisional),Currency,GBP,596.3
+E06000007,Warrington,Gross median weekly pay,April 2025 (provisional),Currency,GBP,666.1
+E06000008,Blackburn with Darwen,Gross median weekly pay,April 2025 (provisional),Currency,GBP,559.4
+E06000009,Blackpool,Gross median weekly pay,April 2025 (provisional),Currency,GBP,539.9
+E06000010,Kingston upon Hull,Gross median weekly pay,April 2025 (provisional),Currency,GBP,565.9
+E06000011,East Riding of Yorkshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,619.7
+E06000012,North East Lincolnshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,574.9
+E06000013,North Lincolnshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,614.0
+E06000014,York,Gross median weekly pay,April 2025 (provisional),Currency,GBP,613.1
+E06000015,Derby,Gross median weekly pay,April 2025 (provisional),Currency,GBP,587.6
+E06000016,Leicester,Gross median weekly pay,April 2025 (provisional),Currency,GBP,557.6
+E06000017,Rutland,Gross median weekly pay,April 2025 (provisional),Currency,GBP,749.6
+E06000018,Nottingham,Gross median weekly pay,April 2025 (provisional),Currency,GBP,531.1
+E06000019,Herefordshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,606.3
+E06000020,Telford and Wrekin,Gross median weekly pay,April 2025 (provisional),Currency,GBP,606.2
+E06000021,Stoke-on-Trent,Gross median weekly pay,April 2025 (provisional),Currency,GBP,577.6
+E06000022,Bath and North East Somerset,Gross median weekly pay,April 2025 (provisional),Currency,GBP,641.3
+E06000023,"Bristol, City of",Gross median weekly pay,April 2025 (provisional),Currency,GBP,670.8
+E06000024,North Somerset,Gross median weekly pay,April 2025 (provisional),Currency,GBP,668.2
+E06000025,South Gloucestershire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,660.3
+E06000026,Plymouth,Gross median weekly pay,April 2025 (provisional),Currency,GBP,572.7
+E06000027,Torbay,Gross median weekly pay,April 2025 (provisional),Currency,GBP,556.9
+E06000030,Swindon,Gross median weekly pay,April 2025 (provisional),Currency,GBP,653.2
+E06000031,Peterborough,Gross median weekly pay,April 2025 (provisional),Currency,GBP,590.1
+E06000032,Luton,Gross median weekly pay,April 2025 (provisional),Currency,GBP,585.9
+E06000033,Southend-on-Sea,Gross median weekly pay,April 2025 (provisional),Currency,GBP,667.2
+E06000034,Thurrock,Gross median weekly pay,April 2025 (provisional),Currency,GBP,724.3
+E06000035,Medway,Gross median weekly pay,April 2025 (provisional),Currency,GBP,661.5
+E06000036,Bracknell Forest,Gross median weekly pay,April 2025 (provisional),Currency,GBP,727.1
+E06000037,West Berkshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,715.8
+E06000038,Reading,Gross median weekly pay,April 2025 (provisional),Currency,GBP,666.2
+E06000039,Slough,Gross median weekly pay,April 2025 (provisional),Currency,GBP,689.9
+E06000040,Windsor and Maidenhead,Gross median weekly pay,April 2025 (provisional),Currency,GBP,753.8
+E06000041,Wokingham,Gross median weekly pay,April 2025 (provisional),Currency,GBP,811.3
+E06000042,Milton Keynes,Gross median weekly pay,April 2025 (provisional),Currency,GBP,703.6
+E06000043,Brighton and Hove,Gross median weekly pay,April 2025 (provisional),Currency,GBP,636.9
+E06000044,Portsmouth,Gross median weekly pay,April 2025 (provisional),Currency,GBP,592.6
+E06000045,Southampton,Gross median weekly pay,April 2025 (provisional),Currency,GBP,625.1
+E06000046,Isle of Wight,Gross median weekly pay,April 2025 (provisional),Currency,GBP,548.8
+E06000047,County Durham,Gross median weekly pay,April 2025 (provisional),Currency,GBP,576.9
+E06000049,Cheshire East,Gross median weekly pay,April 2025 (provisional),Currency,GBP,646.2
+E06000050,Cheshire West and Chester,Gross median weekly pay,April 2025 (provisional),Currency,GBP,636.1
+E06000051,Shropshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,596.6
+E06000052,Cornwall,Gross median weekly pay,April 2025 (provisional),Currency,GBP,546.2
+E06000053,Isles of Scilly,Gross median weekly pay,April 2025 (provisional),Currency,GBP,
+E06000054,Wiltshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,620.5
+E06000055,Bedford,Gross median weekly pay,April 2025 (provisional),Currency,GBP,689.4
+E06000056,Central Bedfordshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,731.3
+E06000057,Northumberland,Gross median weekly pay,April 2025 (provisional),Currency,GBP,591.3
+E06000058,"Bournemouth, Christchurch and Poole",Gross median weekly pay,April 2025 (provisional),Currency,GBP,618.8
+E06000059,Dorset,Gross median weekly pay,April 2025 (provisional),Currency,GBP,620.5
+E06000060,Buckinghamshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,712.3
+E06000061,North Northamptonshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,641.7
+E06000062,West Northamptonshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,644.9
+E06000063,Cumberland,Gross median weekly pay,April 2025 (provisional),Currency,GBP,661.9
+E06000064,Westmorland and Furness,Gross median weekly pay,April 2025 (provisional),Currency,GBP,671.8
+E06000065,North Yorkshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,604.8
+E06000066,Somerset,Gross median weekly pay,April 2025 (provisional),Currency,GBP,584.4
+E07000008,Cambridge,Gross median weekly pay,April 2025 (provisional),Currency,GBP,763.5
+E07000009,East Cambridgeshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,670.8
+E07000010,Fenland,Gross median weekly pay,April 2025 (provisional),Currency,GBP,592.9
+E07000011,Huntingdonshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,694.3
+E07000012,South Cambridgeshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,795.6
+E07000032,Amber Valley,Gross median weekly pay,April 2025 (provisional),Currency,GBP,621.8
+E07000033,Bolsover,Gross median weekly pay,April 2025 (provisional),Currency,GBP,612.1
+E07000034,Chesterfield,Gross median weekly pay,April 2025 (provisional),Currency,GBP,584.5
+E07000035,Derbyshire Dales,Gross median weekly pay,April 2025 (provisional),Currency,GBP,630.6
+E07000036,Erewash,Gross median weekly pay,April 2025 (provisional),Currency,GBP,655.5
+E07000037,High Peak,Gross median weekly pay,April 2025 (provisional),Currency,GBP,615.9
+E07000038,North East Derbyshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,613.1
+E07000039,South Derbyshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,676.4
+E07000040,East Devon,Gross median weekly pay,April 2025 (provisional),Currency,GBP,632.0
+E07000041,Exeter,Gross median weekly pay,April 2025 (provisional),Currency,GBP,572.2
+E07000042,Mid Devon,Gross median weekly pay,April 2025 (provisional),Currency,GBP,612.1
+E07000043,North Devon,Gross median weekly pay,April 2025 (provisional),Currency,GBP,558.0
+E07000044,South Hams,Gross median weekly pay,April 2025 (provisional),Currency,GBP,569.9
+E07000045,Teignbridge,Gross median weekly pay,April 2025 (provisional),Currency,GBP,582.1
+E07000046,Torridge,Gross median weekly pay,April 2025 (provisional),Currency,GBP,572.7
+E07000047,West Devon,Gross median weekly pay,April 2025 (provisional),Currency,GBP,549.5
+E07000061,Eastbourne,Gross median weekly pay,April 2025 (provisional),Currency,GBP,592.8
+E07000062,Hastings,Gross median weekly pay,April 2025 (provisional),Currency,GBP,584.4
+E07000063,Lewes,Gross median weekly pay,April 2025 (provisional),Currency,GBP,628.9
+E07000064,Rother,Gross median weekly pay,April 2025 (provisional),Currency,GBP,563.6
+E07000065,Wealden,Gross median weekly pay,April 2025 (provisional),Currency,GBP,651.8
+E07000066,Basildon,Gross median weekly pay,April 2025 (provisional),Currency,GBP,675.3
+E07000067,Braintree,Gross median weekly pay,April 2025 (provisional),Currency,GBP,700.3
+E07000068,Brentwood,Gross median weekly pay,April 2025 (provisional),Currency,GBP,781.0
+E07000069,Castle Point,Gross median weekly pay,April 2025 (provisional),Currency,GBP,712.4
+E07000070,Chelmsford,Gross median weekly pay,April 2025 (provisional),Currency,GBP,715.2
+E07000071,Colchester,Gross median weekly pay,April 2025 (provisional),Currency,GBP,613.3
+E07000072,Epping Forest,Gross median weekly pay,April 2025 (provisional),Currency,GBP,750.5
+E07000073,Harlow,Gross median weekly pay,April 2025 (provisional),Currency,GBP,592.1
+E07000074,Maldon,Gross median weekly pay,April 2025 (provisional),Currency,GBP,661.7
+E07000075,Rochford,Gross median weekly pay,April 2025 (provisional),Currency,GBP,721.6
+E07000076,Tendring,Gross median weekly pay,April 2025 (provisional),Currency,GBP,583.1
+E07000077,Uttlesford,Gross median weekly pay,April 2025 (provisional),Currency,GBP,815.4
+E07000078,Cheltenham,Gross median weekly pay,April 2025 (provisional),Currency,GBP,692.6
+E07000079,Cotswold,Gross median weekly pay,April 2025 (provisional),Currency,GBP,653.8
+E07000080,Forest of Dean,Gross median weekly pay,April 2025 (provisional),Currency,GBP,660.9
+E07000081,Gloucester,Gross median weekly pay,April 2025 (provisional),Currency,GBP,603.4
+E07000082,Stroud,Gross median weekly pay,April 2025 (provisional),Currency,GBP,625.8
+E07000083,Tewkesbury,Gross median weekly pay,April 2025 (provisional),Currency,GBP,622.4
+E07000084,Basingstoke and Deane,Gross median weekly pay,April 2025 (provisional),Currency,GBP,727.5
+E07000085,East Hampshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,728.5
+E07000086,Eastleigh,Gross median weekly pay,April 2025 (provisional),Currency,GBP,670.7
+E07000087,Fareham,Gross median weekly pay,April 2025 (provisional),Currency,GBP,728.0
+E07000088,Gosport,Gross median weekly pay,April 2025 (provisional),Currency,GBP,637.9
+E07000089,Hart,Gross median weekly pay,April 2025 (provisional),Currency,GBP,773.0
+E07000090,Havant,Gross median weekly pay,April 2025 (provisional),Currency,GBP,606.4
+E07000091,New Forest,Gross median weekly pay,April 2025 (provisional),Currency,GBP,613.3
+E07000092,Rushmoor,Gross median weekly pay,April 2025 (provisional),Currency,GBP,651.2
+E07000093,Test Valley,Gross median weekly pay,April 2025 (provisional),Currency,GBP,690.2
+E07000094,Winchester,Gross median weekly pay,April 2025 (provisional),Currency,GBP,726.8
+E07000095,Broxbourne,Gross median weekly pay,April 2025 (provisional),Currency,GBP,707.6
+E07000096,Dacorum,Gross median weekly pay,April 2025 (provisional),Currency,GBP,716.5
+E07000098,Hertsmere,Gross median weekly pay,April 2025 (provisional),Currency,GBP,689.9
+E07000099,North Hertfordshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,846.4
+E07000102,Three Rivers,Gross median weekly pay,April 2025 (provisional),Currency,GBP,766.6
+E07000103,Watford,Gross median weekly pay,April 2025 (provisional),Currency,GBP,712.5
+E07000105,Ashford,Gross median weekly pay,April 2025 (provisional),Currency,GBP,644.2
+E07000106,Canterbury,Gross median weekly pay,April 2025 (provisional),Currency,GBP,570.4
+E07000107,Dartford,Gross median weekly pay,April 2025 (provisional),Currency,GBP,699.3
+E07000108,Dover,Gross median weekly pay,April 2025 (provisional),Currency,GBP,643.9
+E07000109,Gravesham,Gross median weekly pay,April 2025 (provisional),Currency,GBP,693.7
+E07000110,Maidstone,Gross median weekly pay,April 2025 (provisional),Currency,GBP,643.9
+E07000111,Sevenoaks,Gross median weekly pay,April 2025 (provisional),Currency,GBP,706.5
+E07000112,Folkestone and Hythe,Gross median weekly pay,April 2025 (provisional),Currency,GBP,654.9
+E07000113,Swale,Gross median weekly pay,April 2025 (provisional),Currency,GBP,663.5
+E07000114,Thanet,Gross median weekly pay,April 2025 (provisional),Currency,GBP,577.9
+E07000115,Tonbridge and Malling,Gross median weekly pay,April 2025 (provisional),Currency,GBP,699.8
+E07000116,Tunbridge Wells,Gross median weekly pay,April 2025 (provisional),Currency,GBP,681.2
+E07000117,Burnley,Gross median weekly pay,April 2025 (provisional),Currency,GBP,593.0
+E07000118,Chorley,Gross median weekly pay,April 2025 (provisional),Currency,GBP,642.7
+E07000119,Fylde,Gross median weekly pay,April 2025 (provisional),Currency,GBP,701.3
+E07000120,Hyndburn,Gross median weekly pay,April 2025 (provisional),Currency,GBP,564.9
+E07000121,Lancaster,Gross median weekly pay,April 2025 (provisional),Currency,GBP,566.6
+E07000122,Pendle,Gross median weekly pay,April 2025 (provisional),Currency,GBP,558.0
+E07000123,Preston,Gross median weekly pay,April 2025 (provisional),Currency,GBP,605.6
+E07000124,Ribble Valley,Gross median weekly pay,April 2025 (provisional),Currency,GBP,677.4
+E07000125,Rossendale,Gross median weekly pay,April 2025 (provisional),Currency,GBP,626.6
+E07000126,South Ribble,Gross median weekly pay,April 2025 (provisional),Currency,GBP,634.7
+E07000127,West Lancashire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,657.9
+E07000128,Wyre,Gross median weekly pay,April 2025 (provisional),Currency,GBP,596.7
+E07000129,Blaby,Gross median weekly pay,April 2025 (provisional),Currency,GBP,631.1
+E07000130,Charnwood,Gross median weekly pay,April 2025 (provisional),Currency,GBP,665.4
+E07000131,Harborough,Gross median weekly pay,April 2025 (provisional),Currency,GBP,653.5
+E07000132,Hinckley and Bosworth,Gross median weekly pay,April 2025 (provisional),Currency,GBP,635.0
+E07000133,Melton,Gross median weekly pay,April 2025 (provisional),Currency,GBP,515.0
+E07000134,North West Leicestershire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,621.1
+E07000135,Oadby and Wigston,Gross median weekly pay,April 2025 (provisional),Currency,GBP,577.3
+E07000136,Boston,Gross median weekly pay,April 2025 (provisional),Currency,GBP,544.4
+E07000137,East Lindsey,Gross median weekly pay,April 2025 (provisional),Currency,GBP,547.5
+E07000138,Lincoln,Gross median weekly pay,April 2025 (provisional),Currency,GBP,594.8
+E07000139,North Kesteven,Gross median weekly pay,April 2025 (provisional),Currency,GBP,619.6
+E07000140,South Holland,Gross median weekly pay,April 2025 (provisional),Currency,GBP,606.3
+E07000141,South Kesteven,Gross median weekly pay,April 2025 (provisional),Currency,GBP,586.3
+E07000142,West Lindsey,Gross median weekly pay,April 2025 (provisional),Currency,GBP,612.9
+E07000143,Breckland,Gross median weekly pay,April 2025 (provisional),Currency,GBP,578.1
+E07000144,Broadland,Gross median weekly pay,April 2025 (provisional),Currency,GBP,588.4
+E07000145,Great Yarmouth,Gross median weekly pay,April 2025 (provisional),Currency,GBP,564.5
+E07000146,King's Lynn and West Norfolk,Gross median weekly pay,April 2025 (provisional),Currency,GBP,600.0
+E07000147,North Norfolk,Gross median weekly pay,April 2025 (provisional),Currency,GBP,546.8
+E07000148,Norwich,Gross median weekly pay,April 2025 (provisional),Currency,GBP,590.7
+E07000149,South Norfolk,Gross median weekly pay,April 2025 (provisional),Currency,GBP,635.2
+E07000170,Ashfield,Gross median weekly pay,April 2025 (provisional),Currency,GBP,575.9
+E07000171,Bassetlaw,Gross median weekly pay,April 2025 (provisional),Currency,GBP,576.3
+E07000172,Broxtowe,Gross median weekly pay,April 2025 (provisional),Currency,GBP,605.7
+E07000173,Gedling,Gross median weekly pay,April 2025 (provisional),Currency,GBP,605.9
+E07000174,Mansfield,Gross median weekly pay,April 2025 (provisional),Currency,GBP,552.8
+E07000175,Newark and Sherwood,Gross median weekly pay,April 2025 (provisional),Currency,GBP,576.7
+E07000176,Rushcliffe,Gross median weekly pay,April 2025 (provisional),Currency,GBP,677.7
+E07000177,Cherwell,Gross median weekly pay,April 2025 (provisional),Currency,GBP,709.6
+E07000178,Oxford,Gross median weekly pay,April 2025 (provisional),Currency,GBP,689.6
+E07000179,South Oxfordshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,818.5
+E07000180,Vale of White Horse,Gross median weekly pay,April 2025 (provisional),Currency,GBP,731.7
+E07000181,West Oxfordshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,650.2
+E07000192,Cannock Chase,Gross median weekly pay,April 2025 (provisional),Currency,GBP,604.5
+E07000193,East Staffordshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,610.8
+E07000194,Lichfield,Gross median weekly pay,April 2025 (provisional),Currency,GBP,689.0
+E07000195,Newcastle-under-Lyme,Gross median weekly pay,April 2025 (provisional),Currency,GBP,612.5
+E07000196,South Staffordshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,625.3
+E07000197,Stafford,Gross median weekly pay,April 2025 (provisional),Currency,GBP,696.2
+E07000198,Staffordshire Moorlands,Gross median weekly pay,April 2025 (provisional),Currency,GBP,624.5
+E07000199,Tamworth,Gross median weekly pay,April 2025 (provisional),Currency,GBP,647.5
+E07000200,Babergh,Gross median weekly pay,April 2025 (provisional),Currency,GBP,594.9
+E07000202,Ipswich,Gross median weekly pay,April 2025 (provisional),Currency,GBP,581.5
+E07000203,Mid Suffolk,Gross median weekly pay,April 2025 (provisional),Currency,GBP,630.8
+E07000207,Elmbridge,Gross median weekly pay,April 2025 (provisional),Currency,GBP,754.2
+E07000208,Epsom and Ewell,Gross median weekly pay,April 2025 (provisional),Currency,GBP,765.6
+E07000209,Guildford,Gross median weekly pay,April 2025 (provisional),Currency,GBP,752.4
+E07000210,Mole Valley,Gross median weekly pay,April 2025 (provisional),Currency,GBP,672.0
+E07000211,Reigate and Banstead,Gross median weekly pay,April 2025 (provisional),Currency,GBP,797.9
+E07000212,Runnymede,Gross median weekly pay,April 2025 (provisional),Currency,GBP,831.8
+E07000213,Spelthorne,Gross median weekly pay,April 2025 (provisional),Currency,GBP,728.9
+E07000214,Surrey Heath,Gross median weekly pay,April 2025 (provisional),Currency,GBP,714.0
+E07000215,Tandridge,Gross median weekly pay,April 2025 (provisional),Currency,GBP,708.3
+E07000216,Waverley,Gross median weekly pay,April 2025 (provisional),Currency,GBP,791.9
+E07000217,Woking,Gross median weekly pay,April 2025 (provisional),Currency,GBP,748.7
+E07000218,North Warwickshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,656.0
+E07000219,Nuneaton and Bedworth,Gross median weekly pay,April 2025 (provisional),Currency,GBP,627.4
+E07000220,Rugby,Gross median weekly pay,April 2025 (provisional),Currency,GBP,757.0
+E07000221,Stratford-on-Avon,Gross median weekly pay,April 2025 (provisional),Currency,GBP,697.1
+E07000222,Warwick,Gross median weekly pay,April 2025 (provisional),Currency,GBP,802.9
+E07000223,Adur,Gross median weekly pay,April 2025 (provisional),Currency,GBP,595.0
+E07000224,Arun,Gross median weekly pay,April 2025 (provisional),Currency,GBP,615.3
+E07000225,Chichester,Gross median weekly pay,April 2025 (provisional),Currency,GBP,573.7
+E07000226,Crawley,Gross median weekly pay,April 2025 (provisional),Currency,GBP,656.6
+E07000227,Horsham,Gross median weekly pay,April 2025 (provisional),Currency,GBP,689.9
+E07000228,Mid Sussex,Gross median weekly pay,April 2025 (provisional),Currency,GBP,714.4
+E07000229,Worthing,Gross median weekly pay,April 2025 (provisional),Currency,GBP,614.7
+E07000234,Bromsgrove,Gross median weekly pay,April 2025 (provisional),Currency,GBP,706.1
+E07000235,Malvern Hills,Gross median weekly pay,April 2025 (provisional),Currency,GBP,557.2
+E07000236,Redditch,Gross median weekly pay,April 2025 (provisional),Currency,GBP,612.4
+E07000237,Worcester,Gross median weekly pay,April 2025 (provisional),Currency,GBP,622.4
+E07000238,Wychavon,Gross median weekly pay,April 2025 (provisional),Currency,GBP,596.0
+E07000239,Wyre Forest,Gross median weekly pay,April 2025 (provisional),Currency,GBP,579.9
+E07000240,St Albans,Gross median weekly pay,April 2025 (provisional),Currency,GBP,864.1
+E07000241,Welwyn Hatfield,Gross median weekly pay,April 2025 (provisional),Currency,GBP,719.9
+E07000242,East Hertfordshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,835.1
+E07000243,Stevenage,Gross median weekly pay,April 2025 (provisional),Currency,GBP,810.3
+E07000244,East Suffolk,Gross median weekly pay,April 2025 (provisional),Currency,GBP,600.3
+E07000245,West Suffolk,Gross median weekly pay,April 2025 (provisional),Currency,GBP,654.3
+E08000001,Bolton,Gross median weekly pay,April 2025 (provisional),Currency,GBP,560.1
+E08000002,Bury,Gross median weekly pay,April 2025 (provisional),Currency,GBP,625.0
+E08000003,Manchester,Gross median weekly pay,April 2025 (provisional),Currency,GBP,589.3
+E08000004,Oldham,Gross median weekly pay,April 2025 (provisional),Currency,GBP,590.5
+E08000005,Rochdale,Gross median weekly pay,April 2025 (provisional),Currency,GBP,600.5
+E08000006,Salford,Gross median weekly pay,April 2025 (provisional),Currency,GBP,606.0
+E08000007,Stockport,Gross median weekly pay,April 2025 (provisional),Currency,GBP,653.7
+E08000008,Tameside,Gross median weekly pay,April 2025 (provisional),Currency,GBP,604.3
+E08000009,Trafford,Gross median weekly pay,April 2025 (provisional),Currency,GBP,699.6
+E08000010,Wigan,Gross median weekly pay,April 2025 (provisional),Currency,GBP,606.6
+E08000011,Knowsley,Gross median weekly pay,April 2025 (provisional),Currency,GBP,660.1
+E08000012,Liverpool,Gross median weekly pay,April 2025 (provisional),Currency,GBP,605.3
+E08000013,St. Helens,Gross median weekly pay,April 2025 (provisional),Currency,GBP,629.0
+E08000014,Sefton,Gross median weekly pay,April 2025 (provisional),Currency,GBP,600.4
+E08000015,Wirral,Gross median weekly pay,April 2025 (provisional),Currency,GBP,603.4
+E08000017,Doncaster,Gross median weekly pay,April 2025 (provisional),Currency,GBP,601.5
+E08000018,Rotherham,Gross median weekly pay,April 2025 (provisional),Currency,GBP,576.2
+E08000021,Newcastle upon Tyne,Gross median weekly pay,April 2025 (provisional),Currency,GBP,576.1
+E08000022,North Tyneside,Gross median weekly pay,April 2025 (provisional),Currency,GBP,625.6
+E08000023,South Tyneside,Gross median weekly pay,April 2025 (provisional),Currency,GBP,537.0
+E08000024,Sunderland,Gross median weekly pay,April 2025 (provisional),Currency,GBP,557.6
+E08000025,Birmingham,Gross median weekly pay,April 2025 (provisional),Currency,GBP,601.4
+E08000026,Coventry,Gross median weekly pay,April 2025 (provisional),Currency,GBP,648.4
+E08000027,Dudley,Gross median weekly pay,April 2025 (provisional),Currency,GBP,606.7
+E08000028,Sandwell,Gross median weekly pay,April 2025 (provisional),Currency,GBP,567.5
+E08000029,Solihull,Gross median weekly pay,April 2025 (provisional),Currency,GBP,696.6
+E08000030,Walsall,Gross median weekly pay,April 2025 (provisional),Currency,GBP,587.9
+E08000031,Wolverhampton,Gross median weekly pay,April 2025 (provisional),Currency,GBP,621.0
+E08000032,Bradford,Gross median weekly pay,April 2025 (provisional),Currency,GBP,559.9
+E08000033,Calderdale,Gross median weekly pay,April 2025 (provisional),Currency,GBP,613.3
+E08000034,Kirklees,Gross median weekly pay,April 2025 (provisional),Currency,GBP,600.7
+E08000035,Leeds,Gross median weekly pay,April 2025 (provisional),Currency,GBP,610.7
+E08000036,Wakefield,Gross median weekly pay,April 2025 (provisional),Currency,GBP,595.4
+E08000037,Gateshead,Gross median weekly pay,April 2025 (provisional),Currency,GBP,578.8
+E08000038,Barnsley,Gross median weekly pay,April 2025 (provisional),Currency,GBP,618.6
+E08000039,Sheffield,Gross median weekly pay,April 2025 (provisional),Currency,GBP,606.6
+E09000001,City of London,Gross median weekly pay,April 2025 (provisional),Currency,GBP,
+E09000002,Barking and Dagenham,Gross median weekly pay,April 2025 (provisional),Currency,GBP,662.9
+E09000003,Barnet,Gross median weekly pay,April 2025 (provisional),Currency,GBP,756.2
+E09000004,Bexley,Gross median weekly pay,April 2025 (provisional),Currency,GBP,746.5
+E09000005,Brent,Gross median weekly pay,April 2025 (provisional),Currency,GBP,689.9
+E09000006,Bromley,Gross median weekly pay,April 2025 (provisional),Currency,GBP,852.1
+E09000007,Camden,Gross median weekly pay,April 2025 (provisional),Currency,GBP,879.9
+E09000008,Croydon,Gross median weekly pay,April 2025 (provisional),Currency,GBP,735.9
+E09000009,Ealing,Gross median weekly pay,April 2025 (provisional),Currency,GBP,697.4
+E09000010,Enfield,Gross median weekly pay,April 2025 (provisional),Currency,GBP,697.9
+E09000011,Greenwich,Gross median weekly pay,April 2025 (provisional),Currency,GBP,784.9
+E09000012,Hackney,Gross median weekly pay,April 2025 (provisional),Currency,GBP,795.3
+E09000013,Hammersmith and Fulham,Gross median weekly pay,April 2025 (provisional),Currency,GBP,833.7
+E09000014,Haringey,Gross median weekly pay,April 2025 (provisional),Currency,GBP,747.2
+E09000015,Harrow,Gross median weekly pay,April 2025 (provisional),Currency,GBP,722.7
+E09000016,Havering,Gross median weekly pay,April 2025 (provisional),Currency,GBP,772.2
+E09000017,Hillingdon,Gross median weekly pay,April 2025 (provisional),Currency,GBP,708.7
+E09000018,Hounslow,Gross median weekly pay,April 2025 (provisional),Currency,GBP,701.6
+E09000019,Islington,Gross median weekly pay,April 2025 (provisional),Currency,GBP,897.8
+E09000020,Kensington and Chelsea,Gross median weekly pay,April 2025 (provisional),Currency,GBP,955.2
+E09000021,Kingston upon Thames,Gross median weekly pay,April 2025 (provisional),Currency,GBP,810.4
+E09000022,Lambeth,Gross median weekly pay,April 2025 (provisional),Currency,GBP,848.9
+E09000023,Lewisham,Gross median weekly pay,April 2025 (provisional),Currency,GBP,764.8
+E09000024,Merton,Gross median weekly pay,April 2025 (provisional),Currency,GBP,828.2
+E09000025,Newham,Gross median weekly pay,April 2025 (provisional),Currency,GBP,689.1
+E09000026,Redbridge,Gross median weekly pay,April 2025 (provisional),Currency,GBP,699.0
+E09000027,Richmond upon Thames,Gross median weekly pay,April 2025 (provisional),Currency,GBP,862.4
+E09000028,Southwark,Gross median weekly pay,April 2025 (provisional),Currency,GBP,846.1
+E09000029,Sutton,Gross median weekly pay,April 2025 (provisional),Currency,GBP,750.4
+E09000030,Tower Hamlets,Gross median weekly pay,April 2025 (provisional),Currency,GBP,856.2
+E09000031,Waltham Forest,Gross median weekly pay,April 2025 (provisional),Currency,GBP,747.2
+E09000032,Wandsworth,Gross median weekly pay,April 2025 (provisional),Currency,GBP,916.4
+E09000033,Westminster,Gross median weekly pay,April 2025 (provisional),Currency,GBP,866.9
+N09000001,Antrim and Newtownabbey,Gross median weekly pay,April 2025 (provisional),Currency,GBP,610.9
+N09000002,"Armagh City, Banbridge and Craigavon",Gross median weekly pay,April 2025 (provisional),Currency,GBP,576.6
+N09000003,Belfast,Gross median weekly pay,April 2025 (provisional),Currency,GBP,574.9
+N09000004,Causeway Coast and Glens,Gross median weekly pay,April 2025 (provisional),Currency,GBP,555.0
+N09000005,Derry City and Strabane,Gross median weekly pay,April 2025 (provisional),Currency,GBP,581.5
+N09000006,Fermanagh and Omagh,Gross median weekly pay,April 2025 (provisional),Currency,GBP,586.1
+N09000007,Lisburn and Castlereagh,Gross median weekly pay,April 2025 (provisional),Currency,GBP,678.6
+N09000008,Mid and East Antrim,Gross median weekly pay,April 2025 (provisional),Currency,GBP,580.2
+N09000009,Mid Ulster,Gross median weekly pay,April 2025 (provisional),Currency,GBP,581.6
+N09000010,"Newry, Mourne and Down",Gross median weekly pay,April 2025 (provisional),Currency,GBP,574.6
+N09000011,Ards and North Down,Gross median weekly pay,April 2025 (provisional),Currency,GBP,567.7
+S12000005,Clackmannanshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,640.8
+S12000006,Dumfries and Galloway,Gross median weekly pay,April 2025 (provisional),Currency,GBP,575.8
+S12000008,East Ayrshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,616.8
+S12000010,East Lothian,Gross median weekly pay,April 2025 (provisional),Currency,GBP,653.9
+S12000011,East Renfrewshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,769.4
+S12000013,Na h-Eileanan Siar,Gross median weekly pay,April 2025 (provisional),Currency,GBP,644.0
+S12000014,Falkirk,Gross median weekly pay,April 2025 (provisional),Currency,GBP,617.6
+S12000017,Highland,Gross median weekly pay,April 2025 (provisional),Currency,GBP,611.5
+S12000018,Inverclyde,Gross median weekly pay,April 2025 (provisional),Currency,GBP,587.7
+S12000019,Midlothian,Gross median weekly pay,April 2025 (provisional),Currency,GBP,628.8
+S12000020,Moray,Gross median weekly pay,April 2025 (provisional),Currency,GBP,528.6
+S12000021,North Ayrshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,699.7
+S12000023,Orkney Islands,Gross median weekly pay,April 2025 (provisional),Currency,GBP,584.9
+S12000026,Scottish Borders,Gross median weekly pay,April 2025 (provisional),Currency,GBP,604.2
+S12000027,Shetland Islands,Gross median weekly pay,April 2025 (provisional),Currency,GBP,676.9
+S12000028,South Ayrshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,651.6
+S12000029,South Lanarkshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,664.3
+S12000030,Stirling,Gross median weekly pay,April 2025 (provisional),Currency,GBP,644.9
+S12000033,Aberdeen City,Gross median weekly pay,April 2025 (provisional),Currency,GBP,639.7
+S12000034,Aberdeenshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,649.8
+S12000035,Argyll and Bute,Gross median weekly pay,April 2025 (provisional),Currency,GBP,605.6
+S12000036,City of Edinburgh,Gross median weekly pay,April 2025 (provisional),Currency,GBP,704.8
+S12000038,Renfrewshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,653.5
+S12000039,West Dunbartonshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,613.1
+S12000040,West Lothian,Gross median weekly pay,April 2025 (provisional),Currency,GBP,673.2
+S12000041,Angus,Gross median weekly pay,April 2025 (provisional),Currency,GBP,612.3
+S12000042,Dundee City,Gross median weekly pay,April 2025 (provisional),Currency,GBP,589.9
+S12000045,East Dunbartonshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,761.3
+S12000047,Fife,Gross median weekly pay,April 2025 (provisional),Currency,GBP,643.7
+S12000048,Perth and Kinross,Gross median weekly pay,April 2025 (provisional),Currency,GBP,618.5
+S12000049,Glasgow City,Gross median weekly pay,April 2025 (provisional),Currency,GBP,615.4
+S12000050,North Lanarkshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,658.3
+W06000001,Isle of Anglesey,Gross median weekly pay,April 2025 (provisional),Currency,GBP,612.9
+W06000002,Gwynedd,Gross median weekly pay,April 2025 (provisional),Currency,GBP,541.6
+W06000003,Conwy,Gross median weekly pay,April 2025 (provisional),Currency,GBP,565.2
+W06000004,Denbighshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,520.3
+W06000005,Flintshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,650.2
+W06000006,Wrexham,Gross median weekly pay,April 2025 (provisional),Currency,GBP,602.2
+W06000008,Ceredigion,Gross median weekly pay,April 2025 (provisional),Currency,GBP,582.8
+W06000009,Pembrokeshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,547.3
+W06000010,Carmarthenshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,621.2
+W06000011,Swansea,Gross median weekly pay,April 2025 (provisional),Currency,GBP,605.8
+W06000012,Neath Port Talbot,Gross median weekly pay,April 2025 (provisional),Currency,GBP,591.8
+W06000013,Bridgend,Gross median weekly pay,April 2025 (provisional),Currency,GBP,633.1
+W06000014,Vale of Glamorgan,Gross median weekly pay,April 2025 (provisional),Currency,GBP,611.0
+W06000015,Cardiff,Gross median weekly pay,April 2025 (provisional),Currency,GBP,613.0
+W06000016,Rhondda Cynon Taf,Gross median weekly pay,April 2025 (provisional),Currency,GBP,574.9
+W06000018,Caerphilly,Gross median weekly pay,April 2025 (provisional),Currency,GBP,599.1
+W06000019,Blaenau Gwent,Gross median weekly pay,April 2025 (provisional),Currency,GBP,626.3
+W06000020,Torfaen,Gross median weekly pay,April 2025 (provisional),Currency,GBP,663.2
+W06000021,Monmouthshire,Gross median weekly pay,April 2025 (provisional),Currency,GBP,699.9
+W06000022,Newport,Gross median weekly pay,April 2025 (provisional),Currency,GBP,614.9
+W06000023,Powys,Gross median weekly pay,April 2025 (provisional),Currency,GBP,597.3
+W06000024,Merthyr Tydfil,Gross median weekly pay,April 2025 (provisional),Currency,GBP,605.1
+E06000001,Hartlepool,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",157.0
+E06000002,Middlesbrough,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",138.0
+E06000003,Redcar and Cleveland,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",144.0
+E06000004,Stockton-on-Tees,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",125.0
+E06000005,Darlington,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",117.0
+E06000006,Halton,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",132.0
+E06000007,Warrington,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",69.0
+E06000008,Blackburn with Darwen,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",90.0
+E06000009,Blackpool,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",184.0
+E06000010,"Kingston upon Hull, City of","CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",119.0
+E06000011,East Riding of Yorkshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",58.0
+E06000012,North East Lincolnshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",131.0
+E06000013,North Lincolnshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",62.0
+E06000014,York,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",69.0
+E06000015,Derby,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",88.0
+E06000016,Leicester,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",66.0
+E06000017,Rutland,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",40.0
+E06000018,Nottingham,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",93.0
+E06000019,"Herefordshire, County of","CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",100.0
+E06000020,Telford and Wrekin,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",93.0
+E06000021,Stoke-on-Trent,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",170.0
+E06000022,Bath and North East Somerset,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",60.0
+E06000023,"Bristol, City of","CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",81.0
+E06000024,North Somerset,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",63.0
+E06000025,South Gloucestershire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",33.0
+E06000026,Plymouth,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",101.0
+E06000027,Torbay,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",114.0
+E06000030,Swindon,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",57.0
+E06000031,Peterborough,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",72.0
+E06000032,Luton,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",58.0
+E06000033,Southend-on-Sea,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",80.0
+E06000034,Thurrock,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",60.0
+E06000035,Medway,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",72.0
+E06000036,Bracknell Forest,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",42.0
+E06000037,West Berkshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",53.0
+E06000038,Reading,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",70.0
+E06000039,Slough,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",37.0
+E06000040,Windsor and Maidenhead,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",40.0
+E06000041,Wokingham,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",34.0
+E06000042,Milton Keynes,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",68.0
+E06000043,Brighton and Hove,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",71.0
+E06000044,Portsmouth,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",93.0
+E06000045,Southampton,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",90.0
+E06000046,Isle of Wight,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",110.0
+E06000047,County Durham,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",118.0
+E06000049,Cheshire East,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",66.0
+E06000050,Cheshire West and Chester,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",82.0
+E06000051,Shropshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",119.0
+E06000052,Cornwall,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",60.0
+E06000053,Isles of Scilly,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",
+E06000054,Wiltshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",46.0
+E06000055,Bedford,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",59.0
+E06000056,Central Bedfordshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",48.0
+E06000057,Northumberland,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",77.0
+E06000058,"Bournemouth, Christchurch and Poole","CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",75.0
+E06000059,Dorset,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",65.0
+E06000060,Buckinghamshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",40.0
+E06000061,North Northamptonshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",68.0
+E06000062,West Northamptonshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",63.0
+E06000063,Cumberland,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",87.0
+E06000064,Westmorland and Furness,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",67.0
+E06000065,North Yorkshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",48.0
+E06000066,Somerset,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",55.0
+E08000001,Bolton,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",78.0
+E08000002,Bury,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",82.0
+E08000003,Manchester,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",97.0
+E08000004,Oldham,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",91.0
+E08000005,Rochdale,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",102.0
+E08000006,Salford,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",88.0
+E08000007,Stockport,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",75.0
+E08000008,Tameside,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",123.0
+E08000009,Trafford,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",62.0
+E08000010,Wigan,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",91.0
+E08000011,Knowsley,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",90.0
+E08000012,Liverpool,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",145.0
+E08000013,St. Helens,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",117.0
+E08000014,Sefton,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",92.0
+E08000015,Wirral,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",103.0
+E08000016,Barnsley,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",71.0
+E08000017,Doncaster,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",74.0
+E08000018,Rotherham,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",80.0
+E08000019,Sheffield,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",54.0
+E08000021,Newcastle upon Tyne,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",107.0
+E08000022,North Tyneside,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",91.0
+E08000023,South Tyneside,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",97.0
+E08000024,Sunderland,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",90.0
+E08000025,Birmingham,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",79.0
+E08000026,Coventry,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",82.0
+E08000027,Dudley,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",81.0
+E08000028,Sandwell,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",92.0
+E08000029,Solihull,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",99.0
+E08000030,Walsall,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",81.0
+E08000031,Wolverhampton,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",73.0
+E08000032,Bradford,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",96.0
+E08000033,Calderdale,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",79.0
+E08000034,Kirklees,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",64.0
+E08000035,Leeds,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",85.0
+E08000036,Wakefield,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",89.0
+E08000037,Gateshead,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",124.0
+E09000001,City of London,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",
+E09000002,Barking and Dagenham,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",65.0
+E09000003,Barnet,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",37.0
+E09000004,Bexley,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",49.0
+E09000005,Brent,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",39.0
+E09000006,Bromley,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",47.0
+E09000007,Camden,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",58.0
+E09000008,Croydon,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",58.0
+E09000009,Ealing,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",33.0
+E09000010,Enfield,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",46.0
+E09000011,Greenwich,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",62.0
+E09000012,Hackney,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",65.0
+E09000013,Hammersmith and Fulham,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",62.0
+E09000014,Haringey,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",61.0
+E09000015,Harrow,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",29.0
+E09000016,Havering,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",42.0
+E09000017,Hillingdon,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",41.0
+E09000018,Hounslow,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",39.0
+E09000019,Islington,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",79.0
+E09000020,Kensington and Chelsea,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",47.0
+E09000021,Kingston upon Thames,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",30.0
+E09000022,Lambeth,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",73.0
+E09000023,Lewisham,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",71.0
+E09000024,Merton,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",31.0
+E09000025,Newham,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",48.0
+E09000026,Redbridge,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",38.0
+E09000027,Richmond upon Thames,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",27.0
+E09000028,Southwark,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",70.0
+E09000029,Sutton,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",42.0
+E09000030,Tower Hamlets,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",45.0
+E09000031,Waltham Forest,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",47.0
+E09000032,Wandsworth,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",41.0
+E09000033,Westminster,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",62.0
+E10000003,Cambridgeshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",49.0
+E10000007,Derbyshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",66.0
+E10000008,Devon,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",57.0
+E10000011,East Sussex,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",66.0
+E10000012,Essex,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",35.0
+E10000013,Gloucestershire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",57.0
+E10000014,Hampshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",60.0
+E10000015,Hertfordshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",36.0
+E10000016,Kent,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",53.0
+E10000017,Lancashire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",65.0
+E10000018,Leicestershire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",47.0
+E10000019,Lincolnshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",54.0
+E10000020,Norfolk,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",62.0
+E10000024,Nottinghamshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",53.0
+E10000025,Oxfordshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",51.0
+E10000028,Staffordshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",75.0
+E10000029,Suffolk,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",60.0
+E10000030,Surrey,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",35.0
+E10000031,Warwickshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",56.0
+E10000032,West Sussex,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",54.0
+E10000034,Worcestershire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",86.0
+W06000001,Isle of Anglesey,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",126.09
+W06000002,Gwynedd,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",129.52
+W06000003,Conwy,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",109.1
+W06000004,Denbighshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",95.86
+W06000005,Flintshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",88.14
+W06000006,Wrexham,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",109.97
+W06000008,Ceredigion,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",116.71
+W06000009,Pembrokeshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",131.17
+W06000010,Carmarthenshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",73.83
+W06000011,Swansea,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",99.29
+W06000012,Neath Port Talbot,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",88.78
+W06000013,Bridgend,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",115.69
+W06000014,Vale of Glamorgan,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",126.72
+W06000015,Cardiff,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",134.39
+W06000016,Rhondda Cynon Taf,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",125.47
+W06000018,Caerphilly,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",123.68
+W06000019,Blaenau Gwent,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",149.49
+W06000020,Torfaen,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",172.09
+W06000021,Monmouthshire,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",111.22
+W06000022,Newport,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",89.96
+W06000023,Powys,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",91.39
+W06000024,Merthyr Tydfil,"CLA rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",134.65
+S12000005,Clackmannanshire,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",222.69246271664653
+S12000006,Dumfries and Galloway,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",131.5947843530592
+S12000008,East Ayrshire,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",185.2254445845472
+S12000010,East Lothian,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",90.75119409465914
+S12000011,East Renfrewshire,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",37.85377877547428
+S12000013,Na h-Eileanan Siar,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",82.3045267489712
+S12000014,Falkirk,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",111.37316561844864
+S12000017,Highland,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",104.80432556034586
+S12000018,Inverclyde,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",147.70516607824771
+S12000019,Midlothian,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",109.19540229885057
+S12000020,Moray,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",94.25975052209742
+S12000021,North Ayrshire,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",173.60821300392288
+S12000023,Orkney Islands,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",61.25574272588055
+S12000026,Scottish Borders,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",102.3571674622312
+S12000027,Shetland Islands,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",65.38796861377506
+S12000028,South Ayrshire,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",98.89592381351054
+S12000029,South Lanarkshire,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",109.47930574098798
+S12000030,Stirling,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",138.2488479262673
+S12000033,Aberdeen City,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",105.39499491929958
+S12000034,Aberdeenshire,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",73.71735506575293
+S12000035,Argyll and Bute,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",93.5380221349518
+S12000036,City of Edinburgh,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",102.86085373348948
+S12000038,Renfrewshire,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",158.935821024445
+S12000039,West Dunbartonshire,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",282.2107486505515
+S12000040,West Lothian,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",78.39432088046782
+S12000041,Angus,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",131.2771460641257
+S12000042,Dundee City,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",147.916059457884
+S12000045,East Dunbartonshire,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",54.47612130016343
+S12000047,Fife,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",95.80941694359328
+S12000048,Perth and Kinross,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",93.02660993726111
+S12000049,Glasgow City,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",154.84219045049906
+S12000050,North Lanarkshire,"CLA rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",102.11107692758463
+N09000001,Antrim and Newtownabbey,"CLA rate per 10,000",31 March 2025,Rate,"per 10,000 children under 18",82.19
+N09000002,"Armagh City, Banbridge and Craigavon","CLA rate per 10,000",31 March 2025,Rate,"per 10,000 children under 18",69.24
+N09000003,Belfast,"CLA rate per 10,000",31 March 2025,Rate,"per 10,000 children under 18",152.52
+N09000004,Causeway Coast and Glens,"CLA rate per 10,000",31 March 2025,Rate,"per 10,000 children under 18",85.39
+N09000005,Derry City and Strabane,"CLA rate per 10,000",31 March 2025,Rate,"per 10,000 children under 18",95.64
+N09000006,Fermanagh and Omagh,"CLA rate per 10,000",31 March 2025,Rate,"per 10,000 children under 18",95.64
+N09000007,Lisburn and Castlereagh,"CLA rate per 10,000",31 March 2025,Rate,"per 10,000 children under 18",122.82
+N09000008,Mid and East Antrim,"CLA rate per 10,000",31 March 2025,Rate,"per 10,000 children under 18",82.19
+N09000009,Mid Ulster,"CLA rate per 10,000",31 March 2025,Rate,"per 10,000 children under 18",76.99
+N09000010,"Newry, Mourne and Down","CLA rate per 10,000",31 March 2025,Rate,"per 10,000 children under 18",79.0
+N09000011,Ards and North Down,"CLA rate per 10,000",31 March 2025,Rate,"per 10,000 children under 18",93.26
