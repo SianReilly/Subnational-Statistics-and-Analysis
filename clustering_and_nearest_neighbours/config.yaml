@@ -58,3 +58,8 @@ subnational_indicators_table_name: "subnational_indicators"
 #Can be adapted for other metrics provided they are included in the data
 custom_metrics_to_run:
   - "Child poverty (AHC relative)"
+  - "Dependency ratio"
+  - "Population density"
+  - "Residents with no qualifications"
+  - "Gross median weekly pay"
+  - "CLA rate per 10,000"
