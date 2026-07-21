@@ -2240,3 +2240,571 @@ N09000008,Mid and East Antrim,"CP plan rate per 10,000",31 March 2025,Rate,"per 
 N09000009,Mid Ulster,"CP plan rate per 10,000",31 March 2025,Rate,"per 10,000 children under 18",51.12
 N09000010,"Newry, Mourne and Down","CP plan rate per 10,000",31 March 2025,Rate,"per 10,000 children under 18",48.98
 N09000011,Ards and North Down,"CP plan rate per 10,000",31 March 2025,Rate,"per 10,000 children under 18",47.54
+E06000001,Hartlepool,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",709.7
+E06000002,Middlesbrough,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",638.7
+E06000003,Redcar and Cleveland,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",577.5
+E06000004,Stockton-on-Tees,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",517.9
+E06000005,Darlington,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",536.3
+E06000006,Halton,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",429.2
+E06000007,Warrington,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",355.3
+E06000008,Blackburn with Darwen,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",333.3
+E06000009,Blackpool,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",733.2
+E06000010,"Kingston upon Hull, City of","CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",560.2
+E06000011,East Riding of Yorkshire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",292.1
+E06000012,North East Lincolnshire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",551.9
+E06000013,North Lincolnshire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",308.9
+E06000014,York,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",307.9
+E06000015,Derby,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",375.4
+E06000016,Leicester,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",239.5
+E06000017,Rutland,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",195.2
+E06000018,Nottingham,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",440.3
+E06000019,"Herefordshire, County of","CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",557.7
+E06000020,Telford and Wrekin,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",393.1
+E06000021,Stoke-on-Trent,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",654.8
+E06000022,Bath and North East Somerset,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",293.6
+E06000023,"Bristol, City of","CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",287.4
+E06000024,North Somerset,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",238.5
+E06000025,South Gloucestershire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",307.4
+E06000026,Plymouth,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",372.2
+E06000027,Torbay,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",650.6
+E06000030,Swindon,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",328.3
+E06000031,Peterborough,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",318.2
+E06000032,Luton,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",277.1
+E06000033,Southend-on-Sea,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",326.8
+E06000034,Thurrock,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",308.9
+E06000035,Medway,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",420.0
+E06000036,Bracknell Forest,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",384.4
+E06000037,West Berkshire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",428.0
+E06000038,Reading,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",428.7
+E06000039,Slough,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",373.4
+E06000040,Windsor and Maidenhead,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",224.3
+E06000041,Wokingham,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",229.6
+E06000042,Milton Keynes,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",369.5
+E06000043,Brighton and Hove,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",461.5
+E06000044,Portsmouth,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",391.2
+E06000045,Southampton,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",517.8
+E06000046,Isle of Wight,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",578.8
+E06000047,County Durham,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",384.8
+E06000049,Cheshire East,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",277.6
+E06000050,Cheshire West and Chester,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",335.2
+E06000051,Shropshire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",327.3
+E06000052,Cornwall,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",296.6
+E06000053,Isles of Scilly,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",
+E06000054,Wiltshire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",238.9
+E06000055,Bedford,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",324.4
+E06000056,Central Bedfordshire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",224.4
+E06000057,Northumberland,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",408.4
+E06000058,"Bournemouth, Christchurch and Poole","CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",367.3
+E06000059,Dorset,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",357.8
+E06000060,Buckinghamshire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",305.1
+E06000061,North Northamptonshire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",290.2
+E06000062,West Northamptonshire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",301.0
+E06000063,Cumberland,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",529.8
+E06000064,Westmorland and Furness,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",697.8
+E06000065,North Yorkshire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",263.4
+E06000066,Somerset,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",249.2
+E08000001,Bolton,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",324.4
+E08000002,Bury,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",321.2
+E08000003,Manchester,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",423.2
+E08000004,Oldham,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",438.9
+E08000005,Rochdale,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",610.2
+E08000006,Salford,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",434.6
+E08000007,Stockport,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",343.2
+E08000008,Tameside,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",410.1
+E08000009,Trafford,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",276.0
+E08000010,Wigan,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",427.2
+E08000011,Knowsley,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",355.0
+E08000012,Liverpool,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",407.7
+E08000013,St. Helens,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",444.7
+E08000014,Sefton,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",512.2
+E08000015,Wirral,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",398.4
+E08000016,Barnsley,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",334.5
+E08000017,Doncaster,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",350.0
+E08000018,Rotherham,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",371.6
+E08000019,Sheffield,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",339.9
+E08000021,Newcastle upon Tyne,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",484.7
+E08000022,North Tyneside,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",393.7
+E08000023,South Tyneside,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",478.8
+E08000024,Sunderland,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",363.5
+E08000025,Birmingham,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",324.6
+E08000026,Coventry,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",484.9
+E08000027,Dudley,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",330.2
+E08000028,Sandwell,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",331.1
+E08000029,Solihull,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",442.0
+E08000030,Walsall,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",315.8
+E08000031,Wolverhampton,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",410.6
+E08000032,Bradford,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",439.3
+E08000033,Calderdale,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",321.7
+E08000034,Kirklees,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",241.2
+E08000035,Leeds,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",324.6
+E08000036,Wakefield,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",318.9
+E08000037,Gateshead,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",433.1
+E09000001,City of London,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",1096.4
+E09000002,Barking and Dagenham,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",373.2
+E09000003,Barnet,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",209.5
+E09000004,Bexley,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",365.6
+E09000005,Brent,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",408.3
+E09000006,Bromley,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",371.4
+E09000007,Camden,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",504.0
+E09000008,Croydon,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",404.5
+E09000009,Ealing,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",297.3
+E09000010,Enfield,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",345.9
+E09000011,Greenwich,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",370.0
+E09000012,Hackney,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",462.2
+E09000013,Hammersmith and Fulham,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",421.1
+E09000014,Haringey,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",412.4
+E09000015,Harrow,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",306.6
+E09000016,Havering,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",392.0
+E09000017,Hillingdon,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",339.8
+E09000018,Hounslow,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",272.3
+E09000019,Islington,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",525.4
+E09000020,Kensington and Chelsea,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",314.4
+E09000021,Kingston upon Thames,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",295.2
+E09000022,Lambeth,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",496.8
+E09000023,Lewisham,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",456.8
+E09000024,Merton,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",259.5
+E09000025,Newham,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",400.3
+E09000026,Redbridge,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",295.1
+E09000027,Richmond upon Thames,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",229.1
+E09000028,Southwark,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",484.1
+E09000029,Sutton,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",362.3
+E09000030,Tower Hamlets,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",410.3
+E09000031,Waltham Forest,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",385.6
+E09000032,Wandsworth,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",339.1
+E09000033,Westminster,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",429.2
+E10000003,Cambridgeshire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",208.8
+E10000007,Derbyshire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",362.0
+E10000008,Devon,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",297.6
+E10000011,East Sussex,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",347.7
+E10000012,Essex,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",192.8
+E10000013,Gloucestershire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",327.5
+E10000014,Hampshire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",330.1
+E10000015,Hertfordshire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",212.6
+E10000016,Kent,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",343.3
+E10000017,Lancashire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",316.7
+E10000018,Leicestershire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",201.5
+E10000019,Lincolnshire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",238.4
+E10000020,Norfolk,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",287.5
+E10000024,Nottinghamshire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",265.8
+E10000025,Oxfordshire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",286.0
+E10000028,Staffordshire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",319.6
+E10000029,Suffolk,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",277.3
+E10000030,Surrey,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",221.8
+E10000031,Warwickshire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",308.0
+E10000032,West Sussex,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",312.7
+E10000034,Worcestershire,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",329.7
+W06000001,Isle of Anglesey,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",263.0
+W06000002,Gwynedd,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",353.9
+W06000003,Conwy,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",262.9
+W06000004,Denbighshire,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",252.5
+W06000005,Flintshire,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",208.2
+W06000006,Wrexham,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",267.8
+W06000008,Ceredigion,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",276.4
+W06000009,Pembrokeshire,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",169.3
+W06000010,Carmarthenshire,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",233.3
+W06000011,Swansea,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",215.3
+W06000012,Neath Port Talbot,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",266.0
+W06000013,Bridgend,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",387.4
+W06000014,Vale of Glamorgan,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",298.2
+W06000015,Cardiff,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",304.3
+W06000016,Rhondda Cynon Taf,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",330.6
+W06000018,Caerphilly,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",294.6
+W06000019,Blaenau Gwent,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",338.4
+W06000020,Torfaen,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",427.6
+W06000021,Monmouthshire,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",313.2
+W06000022,Newport,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",212.5
+W06000023,Powys,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",259.6
+W06000024,Merthyr Tydfil,"CIN rate per 10,000",March 2023 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",402.4
+N09000001,Antrim and Newtownabbey,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",429.0
+N09000002,"Armagh City, Banbridge and Craigavon","CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",650.67
+N09000003,Belfast,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",553.31
+N09000004,Causeway Coast and Glens,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",457.89
+N09000005,Derry City and Strabane,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",550.38
+N09000006,Fermanagh and Omagh,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",550.38
+N09000007,Lisburn and Castlereagh,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",504.52
+N09000008,Mid and East Antrim,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",429.0
+N09000009,Mid Ulster,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",517.89
+N09000010,"Newry, Mourne and Down","CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",571.41
+N09000011,Ards and North Down,"CIN rate per 10,000",FYE 2023,Rate,"per 10,000 children under 18",455.92
+E06000001,Hartlepool,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",322.9
+E06000002,Middlesbrough,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",387.9
+E06000003,Redcar and Cleveland,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",389.1
+E06000004,Stockton-on-Tees,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",399.0
+E06000005,Darlington,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",356.6
+E06000006,Halton,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",438.5
+E06000007,Warrington,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",379.8
+E06000008,Blackburn with Darwen,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",259.5
+E06000009,Blackpool,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",406.0
+E06000010,"Kingston upon Hull, City of","SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",359.2
+E06000011,East Riding of Yorkshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",427.3
+E06000012,North East Lincolnshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",431.7
+E06000013,North Lincolnshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",352.1
+E06000014,York,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",219.8
+E06000015,Derby,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",409.6
+E06000016,Leicester,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",267.8
+E06000017,Rutland,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",337.7
+E06000018,Nottingham,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",135.3
+E06000019,"Herefordshire, County of","SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",363.0
+E06000020,Telford and Wrekin,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",394.9
+E06000021,Stoke-on-Trent,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",380.3
+E06000022,Bath and North East Somerset,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",354.8
+E06000023,"Bristol, City of","SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",278.3
+E06000024,North Somerset,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",436.8
+E06000025,South Gloucestershire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",345.9
+E06000026,Plymouth,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",358.1
+E06000027,Torbay,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",477.5
+E06000030,Swindon,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",377.1
+E06000031,Peterborough,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",380.1
+E06000032,Luton,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",305.2
+E06000033,Southend-on-Sea,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",370.0
+E06000034,Thurrock,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",404.1
+E06000035,Medway,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",323.5
+E06000036,Bracknell Forest,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",420.0
+E06000037,West Berkshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",356.1
+E06000038,Reading,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",311.1
+E06000039,Slough,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",348.2
+E06000040,Windsor and Maidenhead,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",288.1
+E06000041,Wokingham,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",378.8
+E06000042,Milton Keynes,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",300.7
+E06000043,Brighton and Hove,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",306.2
+E06000044,Portsmouth,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",317.9
+E06000045,Southampton,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",292.8
+E06000046,Isle of Wight,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",554.1
+E06000047,County Durham,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",339.9
+E06000049,Cheshire East,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",435.7
+E06000050,Cheshire West and Chester,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",369.9
+E06000051,Shropshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",360.2
+E06000052,Cornwall,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",326.6
+E06000053,Isles of Scilly,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",277.3
+E06000054,Wiltshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",445.2
+E06000055,Bedford,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",360.1
+E06000056,Central Bedfordshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",433.9
+E06000057,Northumberland,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",470.7
+E06000058,"Bournemouth, Christchurch and Poole","SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",373.8
+E06000059,Dorset,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",469.0
+E06000061,North Northamptonshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",408.6
+E06000062,West Northamptonshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",309.0
+E06000063,Cumberland,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",395.5
+E06000064,Westmorland and Furness,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",425.7
+E08000001,Bolton,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",345.3
+E08000002,Bury,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",455.2
+E08000003,Manchester,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",365.0
+E08000004,Oldham,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",410.8
+E08000005,Rochdale,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",373.8
+E08000006,Salford,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",325.0
+E08000007,Stockport,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",405.0
+E08000008,Tameside,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",475.1
+E08000009,Trafford,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",415.9
+E08000010,Wigan,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",359.0
+E08000011,Knowsley,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",561.6
+E08000012,Liverpool,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",371.7
+E08000013,St. Helens,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",410.1
+E08000014,Sefton,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",489.3
+E08000015,Wirral,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",529.7
+E08000016,Barnsley,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",428.5
+E08000017,Doncaster,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",336.4
+E08000018,Rotherham,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",438.9
+E08000019,Sheffield,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",297.6
+E08000021,Newcastle upon Tyne,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",251.0
+E08000022,North Tyneside,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",393.8
+E08000023,South Tyneside,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",415.6
+E08000024,Sunderland,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",366.6
+E08000025,Birmingham,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",265.3
+E08000026,Coventry,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",255.3
+E08000027,Dudley,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",384.1
+E08000028,Sandwell,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",327.4
+E08000029,Solihull,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",377.4
+E08000030,Walsall,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",477.8
+E08000031,Wolverhampton,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",331.2
+E08000032,Bradford,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",377.2
+E08000033,Calderdale,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",410.8
+E08000034,Kirklees,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",314.5
+E08000035,Leeds,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",206.5
+E08000036,Wakefield,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",364.5
+E08000037,Gateshead,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",330.8
+E09000001,City of London,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",70.2
+E09000002,Barking and Dagenham,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",335.3
+E09000003,Barnet,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",329.9
+E09000004,Bexley,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",401.5
+E09000005,Brent,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",314.7
+E09000006,Bromley,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",451.0
+E09000007,Camden,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",216.7
+E09000008,Croydon,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",400.9
+E09000009,Ealing,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",319.8
+E09000010,Enfield,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",444.8
+E09000011,Greenwich,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",335.2
+E09000012,Hackney,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",429.9
+E09000013,Hammersmith and Fulham,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",303.2
+E09000014,Haringey,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",365.0
+E09000015,Harrow,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",311.6
+E09000016,Havering,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",344.8
+E09000017,Hillingdon,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",309.7
+E09000018,Hounslow,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",347.0
+E09000019,Islington,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",307.4
+E09000020,Kensington and Chelsea,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",203.0
+E09000021,Kingston upon Thames,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",353.5
+E09000022,Lambeth,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",355.0
+E09000023,Lewisham,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",399.4
+E09000024,Merton,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",413.7
+E09000025,Newham,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",86.0
+E09000026,Redbridge,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",300.5
+E09000027,Richmond upon Thames,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",346.0
+E09000028,Southwark,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",359.4
+E09000029,Sutton,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",385.9
+E09000030,Tower Hamlets,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",381.5
+E09000031,Waltham Forest,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",415.4
+E09000032,Wandsworth,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",326.5
+E09000033,Westminster,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",235.8
+E10000002,Buckinghamshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",417.9
+E10000003,Cambridgeshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",373.2
+E10000007,Derbyshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",353.7
+E10000008,Devon,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",440.3
+E10000011,East Sussex,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",343.8
+E10000012,Essex,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",314.9
+E10000013,Gloucestershire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",342.8
+E10000014,Hampshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",446.1
+E10000015,Hertfordshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",344.2
+E10000016,Kent,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",426.3
+E10000017,Lancashire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",318.7
+E10000018,Leicestershire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",331.8
+E10000019,Lincolnshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",393.1
+E10000020,Norfolk,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",485.5
+E10000023,North Yorkshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",343.2
+E10000024,Nottinghamshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",227.4
+E10000025,Oxfordshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",309.9
+E10000027,Somerset,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",369.9
+E10000028,Staffordshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",341.7
+E10000029,Suffolk,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",417.3
+E10000030,Surrey,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",427.1
+E10000031,Warwickshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",379.2
+E10000032,West Sussex,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",374.8
+E10000034,Worcestershire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",414.8
+W06000001,Isle of Anglesey,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",703.1
+W06000002,Gwynedd,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",575.2
+W06000003,Conwy,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",466.9
+W06000004,Denbighshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",314.0
+W06000005,Flintshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",457.9
+W06000006,Wrexham,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",336.1
+W06000008,Ceredigion,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",364.7
+W06000009,Pembrokeshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",292.6
+W06000010,Carmarthenshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",341.3
+W06000011,Swansea,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",359.3
+W06000012,Neath Port Talbot,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",547.3
+W06000013,Bridgend,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",357.7
+W06000014,Vale of Glamorgan,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",515.1
+W06000015,Cardiff,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",288.3
+W06000016,Rhondda Cynon Taf,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",328.4
+W06000018,Caerphilly,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",267.5
+W06000019,Blaenau Gwent,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",292.7
+W06000020,Torfaen,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",464.8
+W06000021,Monmouthshire,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",258.5
+W06000022,Newport,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",337.6
+W06000023,Powys,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",476.3
+W06000024,Merthyr Tydfil,"SEN/EHCP rate per 10,000",January 2025 (count) / mid-2024 (population),Rate,"per 10,000 population aged 0-25",446.6
+E06000001,Hartlepool,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",8.06
+E06000002,Middlesbrough,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.21
+E06000003,Redcar and Cleveland,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",8.36
+E06000004,Stockton-on-Tees,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",5.55
+E06000005,Darlington,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",9.66
+E06000006,Halton,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.85
+E06000007,Warrington,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",5.36
+E06000008,Blackburn with Darwen,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.11
+E06000009,Blackpool,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",2.77
+E06000010,"Kingston upon Hull, City of","UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.01
+E06000011,East Riding of Yorkshire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",2.7
+E06000012,North East Lincolnshire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.88
+E06000013,North Lincolnshire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.61
+E06000014,York,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.32
+E06000015,Derby,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",8.21
+E06000016,Leicester,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.3
+E06000017,Rutland,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",7.49
+E06000018,Nottingham,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",5.38
+E06000019,"Herefordshire, County of","UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.77
+E06000020,Telford and Wrekin,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",11.98
+E06000021,Stoke-on-Trent,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",2.88
+E06000022,Bath and North East Somerset,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.92
+E06000023,"Bristol, City of","UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.69
+E06000024,North Somerset,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.73
+E06000025,South Gloucestershire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.78
+E06000026,Plymouth,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.45
+E06000027,Torbay,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.63
+E06000030,Swindon,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",5.16
+E06000031,Peterborough,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",7.29
+E06000032,Luton,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",5.46
+E06000033,Southend-on-Sea,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",5.55
+E06000034,Thurrock,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.92
+E06000035,Medway,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.11
+E06000036,Bracknell Forest,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",7.15
+E06000037,West Berkshire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.2
+E06000038,Reading,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.42
+E06000039,Slough,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",5.78
+E06000040,Windsor and Maidenhead,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.62
+E06000041,Wokingham,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",8.33
+E06000042,Milton Keynes,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.71
+E06000043,Brighton and Hove,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",9.44
+E06000044,Portsmouth,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",9.29
+E06000045,Southampton,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",7.07
+E06000046,Isle of Wight,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.42
+E06000047,County Durham,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.98
+E06000049,Cheshire East,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.37
+E06000050,Cheshire West and Chester,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",5.45
+E06000051,Shropshire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.32
+E06000052,Cornwall,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.44
+E06000053,Isles of Scilly,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",
+E06000054,Wiltshire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.51
+E06000055,Bedford,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.52
+E06000056,Central Bedfordshire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.28
+E06000057,Northumberland,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",2.37
+E06000058,"Bournemouth, Christchurch and Poole","UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",5.35
+E06000059,Dorset,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.11
+E06000060,Buckinghamshire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.21
+E06000061,North Northamptonshire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.21
+E06000062,West Northamptonshire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.98
+E06000063,Cumberland,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",2.86
+E06000064,Westmorland and Furness,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.58
+E06000065,North Yorkshire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.54
+E06000066,Somerset,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.27
+E08000001,Bolton,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",1.98
+E08000002,Bury,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",2.68
+E08000003,Manchester,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",12.67
+E08000004,Oldham,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.06
+E08000005,Rochdale,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",1.55
+E08000006,Salford,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.56
+E08000007,Stockport,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.47
+E08000008,Tameside,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.4
+E08000009,Trafford,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.52
+E08000010,Wigan,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.35
+E08000011,Knowsley,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",2.22
+E08000012,Liverpool,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",12.68
+E08000013,St. Helens,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.72
+E08000014,Sefton,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.47
+E08000015,Wirral,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",1.51
+E08000016,Barnsley,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.09
+E08000017,Doncaster,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.95
+E08000018,Rotherham,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.37
+E08000019,Sheffield,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.73
+E08000021,Newcastle upon Tyne,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.05
+E08000022,North Tyneside,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.26
+E08000023,South Tyneside,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.59
+E08000024,Sunderland,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.17
+E08000025,Birmingham,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.01
+E08000026,Coventry,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",8.5
+E08000027,Dudley,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",2.11
+E08000028,Sandwell,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.97
+E08000029,Solihull,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",8.53
+E08000030,Walsall,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",2.23
+E08000031,Wolverhampton,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",7.46
+E08000032,Bradford,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.84
+E08000033,Calderdale,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.21
+E08000034,Kirklees,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.11
+E08000035,Leeds,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",5.79
+E08000036,Wakefield,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.65
+E08000037,Gateshead,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.95
+E09000001,City of London,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",
+E09000002,Barking and Dagenham,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.61
+E09000003,Barnet,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.69
+E09000004,Bexley,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",2.55
+E09000005,Brent,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.0
+E09000006,Bromley,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",2.31
+E09000007,Camden,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",9.92
+E09000008,Croydon,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",10.54
+E09000009,Ealing,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",2.43
+E09000010,Enfield,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.36
+E09000011,Greenwich,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",2.91
+E09000012,Hackney,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.24
+E09000013,Hammersmith and Fulham,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",9.39
+E09000014,Haringey,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.73
+E09000015,Harrow,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.31
+E09000016,Havering,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",2.67
+E09000017,Hillingdon,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",9.0
+E09000018,Hounslow,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",8.14
+E09000019,Islington,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",11.79
+E09000020,Kensington and Chelsea,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",11.08
+E09000021,Kingston upon Thames,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.77
+E09000022,Lambeth,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",8.75
+E09000023,Lewisham,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.77
+E09000024,Merton,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.03
+E09000025,Newham,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.08
+E09000026,Redbridge,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",10.23
+E09000027,Richmond upon Thames,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.86
+E09000028,Southwark,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",9.71
+E09000029,Sutton,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",5.11
+E09000030,Tower Hamlets,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",5.87
+E09000031,Waltham Forest,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.63
+E09000032,Wandsworth,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.06
+E09000033,Westminster,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",10.39
+E10000003,Cambridgeshire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",7.07
+E10000007,Derbyshire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.67
+E10000008,Devon,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.25
+E10000011,East Sussex,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.89
+E10000012,Essex,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",2.73
+E10000013,Gloucestershire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.58
+E10000014,Hampshire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.27
+E10000015,Hertfordshire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.32
+E10000016,Kent,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",12.69
+E10000017,Lancashire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",1.45
+E10000018,Leicestershire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",5.02
+E10000019,Lincolnshire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",5.61
+E10000020,Norfolk,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.93
+E10000024,Nottinghamshire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.2
+E10000025,Oxfordshire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.98
+E10000028,Staffordshire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.09
+E10000029,Suffolk,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.83
+E10000030,Surrey,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.2
+E10000031,Warwickshire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",6.88
+E10000032,West Sussex,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",4.62
+E10000034,Worcestershire,"UASC rate per 10,000",FYE 2025,Rate,"per 10,000 children under 18",3.5
+W06000001,Isle of Anglesey,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",7.74
+W06000002,Gwynedd,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",
+W06000003,Conwy,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",9.83
+W06000004,Denbighshire,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",5.15
+W06000005,Flintshire,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",6.5
+W06000006,Wrexham,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",3.57
+W06000008,Ceredigion,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",4.39
+W06000009,Pembrokeshire,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",8.57
+W06000010,Carmarthenshire,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",6.86
+W06000011,Swansea,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",2.09
+W06000012,Neath Port Talbot,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",7.19
+W06000013,Bridgend,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",3.47
+W06000014,Vale of Glamorgan,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",5.32
+W06000015,Cardiff,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",3.96
+W06000016,Rhondda Cynon Taf,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",2.05
+W06000018,Caerphilly,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",5.58
+W06000019,Blaenau Gwent,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",7.44
+W06000020,Torfaen,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",7.73
+W06000021,Monmouthshire,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",5.85
+W06000022,Newport,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",7.87
+W06000023,Powys,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",8.58
+W06000024,Merthyr Tydfil,"UASC rate per 10,000",March 2025 (count) / mid-2024 (population),Rate,"per 10,000 children under 18",7.97
+S12000005,Clackmannanshire,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",0.0
+S12000006,Dumfries and Galloway,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",2.86
+S12000008,East Ayrshire,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",3.07
+S12000010,East Lothian,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",8.32
+S12000011,East Renfrewshire,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",7.46
+S12000013,Na h-Eileanan Siar,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",0.0
+S12000014,Falkirk,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",3.33
+S12000017,Highland,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",5.82
+S12000018,Inverclyde,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",5.15
+S12000019,Midlothian,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",
+S12000020,Moray,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",2.89
+S12000021,North Ayrshire,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",
+S12000023,Orkney Islands,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",0.0
+S12000026,Scottish Borders,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",7.49
+S12000027,Shetland Islands,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",2.24
+S12000028,South Ayrshire,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",1.58
+S12000029,South Lanarkshire,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",0.0
+S12000030,Stirling,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",4.22
+S12000033,Aberdeen City,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",4.66
+S12000034,Aberdeenshire,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",8.3
+S12000035,Argyll and Bute,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",2.91
+S12000036,City of Edinburgh,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",8.79
+S12000038,Renfrewshire,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",1.45
+S12000039,West Dunbartonshire,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",4.79
+S12000040,West Lothian,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",1.81
+S12000041,Angus,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",7.44
+S12000042,Dundee City,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",7.13
+S12000045,East Dunbartonshire,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",6.38
+S12000047,Fife,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",
+S12000048,Perth and Kinross,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",2.2
+S12000049,Glasgow City,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",3.94
+S12000050,North Lanarkshire,"UASC rate per 10,000",31 July 2025,Rate,"per 10,000 children under 18",0.15
