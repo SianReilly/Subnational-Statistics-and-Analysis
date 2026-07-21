@@ -64,3 +64,6 @@ custom_metrics_to_run:
   - "Gross median weekly pay"
   - "CLA rate per 10,000"
   - "CP plan rate per 10,000"
+  - "CIN rate per 10,000"
+  - "SEN/EHCP rate per 10,000"
+  - "UASC rate per 10,000"
