@@ -164,7 +164,14 @@ TIER_NAMES = {
 # ────────────────────────────────────────────────────────────────────────────
 @st.cache_data
 def load_long():
-    return pd.read_csv("data/subnational_indicators.csv")
+    import os
+    # Works whether the CSV sits next to app.py (repo root) or in a data/ subfolder
+    for candidate in ["subnational_indicators.csv", "data/subnational_indicators.csv"]:
+        if os.path.exists(candidate):
+            return pd.read_csv(candidate)
+    raise FileNotFoundError(
+        "Couldn't find subnational_indicators.csv next to app.py or in a data/ subfolder."
+    )
 
 
 @st.cache_data
