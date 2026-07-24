@@ -15,6 +15,7 @@ AREACD, AREANM, Indicator, Period, Measure, Unit, Value)
 """
 
 import io
+import textwrap
 import numpy as np
 import pandas as pd
 import plotly.express as px
@@ -57,6 +58,38 @@ st.markdown(
     .method-box {{
         background-color: #EAF0F6; border-left: 4px solid {NAVY};
         padding: 0.8rem 1rem; border-radius: 2px; margin-bottom: 1rem;
+    }}
+
+    /* ── Clearer, more obviously-scrollable tab bar ── */
+    div[data-baseweb="tab-list"] {{
+        gap: 4px;
+        border-bottom: 2px solid #E0E0E0;
+        overflow-x: auto;
+        scrollbar-width: thin;
+        scrollbar-color: {ORANGE} #EEEEEE;
+        background: linear-gradient(90deg, white 0%, white 92%, rgba(255,255,255,0)),
+                    linear-gradient(90deg, rgba(255,255,255,0), white 8%, white 100%) 0 0 / 100% 100% no-repeat,
+                    radial-gradient(farthest-side at 0% 50%, rgba(0,0,0,0.12), rgba(0,0,0,0)) left / 12px 100% no-repeat,
+                    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,0.12), rgba(0,0,0,0)) right / 12px 100% no-repeat;
+        background-attachment: local, local, scroll, scroll;
+    }}
+    div[data-baseweb="tab-list"]::-webkit-scrollbar {{ height: 8px; }}
+    div[data-baseweb="tab-list"]::-webkit-scrollbar-thumb {{
+        background-color: {ORANGE}; border-radius: 4px;
+    }}
+    div[data-baseweb="tab-list"]::-webkit-scrollbar-track {{ background: #EEEEEE; }}
+    button[data-baseweb="tab"] {{
+        font-size: 0.98rem !important; font-weight: 600 !important;
+        padding: 10px 18px !important; white-space: nowrap;
+        color: {DARK_GREY} !important;
+    }}
+    button[data-baseweb="tab"][aria-selected="true"] {{
+        color: {NAVY} !important;
+        border-bottom: 4px solid {ORANGE} !important;
+        background-color: #F3F7FB !important;
+    }}
+    button[data-baseweb="tab"]:hover {{
+        background-color: #F7F9FB !important;
     }}
     </style>
     """,
@@ -236,10 +269,18 @@ wide_all, single_tier_df = prepare_wide(long_df)
 
 @st.cache_data
 def load_boundaries():
-    """Loads an optional user-supplied GeoJSON boundary file for a real choropleth.
-    Not required — the app works fully without it (see Tab 1)."""
+    """Loads an optional boundary file for a real choropleth map. Supports either:
+      - a GeoJSON file (data/la_boundaries.geojson), already in lon/lat, OR
+      - the ONS shapefile set already in this repo
+        (clustering_and_nearest_neighbours/inputs/LAD_*.shp/.dbf/.shx/.prj) —
+        which is in British National Grid (EPSG:27700) and gets reprojected to
+        lon/lat (EPSG:4326) here automatically.
+    Returns None (gracefully) if neither is found or the optional libraries
+    (pyshp, shapely, pyproj) aren't installed."""
+    import glob
     import json
     import os
+
     for candidate in ["data/la_boundaries.geojson", "la_boundaries.geojson"]:
         if os.path.exists(candidate):
             with open(candidate) as f:
@@ -250,7 +291,50 @@ def load_boundaries():
                 key_field = next((k for k in props if "CD" in k.upper()), None)
             gj["_key"] = f"properties.{key_field}" if key_field else "properties.LAD22CD"
             return gj
-    return None
+
+    shp_candidates = (
+        glob.glob("data/*.shp")
+        + glob.glob("*.shp")
+        + glob.glob("../clustering_and_nearest_neighbours/inputs/*.shp")
+        + glob.glob("clustering_and_nearest_neighbours/inputs/*.shp")
+    )
+    lad_shp = next((p for p in shp_candidates if "LAD" in os.path.basename(p).upper()), None)
+    shp_path = lad_shp or (shp_candidates[0] if shp_candidates else None)
+    if shp_path is None:
+        return None
+
+    try:
+        import shapefile  # pyshp
+        import pyproj
+        from shapely.geometry import mapping, shape
+        from shapely.ops import transform as shp_transform
+    except ImportError:
+        return None
+
+    sf = shapefile.Reader(shp_path)
+    fields = [f[0] for f in sf.fields[1:]]
+    key_field = next((f for f in fields if f.upper().startswith("LAD") and f.upper().endswith("CD")), None)
+    if key_field is None:
+        key_field = next((f for f in fields if f.upper().endswith("CD")), fields[0])
+
+    prj_path = os.path.splitext(shp_path)[0] + ".prj"
+    if os.path.exists(prj_path):
+        with open(prj_path) as f:
+            src_crs = pyproj.CRS.from_wkt(f.read())
+    else:
+        src_crs = pyproj.CRS.from_epsg(27700)  # British National Grid — ONS default
+    transformer = pyproj.Transformer.from_crs(src_crs, "EPSG:4326", always_xy=True)
+
+    features = []
+    for sr in sf.shapeRecords():
+        geom = shape(sr.shape.__geo_interface__)
+        geom = shp_transform(transformer.transform, geom)
+        props = dict(zip(fields, sr.record))
+        features.append({"type": "Feature", "geometry": mapping(geom), "properties": props})
+
+    gj = {"type": "FeatureCollection", "features": features}
+    gj["_key"] = f"properties.{key_field}"
+    return gj
 
 # ────────────────────────────────────────────────────────────────────────────
 # 3. SIDEBAR — variable selection & model controls
@@ -261,17 +345,37 @@ CS_INDICATORS = [i for i in ALL_INDICATORS if i not in CONTEXT_INDICATORS]
 
 with st.sidebar:
     st.markdown(
+        """
+        <div style="padding:0.2rem 0 0.6rem 0;">
+        <span style="font-size:0.95rem; font-weight:bold;">🧭 Nearest Neighbours & Clustering Tool</span><br>
+        <span style="font-size:0.82rem; color:#666;">Children's Services financial planning &amp; benchmarking</span>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    st.header("① Spotlight authority")
+    spotlight_options = single_tier_df.sort_values("AREANM")["AREANM"].tolist()
+    default_idx = spotlight_options.index("Westminster") if "Westminster" in spotlight_options else 0
+    spotlight = st.selectbox(
+        "Which authority is this analysis for?", spotlight_options, index=default_idx,
+        help="Everything in this app — the title, every chart, every summary — is written "
+             "around this authority. Change it to benchmark a different council.",
+    )
+
+    st.markdown(
         f"""
-        <div style="background-color:{NAVY}; padding:0.9rem 1rem; border-radius:4px; margin-bottom:1rem;">
+        <div style="background-color:{NAVY}; padding:0.9rem 1rem; border-radius:4px; margin:0.6rem 0 1rem 0;">
         <span style="color:white; font-size:0.95rem; font-weight:bold;">
-        🧭 Westminster City Council</span><br>
+        🧭 {spotlight}</span><br>
         <span style="color:#CFE0EC; font-size:0.85rem;">Children's Services Directorate — financial planning tool</span>
         </div>
         """,
         unsafe_allow_html=True,
     )
 
-    st.header("① Build your model")
+    st.divider()
+    st.header("② Build your model")
     st.caption("Tick the indicators that should define 'similar' — every chart in the app updates live.")
 
     st.markdown("**Children's services indicators** *(the demand measures)*")
@@ -303,23 +407,13 @@ with st.sidebar:
     )
 
     st.divider()
-    st.header("② Number of clusters (K)")
+    st.header("③ Number of clusters (K)")
     k_mode = st.radio(
         "How should K be chosen?",
         ["Auto (best silhouette score)", "Choose manually"],
         index=0,
         help="Auto picks the K with the highest silhouette score (see Tab 2). Choose manually "
              "to test a specific number of groups yourself.",
-    )
-
-    st.divider()
-    st.header("③ Spotlight authority")
-    spotlight_options = single_tier_df.sort_values("AREANM")["AREANM"].tolist()
-    default_idx = spotlight_options.index("Westminster") if "Westminster" in spotlight_options else 0
-    spotlight = st.selectbox(
-        "Which authority to profile in Tabs 4 & 5", spotlight_options, index=default_idx,
-        help="Every chart in Tabs 4 and 5 is written around this authority — change it to "
-             "benchmark a different council.",
     )
 
     st.divider()
@@ -452,15 +546,30 @@ explained = pca.explained_variance_ratio_
 # ────────────────────────────────────────────────────────────────────────────
 # 5. HELPERS — chart styling & PPTX export (per streamlit-app skill)
 # ────────────────────────────────────────────────────────────────────────────
-def style(fig: go.Figure, height=460, legend_below=True):
-    """Consistent, overlap-free styling: title top-left, legend pushed clear
-    below the plot (never over the title or the data), generous auto-margins."""
+def wrap_title(text: str, width: int = 46) -> str:
+    """Breaks a long chart title onto multiple lines at word boundaries so it
+    never gets clipped at the edge of the plot, regardless of column width."""
+    if not text:
+        return text
+    lines = textwrap.wrap(text, width=width, break_long_words=False, break_on_hyphens=False)
+    return "<br>".join(lines) if lines else text
+
+
+def style(fig: go.Figure, height=460, legend_below=True, title_width=46):
+    """Consistent, overlap-free styling: title top-left (wrapped so it can
+    never run off the edge), legend pushed clear below the plot (never over
+    the title or the data), generous auto-margins that grow with the title."""
+    original_title = fig.layout.title.text if fig.layout.title else None
+    wrapped_title = wrap_title(original_title, width=title_width)
+    n_title_lines = wrapped_title.count("<br>") + 1 if wrapped_title else 1
+    top_margin = 55 + 24 * n_title_lines  # grows with however many lines the title needs
+
     fig.update_layout(
         font_family="Arial", font_size=13,
-        title=dict(font=dict(size=16, color=DARK_GREY), x=0.0, xanchor="left",
-                    y=0.97, yanchor="top", pad=dict(b=10)),
-        plot_bgcolor="white", paper_bgcolor="white", height=height,
-        margin=dict(l=70, r=40, t=70, b=90 if legend_below else 50),
+        title=dict(text=wrapped_title, font=dict(size=15, color=DARK_GREY), x=0.0, xanchor="left",
+                    y=1.0, yanchor="top", pad=dict(b=10, t=4)),
+        plot_bgcolor="white", paper_bgcolor="white", height=height + 18 * max(0, n_title_lines - 1),
+        margin=dict(l=70, r=40, t=top_margin, b=90 if legend_below else 50),
         legend=(dict(orientation="h", yanchor="top", y=-0.22, x=0, xanchor="left",
                       font=dict(size=11))
                 if legend_below else dict(font=dict(size=11))),
@@ -508,8 +617,8 @@ def pptx_button(fig: go.Figure, chart_id: str, key_suffix=""):
                         key=f"dl_{chart_id}_{key_suffix}")
 
 
-def render(fig, chart_id, caption="", key_suffix="", height=460):
-    style(fig, height=height)
+def render(fig, chart_id, caption="", key_suffix="", height=460, title_width=46):
+    style(fig, height=height, title_width=title_width)
     st.plotly_chart(fig, use_container_width=True, key=f"{chart_id}_{key_suffix}")
     if caption:
         st.caption(caption)
@@ -559,18 +668,18 @@ st.markdown(
     <div style="background:linear-gradient(90deg,{NAVY},#1E5A8A); padding:1rem 1.4rem;
                 border-radius:6px; margin-bottom:1rem;">
     <span style="color:white; font-size:1.05rem; font-weight:bold;">
-    🧭 Westminster City Council · Children's Services Directorate</span><br>
+    🧭 {spotlight} · Children's Services Directorate</span><br>
     <span style="color:#D9E6F0; font-size:0.9rem;">
     Nearest neighbours &amp; clustering tool, built to support financial planning and benchmarking.</span>
     </div>
     """,
     unsafe_allow_html=True,
 )
-st.title("Which authorities are genuinely similar to us?")
+st.title(f"Which authorities are genuinely similar to {spotlight} across children's services?")
 st.caption(
-    "A nearest-neighbours & clustering model built for Children's Services financial planning — "
-    "extending the ONS statistical neighbours methodology with ten indicators specific to "
-    "children's services demand."
+    f"A nearest-neighbours & clustering model built for {spotlight}'s Children's Services "
+    f"financial planning — extending the ONS statistical neighbours methodology with ten "
+    f"indicators specific to children's services demand."
 )
 
 c1, c2, c3, c4 = st.columns(4)
@@ -700,7 +809,7 @@ with tabs[0]:
         <b>after housing costs (AHC)</b>; ONS's own baseline model uses the measure
         <b>before housing costs (BHC)</b>. The two use the same underlying DWP/HMRC source but are
         not numerically interchangeable — AHC tends to show higher poverty rates in high-rent
-        areas (including Westminster) than BHC would for the same households.
+        areas (such as {spotlight}, if it is one) than BHC would for the same households.
         </div>
         """,
         unsafe_allow_html=True,
@@ -737,29 +846,28 @@ with tabs[0]:
         f"for exactly why each one happens."
     )
 
-    st.subheader("A real map (optional — add your own boundary file)")
-    st.markdown(
-        """
-        This app runs in a sandboxed cloud environment with no access to Ordnance Survey / ONS
-        boundary files, so it cannot draw a real choropleth map on its own — the same reason the
-        NI HSC Trust map you built used a locally-downloaded shapefile rather than one fetched
-        live. **You can add one in under a minute:**
-
-        1. Download *Local Authority Districts (December 2022) Boundaries UK BUC* as GeoJSON from
-           the ONS Open Geography Portal:
-           `https://open-geography-portalx-ons.hub.arcgis.com/api/download/v1/items/a2128b32c7fb4205ba99e6344fcbb2be/geojson?layers=0`
-        2. Save it into this app's `data/` folder as **`la_boundaries.geojson`**.
-        3. Re-run the app — a real choropleth will appear below automatically.
-        """
-    )
+    st.subheader("A real map — using your LAD_MAY_2025_UK_BGC_V2 shapefile")
     boundaries = load_boundaries()
     if boundaries is None:
+        st.markdown(
+            """
+            This app looks for boundaries in three places, in order: a GeoJSON at
+            `data/la_boundaries.geojson`; a shapefile in this app's own `data/` folder; or the
+            **`LAD_MAY_2025_UK_BGC_V2.shp`** set already sitting in
+            `clustering_and_nearest_neighbours/inputs/` in your repo (it reads the sibling folder
+            automatically — no need to duplicate the files).
+            """
+        )
         st.info(
-            "No `data/la_boundaries.geojson` found yet, so no live map is shown — the funnel "
-            "chart above stands in for it. This is exactly the same shapefile family your NI "
-            "Trust map used, just for the whole UK rather than NI alone."
+            "No boundary file found yet in any of those locations, or the optional map libraries "
+            "(`pyshp`, `shapely`, `pyproj` — see `requirements.txt`) aren't installed in this "
+            "environment. The funnel chart above stands in for the map until then."
         )
     else:
+        st.caption(
+            "📍 Boundary file found and loaded — reprojected from British National Grid "
+            "(EPSG:27700) to lon/lat automatically, the same conversion your NI Trust maps needed."
+        )
         map_df = df_model[["AREACD", "AREANM", "Cluster"]].copy()
         map_df["Cluster"] = map_df["Cluster"].astype(str)
         fig = px.choropleth(
@@ -793,7 +901,7 @@ with tabs[1]:
         render(fig, "elbow_chart",
                "Inertia = total squared distance from each authority to its cluster's centre. "
                "It always falls as K rises — the elbow is where extra clusters stop buying much.",
-               "t2")
+               "t2", title_width=32)
     with right:
         fig = go.Figure()
         fig.add_trace(go.Scatter(x=scores["K"], y=scores["Silhouette"], mode="lines+markers",
@@ -804,7 +912,7 @@ with tabs[1]:
         render(fig, "silhouette_chart",
                "Silhouette score (-1 to +1) measures how well-separated the clusters are. "
                "Higher = authorities sit clearly with their own group and far from other groups.",
-               "t2")
+               "t2", title_width=32)
 
     st.info(
         f"💡 **Why K={K} was chosen for {len(selected_indicators)} variables:** "
@@ -851,7 +959,7 @@ with tabs[1]:
         render(fig, "tightness_chart",
                "A short bar means that cluster's authorities sit close together — a genuinely "
                "coherent comparator group. A tall bar means the cluster is more loosely defined.",
-               "t2")
+               "t2", title_width=32)
     with right2:
         fig = px.bar(tsep, x="Cluster", y="Separation (higher = more distinct)", color="Cluster",
                      color_discrete_sequence=CLUSTER_COLOURS,
@@ -861,7 +969,7 @@ with tabs[1]:
         render(fig, "separation_chart",
                "A tall bar means that cluster is clearly its own group. A short bar means it "
                "sits close to — and could plausibly be merged with — a neighbouring cluster.",
-               "t2")
+               "t2", title_width=32)
 
     tightest = tsep.loc[tsep["Tightness (lower = tighter)"].idxmin(), "Cluster"]
     loosest = tsep.loc[tsep["Tightness (lower = tighter)"].idxmax(), "Cluster"]
@@ -928,7 +1036,7 @@ with tabs[2]:
         annotate_vline(fig, 3, "elbow at K=3")
         fig.update_layout(title="Toy example: the elbow sits at K=3 (the 3 true groups)",
                            xaxis_title="K", yaxis_title="Inertia")
-        render(fig, "toy_elbow", key_suffix="t3")
+        render(fig, "toy_elbow", key_suffix="t3", title_width=32)
 
     with ex2:
         st.subheader("The silhouette score")
@@ -954,7 +1062,7 @@ with tabs[2]:
         annotate_vline(fig, sil_vals.mean(), f"average = {sil_vals.mean():.2f}", color=DARK_GREY)
         fig.update_layout(title="Every point's individual silhouette width (K=3)",
                            xaxis_title="Silhouette width (-1 to +1)", yaxis_title="")
-        render(fig, "toy_silhouette", key_suffix="t3")
+        render(fig, "toy_silhouette", key_suffix="t3", title_width=32)
 
     st.subheader("See the 3 toy groups the scores above are describing")
     km3 = KMeans(n_clusters=3, random_state=1, n_init=10).fit(toy)
@@ -1338,7 +1446,7 @@ with tabs[5]:
         annotate_vline(fig, best_k_ch, f"best = K={best_k_ch}")
         fig.update_layout(title="Calinski-Harabasz index (higher = better-separated clusters)",
                            xaxis_title="K", yaxis_title="Calinski-Harabasz score")
-        render(fig, "ch_chart", key_suffix="t6")
+        render(fig, "ch_chart", key_suffix="t6", title_width=32)
     with vc2:
         fig = go.Figure()
         fig.add_trace(go.Scatter(x=other_scores["K"], y=other_scores["Davies-Bouldin"],
@@ -1346,7 +1454,7 @@ with tabs[5]:
         annotate_vline(fig, best_k_db, f"best = K={best_k_db}")
         fig.update_layout(title="Davies-Bouldin index (lower = better-separated clusters)",
                            xaxis_title="K", yaxis_title="Davies-Bouldin score")
-        render(fig, "db_chart", key_suffix="t6")
+        render(fig, "db_chart", key_suffix="t6", title_width=32)
 
     agree = len({best_k_silhouette, best_k_ch, best_k_db}) == 1
     votes_df = pd.DataFrame({
@@ -1393,6 +1501,54 @@ with tabs[5]:
     else:
         stab_msg = "not very stable — treat cluster membership as indicative rather than definitive, and lean more heavily on the individual nearest-neighbours results (Tab 5) than on cluster labels for financial decisions."
     st.info(f"💡 **Mean ARI = {mean_ari:.2f}.** This clustering is {stab_msg}")
+
+    st.divider()
+    st.header(f"Putting it all together: why K={K} was finally chosen")
+
+    votes = {"Elbow": best_k_elbow, "Silhouette": best_k_silhouette,
+             "Calinski-Harabasz": best_k_ch, "Davies-Bouldin": best_k_db}
+    n_agree_with_K = sum(1 for v in votes.values() if v == K)
+    vote_summary = ", ".join(f"{name}→K={val}" for name, val in votes.items())
+
+    tendency_verdict = (
+        "The Hopkins statistic confirms this data has genuine cluster structure"
+        if H > 0.7 else
+        "The Hopkins statistic sits close to the 'random data' threshold, so any K should be "
+        "treated cautiously"
+    )
+    agreement_verdict = (
+        f"all {len(votes)} independent methods agree on K={K}"
+        if n_agree_with_K == len(votes) else
+        f"{n_agree_with_K} of {len(votes)} independent methods agree with the chosen K={K} "
+        f"({vote_summary})"
+    )
+    stability_verdict = (
+        f"the clustering is stable under resampling (mean ARI={mean_ari:.2f})"
+        if mean_ari >= 0.6 else
+        f"the clustering shows some instability under resampling (mean ARI={mean_ari:.2f}), "
+        f"so cluster *labels* should be treated as indicative rather than definitive"
+    )
+
+    st.markdown(
+        f"""
+        <div class="method-box">
+        <b>The full evidence chain for K={K}, for your current {len(selected_indicators)}
+        indicators and {n_areas} authorities:</b>
+        <ol>
+        <li><b>Clustering tendency:</b> {tendency_verdict} (Hopkins = {H:.2f}), so it's
+        legitimate to look for K in the first place.</li>
+        <li><b>Cross-checked K:</b> {agreement_verdict}.</li>
+        <li><b>Tightness vs separation</b> (Tab 2 above) confirmed which specific clusters are
+        most and least internally consistent at K={K}.</li>
+        <li><b>Stability:</b> {stability_verdict}.</li>
+        </ol>
+        <b>Bottom line:</b> K={K} was chosen because
+        {"it is the silhouette-optimal split and the weight of independent evidence above supports it" if k_mode.startswith("Auto") else "you manually selected it to test against the automatic recommendation"} —
+        {"and that evidence base is strong enough to present with confidence." if (n_agree_with_K >= 3 and mean_ari >= 0.6 and H > 0.7) else "though the caveats above (any disagreement between methods, or lower stability) are worth stating explicitly alongside it rather than presenting K as beyond question."}
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
 st.divider()
 st.caption(
