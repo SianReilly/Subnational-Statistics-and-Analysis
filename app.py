@@ -275,22 +275,28 @@ def load_boundaries():
         (clustering_and_nearest_neighbours/inputs/LAD_*.shp/.dbf/.shx/.prj) —
         which is in British National Grid (EPSG:27700) and gets reprojected to
         lon/lat (EPSG:4326) here automatically.
-    Returns None (gracefully) if neither is found or the optional libraries
-    (pyshp, shapely, pyproj) aren't installed."""
+    Never raises — any failure (missing libraries, missing files, a corrupt or
+    truncated .dbf/.shp, a bad .prj, etc.) is caught and returned as a plain-English
+    reason instead, so a bad boundary file degrades to 'no map' rather than
+    crashing the whole app.
+    Returns (geojson_dict_or_None, message)."""
     import glob
     import json
     import os
 
     for candidate in ["data/la_boundaries.geojson", "la_boundaries.geojson"]:
         if os.path.exists(candidate):
-            with open(candidate) as f:
-                gj = json.load(f)
-            props = gj.get("features", [{}])[0].get("properties", {})
-            key_field = next((k for k in props if k.upper().startswith("LAD") and k.upper().endswith("CD")), None)
-            if key_field is None:
-                key_field = next((k for k in props if "CD" in k.upper()), None)
-            gj["_key"] = f"properties.{key_field}" if key_field else "properties.LAD22CD"
-            return gj
+            try:
+                with open(candidate) as f:
+                    gj = json.load(f)
+                props = gj.get("features", [{}])[0].get("properties", {})
+                key_field = next((k for k in props if k.upper().startswith("LAD") and k.upper().endswith("CD")), None)
+                if key_field is None:
+                    key_field = next((k for k in props if "CD" in k.upper()), None)
+                gj["_key"] = f"properties.{key_field}" if key_field else "properties.LAD22CD"
+                return gj, f"Loaded {candidate}."
+            except Exception as e:
+                return None, f"Found {candidate} but couldn't parse it ({type(e).__name__}: {e})."
 
     shp_candidates = (
         glob.glob("data/*.shp")
@@ -301,40 +307,51 @@ def load_boundaries():
     lad_shp = next((p for p in shp_candidates if "LAD" in os.path.basename(p).upper()), None)
     shp_path = lad_shp or (shp_candidates[0] if shp_candidates else None)
     if shp_path is None:
-        return None
+        return None, "No GeoJSON or .shp file found in any of the expected locations."
 
     try:
         import shapefile  # pyshp
         import pyproj
         from shapely.geometry import mapping, shape
         from shapely.ops import transform as shp_transform
-    except ImportError:
-        return None
+    except ImportError as e:
+        return None, f"Found {shp_path} but the map libraries aren't installed ({e})."
 
-    sf = shapefile.Reader(shp_path)
-    fields = [f[0] for f in sf.fields[1:]]
-    key_field = next((f for f in fields if f.upper().startswith("LAD") and f.upper().endswith("CD")), None)
-    if key_field is None:
-        key_field = next((f for f in fields if f.upper().endswith("CD")), fields[0])
+    try:
+        sf = shapefile.Reader(shp_path)
+        fields = [f[0] for f in sf.fields[1:]]
+        key_field = next((f for f in fields if f.upper().startswith("LAD") and f.upper().endswith("CD")), None)
+        if key_field is None:
+            key_field = next((f for f in fields if f.upper().endswith("CD")), fields[0])
 
-    prj_path = os.path.splitext(shp_path)[0] + ".prj"
-    if os.path.exists(prj_path):
-        with open(prj_path) as f:
-            src_crs = pyproj.CRS.from_wkt(f.read())
-    else:
-        src_crs = pyproj.CRS.from_epsg(27700)  # British National Grid — ONS default
-    transformer = pyproj.Transformer.from_crs(src_crs, "EPSG:4326", always_xy=True)
+        prj_path = os.path.splitext(shp_path)[0] + ".prj"
+        if os.path.exists(prj_path):
+            with open(prj_path) as f:
+                src_crs = pyproj.CRS.from_wkt(f.read())
+        else:
+            src_crs = pyproj.CRS.from_epsg(27700)  # British National Grid — ONS default
+        transformer = pyproj.Transformer.from_crs(src_crs, "EPSG:4326", always_xy=True)
 
-    features = []
-    for sr in sf.shapeRecords():
-        geom = shape(sr.shape.__geo_interface__)
-        geom = shp_transform(transformer.transform, geom)
-        props = dict(zip(fields, sr.record))
-        features.append({"type": "Feature", "geometry": mapping(geom), "properties": props})
+        features = []
+        for sr in sf.shapeRecords():
+            geom = shape(sr.shape.__geo_interface__)
+            geom = shp_transform(transformer.transform, geom)
+            props = dict(zip(fields, sr.record))
+            features.append({"type": "Feature", "geometry": mapping(geom), "properties": props})
+    except Exception as e:
+        hint = (
+            " This specific error usually means the .dbf/.shx companion file got truncated or "
+            "corrupted in transit (common with GitHub's web drag-and-drop uploader on binary "
+            "files) — try re-uploading the full .shp/.shx/.dbf/.prj set via `git add`/`git push` "
+            "from a local clone instead, which is byte-safe."
+            if "dbf" in str(e).lower() or "shx" in str(e).lower() or "corrupt" in str(e).lower()
+            else ""
+        )
+        return None, f"Found {shp_path} but couldn't read it ({type(e).__name__}: {e}).{hint}"
 
     gj = {"type": "FeatureCollection", "features": features}
     gj["_key"] = f"properties.{key_field}"
-    return gj
+    return gj, f"Loaded and reprojected {len(features)} boundaries from {shp_path}."
 
 # ────────────────────────────────────────────────────────────────────────────
 # 3. SIDEBAR — variable selection & model controls
@@ -555,14 +572,16 @@ def wrap_title(text: str, width: int = 46) -> str:
     return "<br>".join(lines) if lines else text
 
 
-def style(fig: go.Figure, height=460, legend_below=True, title_width=46):
+def style(fig: go.Figure, height=460, legend_below=True, title_width=46, extra_top=0):
     """Consistent, overlap-free styling: title top-left (wrapped so it can
     never run off the edge), legend pushed clear below the plot (never over
-    the title or the data), generous auto-margins that grow with the title."""
+    the title or the data), generous auto-margins that grow with the title.
+    extra_top adds headroom for chart types (e.g. parallel coordinates) that
+    draw their own labels above the plot area, independent of the title."""
     original_title = fig.layout.title.text if fig.layout.title else None
     wrapped_title = wrap_title(original_title, width=title_width)
     n_title_lines = wrapped_title.count("<br>") + 1 if wrapped_title else 1
-    top_margin = 55 + 24 * n_title_lines  # grows with however many lines the title needs
+    top_margin = 55 + 24 * n_title_lines + extra_top
 
     fig.update_layout(
         font_family="Arial", font_size=13,
@@ -598,7 +617,6 @@ def pptx_button(fig: go.Figure, chart_id: str, key_suffix=""):
     try:
         img_bytes = fig.to_image(format="png", width=1200, height=700, scale=2)
     except Exception:
-        st.caption("(Install `kaleido` to enable PPTX slide export for this chart.)")
         return
     prs = Presentation()
     prs.slide_width, prs.slide_height = Inches(13.33), Inches(7.5)
@@ -617,8 +635,8 @@ def pptx_button(fig: go.Figure, chart_id: str, key_suffix=""):
                         key=f"dl_{chart_id}_{key_suffix}")
 
 
-def render(fig, chart_id, caption="", key_suffix="", height=460, title_width=46):
-    style(fig, height=height, title_width=title_width)
+def render(fig, chart_id, caption="", key_suffix="", height=460, title_width=46, extra_top=0):
+    style(fig, height=height, title_width=title_width, extra_top=extra_top)
     st.plotly_chart(fig, use_container_width=True, key=f"{chart_id}_{key_suffix}")
     if caption:
         st.caption(caption)
@@ -778,6 +796,61 @@ with tabs[0]:
             "grounds (see caveats below)."
         )
 
+    st.subheader("Multicollinearity check — are any indicators just duplicating each other?")
+    st.markdown(
+        "Before trusting a clustering model, it's worth checking that no two indicators are so "
+        "highly correlated they're effectively double-counting the same underlying signal. "
+        "ONS's own methodology removes any pair correlated above **0.85** before modelling — the "
+        "same threshold is applied here, live, to whichever indicators you currently have selected."
+    )
+    corr_labels = [INDICATOR_INFO[c]["short"] for c in selected_indicators]
+    corr_matrix = df_model[selected_indicators].corr()
+    fig = px.imshow(
+        corr_matrix.values, x=corr_labels, y=corr_labels,
+        color_continuous_scale=[[0, TEAL], [0.5, "white"], [1, ORANGE]], zmin=-1, zmax=1,
+        text_auto=".2f", aspect="auto", labels=dict(color="Correlation"),
+        title="Pearson correlation between every pair of selected indicators",
+    )
+    fig.update_xaxes(tickangle=-35)
+    render(fig, "correlation_heatmap", key_suffix="t1", height=380 + 22 * len(selected_indicators),
+           extra_top=10)
+
+    corr_pairs = corr_matrix.where(np.triu(np.ones(corr_matrix.shape), k=1).astype(bool)).stack()
+    high_corr = corr_pairs[corr_pairs.abs() >= 0.85]
+    borderline = corr_pairs[(corr_pairs.abs() >= 0.75) & (corr_pairs.abs() < 0.85)]
+    if len(high_corr) == 0:
+        worst = corr_pairs.abs().sort_values(ascending=False)
+        worst_txt = (
+            f"the strongest relationship is {INDICATOR_INFO[worst.index[0][0]]['short']} vs "
+            f"{INDICATOR_INFO[worst.index[0][1]]['short']} at {corr_pairs[worst.index[0]]:.2f}"
+            if len(worst) else "there is only one indicator selected, so no pairs to compare"
+        )
+        st.success(
+            f"✅ **No multicollinearity problem.** Every pair of your {len(selected_indicators)} "
+            f"selected indicators sits below ONS's 0.85 threshold — {worst_txt}. Each indicator is "
+            f"contributing genuinely distinct information to the model, not duplicating another "
+            f"one under a different name."
+        )
+        if len(borderline):
+            b_txt = "; ".join(
+                f"**{INDICATOR_INFO[a]['short']}** vs **{INDICATOR_INFO[b]['short']}** ({v:.2f})"
+                for (a, b), v in borderline.items()
+            )
+            st.caption(
+                f"🔎 Worth noting even though it passes: {b_txt} sits close enough to the 0.85 "
+                f"cutoff to call a borderline case in your write-up, rather than a clean pass."
+            )
+    else:
+        pairs_txt = "; ".join(
+            f"**{INDICATOR_INFO[a]['short']}** vs **{INDICATOR_INFO[b]['short']}** ({v:.2f})"
+            for (a, b), v in high_corr.items()
+        )
+        st.warning(
+            f"⚠️ **Possible redundancy:** {pairs_txt} — correlated at or above the 0.85 threshold "
+            f"ONS uses to drop a variable. Consider whether one of each pair is adding genuinely "
+            f"new information, or just restating the other."
+        )
+
     st.subheader("Data caveats — read before presenting this")
     st.markdown(
         f"""
@@ -847,7 +920,7 @@ with tabs[0]:
     )
 
     st.subheader("A real map — using your LAD_MAY_2025_UK_BGC_V2 shapefile")
-    boundaries = load_boundaries()
+    boundaries, boundary_msg = load_boundaries()
     if boundaries is None:
         st.markdown(
             """
@@ -858,15 +931,11 @@ with tabs[0]:
             automatically — no need to duplicate the files).
             """
         )
-        st.info(
-            "No boundary file found yet in any of those locations, or the optional map libraries "
-            "(`pyshp`, `shapely`, `pyproj` — see `requirements.txt`) aren't installed in this "
-            "environment. The funnel chart above stands in for the map until then."
-        )
+        st.info(f"No map shown: {boundary_msg} The funnel chart above stands in for it until then.")
     else:
         st.caption(
-            "📍 Boundary file found and loaded — reprojected from British National Grid "
-            "(EPSG:27700) to lon/lat automatically, the same conversion your NI Trust maps needed."
+            f"📍 {boundary_msg} Reprojected from British National Grid (EPSG:27700) to lon/lat "
+            f"automatically — the same conversion your NI Trust maps needed."
         )
         map_df = df_model[["AREACD", "AREANM", "Cluster"]].copy()
         map_df["Cluster"] = map_df["Cluster"].astype(str)
@@ -1148,15 +1217,18 @@ with tabs[3]:
         )
         fig.update_traces(marker=dict(size=10, line=dict(width=0.5, color="white")))
         if len(spot_row):
+            spot_colour = CLUSTER_COLOURS[spot_cluster % len(CLUSTER_COLOURS)]
             fig.add_trace(go.Scatter(
                 x=spot_row["PC1"], y=spot_row["PC2"], mode="markers+text",
-                marker=dict(size=20, symbol="star", color=ORANGE, line=dict(width=1.5, color=DARK_GREY)),
+                marker=dict(size=22, symbol="star", color=spot_colour,
+                            line=dict(width=1.5, color=DARK_GREY)),
                 text=[spotlight], textposition="top center", textfont=dict(size=12, color=DARK_GREY),
-                name=spotlight, showlegend=True,
+                name=f"{spotlight} (Cluster {spot_cluster})", showlegend=True,
             ))
         render(fig, "pca_scatter",
                "This chart (PCA) squashes every selected indicator down to 2 axes so similar "
-               "authorities appear near each other — it's a map of similarity, not geography.",
+               "authorities appear near each other — it's a map of similarity, not geography. "
+               "The star is coloured to match the spotlighted authority's own cluster.",
                "t4")
     with right:
         st.subheader(f"{spotlight}'s profile")
@@ -1196,18 +1268,28 @@ with tabs[3]:
         st.caption(f"📊 **Cluster {spot_cluster}'s defining characteristics:** {defining_txt}.")
 
     st.subheader("All selected indicators at once, by cluster")
+    PARCOORDS_SHORT = {
+        "CLA rate per 10,000": "CLA rate", "CP plan rate per 10,000": "CP plan rate",
+        "CIN rate per 10,000": "CIN rate", "SEN/EHCP rate per 10,000": "SEN/EHC rate",
+        "UASC rate per 10,000": "UASC rate", "Child poverty (AHC relative)": "Child poverty",
+        "Dependency ratio": "Dependency", "Population density": "Pop. density",
+        "Residents with no qualifications": "No quals", "Gross median weekly pay": "Weekly pay",
+    }
     pc_df = df_model[["AREANM", "Cluster"] + selected_indicators].copy()
-    dims = [dict(label=INDICATOR_INFO[c]["short"], values=pc_df[c]) for c in selected_indicators]
+    dims = [dict(label=PARCOORDS_SHORT.get(c, INDICATOR_INFO[c]["short"]), values=pc_df[c])
+            for c in selected_indicators]
     fig = go.Figure(data=go.Parcoords(
         line=dict(color=pc_df["Cluster"], colorscale=[[i/(max(K-1,1)), c] for i, c in enumerate(CLUSTER_COLOURS[:K])]),
         dimensions=dims,
+        labelfont=dict(size=11, color=DARK_GREY),
+        rangefont=dict(size=9, color=GREY),
+        tickfont=dict(size=9, color=GREY),
     ))
-    fig.update_layout(title="Each line is one authority — coloured by cluster",
-                       margin=dict(l=80, r=80, t=90, b=40))
+    fig.update_layout(title="Each line is one authority — coloured by cluster")
     render(fig, "parallel_coords",
            "Parallel coordinates: authorities in the same cluster tend to trace similar paths "
            "across all indicators at once, showing which measures separate the groups most clearly.",
-           "t4", height=480)
+           "t4", height=500, extra_top=110)
 
     if spotlight in df_model["AREANM"].values:
         st.divider()
